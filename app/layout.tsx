@@ -42,6 +42,16 @@ export default function RootLayout({
       </head>
       <body className="font-body min-h-screen bg-blueprint-bg">
         {children}
+        <footer className="border-t border-blueprint-border py-6 text-center text-sm text-blueprint-muted">
+          <div className="flex flex-wrap justify-center gap-6">
+            <a href="/about" className="hover:text-blueprint-accent transition-colors">About</a>
+            <a href="/faq" className="hover:text-blueprint-accent transition-colors">FAQ</a>
+            <a href="/privacy" className="hover:text-blueprint-accent transition-colors">Privacy</a>
+            <a href="/terms" className="hover:text-blueprint-accent transition-colors">Terms</a>
+            <a href="https://afdian.com/a/gameguidehub" target="_blank" rel="noopener noreferrer" className="hover:text-blueprint-accent transition-colors">❤️ Support Us</a>
+          </div>
+          <p className="mt-3">&copy; {new Date().getFullYear()} Town to City Guide. Not affiliated with Galaxy Grove or Kwalee.</p>
+        </footer>
       </body>
     </html>
   );
