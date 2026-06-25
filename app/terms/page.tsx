@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function TermsPage() {
   return (
-    <main className="min-h-screen bg-blueprint-bg">
+    <div className="min-h-screen bg-blueprint-bg">
       <div className="max-w-5xl mx-auto px-6 py-12">
 
         {/* Breadcrumb */}
@@ -167,6 +167,6 @@ export default function TermsPage() {
         </div>
 
       </div>
-    </main>
+    </div>
   );
 }

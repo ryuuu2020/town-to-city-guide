@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-blueprint-bg">
+    <div className="min-h-screen bg-blueprint-bg">
       <div className="max-w-5xl mx-auto px-6 py-12">
 
         {/* Breadcrumb */}
@@ -161,6 +161,6 @@ export default function AboutPage() {
         </div>
 
       </div>
-    </main>
+    </div>
   );
 }

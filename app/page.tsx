@@ -83,7 +83,7 @@ const newsItems = [
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-blueprint-bg">
+    <div className="min-h-screen bg-blueprint-bg">
       {/* ===== HERO ===== */}
       <section className="hero-grid border-b border-blueprint-border">
         <div className="max-w-5xl mx-auto px-6 py-20 text-center">
@@ -221,6 +221,6 @@ export default function HomePage() {
           <p>&copy; {new Date().getFullYear()} Town to City Guide. Not affiliated with Galaxy Grove or Kwalee. All game content belongs to its respective owners.</p>
         </footer>
       </div>
-    </main>
+    </div>
   );
 }
