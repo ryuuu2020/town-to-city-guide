@@ -5,18 +5,14 @@
 @tailwind utilities;
 
 /* ============================================
-   Town to City Guide — Blueprint Design
+   Town to City Guide — Dark Blueprint Design
    City Builder / Management Sim Style
-   Design: Clean, modern, info-graphic inspired,
-           blueprint grids, data-driven layout.
+   Design: Dark tech, blueprint-inspired,
+           deep navy + cyan accents, data-driven.
    ============================================ */
 
 @layer base {
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
+  *, *::before, *::after { box-sizing: border-box; }
 
   html {
     scroll-behavior: smooth;
@@ -34,22 +30,18 @@
 
   ::-webkit-scrollbar { width: 6px; height: 6px; }
   ::-webkit-scrollbar-track { background: transparent; }
-  ::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 3px; }
+  ::-webkit-scrollbar-thumb { background: #475569; border-radius: 3px; }
 }
 
 @layer components {
-  /* bluepr-card: white card with blueprint blue left border */
   .bluepr-card {
     @apply bg-blueprint-surface border border-blueprint-border
            border-l-4 border-l-blueprint-accent
            rounded-card shadow-card
            p-6 mb-4 transition-all duration-200;
   }
-  .bluepr-card:hover {
-    @apply shadow-card-hover;
-  }
+  .bluepr-card:hover { @apply shadow-card-hover; }
 
-  /* Navigation link */
   .nav-link {
     @apply px-4 py-2 text-sm font-medium rounded-md
            text-blueprint-muted hover:text-blueprint-text
@@ -59,38 +51,34 @@
     @apply text-blueprint-accent bg-blueprint-accent-light font-semibold;
   }
 
-  /* Data stat card */
   .stat-card {
     @apply bg-blueprint-surface border border-blueprint-border
            rounded-card p-4 text-center;
   }
 
-  /* Tip box */
   .tip-box {
     @apply bg-blueprint-accent-light border-l-4 border-blueprint-accent
-           p-4 rounded-r-card text-sm my-4;
+           p-4 rounded-r-card text-sm my-4 text-blueprint-text;
   }
 
-  /* Step number */
   .step-num {
-    @apply w-10 h-10 rounded-full bg-blueprint-accent text-white
+    @apply w-10 h-10 rounded-full bg-blueprint-accent text-blueprint-bg
            flex items-center justify-center font-display text-lg font-bold shrink-0;
   }
 
-  /* Tag */
   .bp-tag {
     @apply inline-flex items-center px-3 py-1 rounded-full
            text-xs font-semibold tracking-wide;
   }
   .bp-tag.blue { @apply bg-blueprint-accent-light text-blueprint-accent; }
-  .bp-tag.orange { @apply bg-orange-50 text-blueprint-warm; }
-  .bp-tag.green { @apply bg-green-50 text-blueprint-green; }
+  .bp-tag.orange { @apply bg-orange-950 text-orange-300; }
+  .bp-tag.green { @apply bg-green-950 text-green-300; }
 
-  /* Hero grid pattern */
+  /* Hero grid pattern — dark */
   .hero-grid {
     background-image:
-      linear-gradient(rgba(2, 132, 199, 0.04) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(2, 132, 199, 0.04) 1px, transparent 1px);
+      linear-gradient(rgba(56, 189, 248, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(56, 189, 248, 0.04) 1px, transparent 1px);
     background-size: 60px 60px;
   }
 }
