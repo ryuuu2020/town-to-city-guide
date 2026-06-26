@@ -21,7 +21,18 @@ export default function NewsPage() {
         </p>
 
         <div className="space-y-6">
+          
           <div className="bluepr-card">
+            <div className="flex items-center gap-2 mb-3">
+              <span className="bp-tag green">Update</span>
+              <span className="text-xs text-blueprint-muted">June 26, 2026</span>
+            </div>
+            <h3 className="font-display text-lg font-semibold text-blueprint-text mb-2">Steam Summer Sale + New Patch</h3>
+            <p className="text-blueprint-muted leading-relaxed">
+              Town to City is participating in the Steam Summer Sale 2026, its first major discount since the May 26 full launch. Galaxy Grove and Kwalee have also released a new patch with quality-of-life improvements: enhanced photo mode controls, additional building placement grid snapping options, and UI refinements for the trade route panel. The community continues to grow with 97% positive reviews from over 3,900 players — Town to City remains one of the highest-rated city builders of 2026. For new players picking up the game during the sale: our Beginner&apos;s Guide covers the first 2 hours of gameplay, including optimal starting layouts.
+            </p>
+          </div>
+<div className="bluepr-card">
             <div className="flex items-center gap-2 mb-3">
               <span className="bp-tag green">Launch</span>
               <span className="text-xs text-blueprint-muted">May 26, 2026</span>
