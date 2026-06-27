@@ -24,6 +24,17 @@ export default function NewsPage() {
           
           <div className="bluepr-card">
             <div className="flex items-center gap-2 mb-3">
+              <span className="bp-tag green">Guide</span>
+              <span className="text-xs text-blueprint-muted">June 27, 2026</span>
+            </div>
+            <h3 className="font-display text-lg font-semibold text-blueprint-text mb-2">Town to City 1.0 Full Release Recap — Tourist Routes, New Map</h3>
+            <p className="text-sm text-blueprint-muted leading-relaxed">
+              Town to City officially exited Early Access on May 26 with its 1.0 full release. The headline addition is the Tourist Routes system, letting you establish guided tours through city landmarks — a new revenue stream rewarding thoughtful urban planning. A brand-new map launched alongside 1.0, offering a fresh starting layout with unique terrain challenges. The Big Expanded Campaign update adds an additional city with unique mechanics and decorations, effectively doubling campaign content. Early Access saves are fully compatible with 1.0. Galaxy Grove confirmed free updates will continue post-launch, with holiday-themed content and a mystery major update planned for later in 2026. The game is currently 20% off during the Steam Summer Sale.
+            </p>
+          </div>
+
+          <div className="bluepr-card">
+            <div className="flex items-center gap-2 mb-3">
               <span className="bp-tag green">Update</span>
               <span className="text-xs text-blueprint-muted">June 26, 2026</span>
             </div>
