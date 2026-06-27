@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import Script from "next/script";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: {
@@ -38,27 +40,23 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="google-site-verification" content="google4cd6cdf221ea7b0b" />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8925824244664340" crossOrigin="anonymous" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ET6778V62K" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-ET6778V62K');
-            `,
-          }}
-        />
+        <Script strategy="lazyOnload" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8925824244664340" crossOrigin="anonymous" />
+        <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-ET6778V62K" />
+        <Script strategy="lazyOnload" id="gtag-init">
+              {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-ET6778V62K');`}
+            </Script>
       </head>
       <body className="font-body min-h-screen flex flex-col bg-blueprint-bg">
         {/* Header with Nav */}
         <header className="border-b border-blueprint-border bg-white/5 backdrop-blur-sm">
           <div className="max-w-7xl mx-auto px-6 h-14 flex items-center justify-between">
             <div className="flex items-center gap-8">
-              <a href="/" className="font-display text-lg font-bold text-blueprint-text hover:text-blueprint-accent transition-colors">
+              <Link href="/" className="font-display text-lg font-bold text-blueprint-text hover:text-blueprint-accent transition-colors">
                 Town to City Guide
-              </a>
+              </Link>
               <nav className="hidden md:flex items-center gap-6">
                 {NAV_ITEMS.map((item) => (
                   <a
@@ -90,10 +88,10 @@ export default function RootLayout({
         {/* Footer */}
         <footer className="border-t border-blueprint-border py-6 text-center text-sm text-blueprint-muted">
           <div className="flex flex-wrap justify-center gap-6 mb-4">
-            <a href="/about" className="hover:text-blueprint-accent transition-colors">About</a>
-            <a href="/faq" className="hover:text-blueprint-accent transition-colors">FAQ</a>
-            <a href="/privacy" className="hover:text-blueprint-accent transition-colors">Privacy</a>
-            <a href="/terms" className="hover:text-blueprint-accent transition-colors">Terms</a>
+            <Link href="/about" className="hover:text-blueprint-accent transition-colors">About</Link>
+            <Link href="/faq" className="hover:text-blueprint-accent transition-colors">FAQ</Link>
+            <Link href="/privacy" className="hover:text-blueprint-accent transition-colors">Privacy</Link>
+            <Link href="/terms" className="hover:text-blueprint-accent transition-colors">Terms</Link>
             <a href="https://afdian.com/a/gameguidehub" target="_blank" rel="noopener noreferrer" className="hover:text-blueprint-accent transition-colors">❤️ Support Us</a>
           </div>
 
