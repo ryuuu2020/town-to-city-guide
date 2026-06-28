@@ -48,6 +48,15 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-ET6778V62K');`}
             </Script>
+      
+        {/* JSON-LD Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={
+            __html: `{"@context": "https://schema.org", "@type": "WebSite", "name": "Town to City Guide", "url": "https://town-to-city-guide.vercel.app"}`
+          }
+        />
+
       </head>
       <body className="font-body min-h-screen flex flex-col bg-blueprint-bg">
         {/* Header with Nav */}
@@ -112,7 +121,16 @@ gtag('config', 'G-ET6778V62K');`}
           </div>
 
           <p>&copy; {new Date().getFullYear()} Town to City Guide. Not affiliated with Galaxy Grove or Kwalee.</p>
-        </footer>
+        
+              {/* E-E-A-T: Sources & Last Updated */}
+              <div className="mt-4 pt-4 border-t border-clay/30">
+                <p className="font-body text-xs text-stone text-center">
+                  <strong>Sources:</strong> All guides are based on the <a href="https://store.steampowered.com/app/3115220/" target="_blank" rel="noopener noreferrer" className="text-terracotta hover:underline">Steam patch notes</a>, community testing, and gameplay experience.
+                </p>
+                <p className="font-body text-xs text-stone text-center mt-1">Last updated: June 2026</p>
+              </div>
+
+            </footer>
       </body>
     </html>
   );
