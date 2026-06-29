@@ -52,9 +52,9 @@ gtag('config', 'G-ET6778V62K');`}
         {/* JSON-LD Structured Data */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={
+          dangerouslySetInnerHTML={{
             __html: `{"@context": "https://schema.org", "@type": "WebSite", "name": "Town to City Guide", "url": "https://town-to-city-guide.vercel.app"}`
-          }
+          }}
         />
 
       </head>
