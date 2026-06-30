@@ -14,6 +14,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/trade', priority: 0.8, changefreq: 'weekly' as const },
     { path: '/beginners', priority: 0.9, changefreq: 'weekly' as const },
     { path: '/tips', priority: 0.7, changefreq: 'monthly' as const },
+    { path: '/beginner-colony-guide', priority: 0.9, changefreq: 'weekly' as const },
+    { path: '/defense-layout', priority: 0.9, changefreq: 'weekly' as const },
     { path: '/news', priority: 0.8, changefreq: 'weekly' as const },
     { path: '/faq', priority: 0.7, changefreq: 'monthly' as const },
     { path: '/about', priority: 0.5, changefreq: 'monthly' as const },
