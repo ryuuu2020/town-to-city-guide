@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 import Script from "next/script";
 import Link from "next/link";
+import SchemaMarkup from '@/shared/SchemaMarkup';
+
 
 export const metadata: Metadata = {
   title: {
@@ -9,7 +11,7 @@ export const metadata: Metadata = {
     template: '%s — Town to City Guide',
   },
   description: 'Complete Town to City guide covering city building, resource management, supply chains, layouts, research tree, citizen happiness tips, and Mediterranean town planning. Free 2026 city builder guide.',
-  metadataBase: new URL('https://town-to-city-guide.vercel.app'),
+  metadataBase: new URL("https://towntocity.gguidehub.com"),
   openGraph: {
     title: 'Town to City Guide',
     description: 'Complete Town to City guide covering city building, resource management, supply chains, layouts, research tree, citizen happiness tips, and Mediterranean town planning.',
