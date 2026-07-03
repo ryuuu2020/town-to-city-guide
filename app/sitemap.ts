@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://town-to-city-guide.vercel.app';
+  const baseUrl = 'https://towntocity.gguidehub.com';
 
   const pages = [
     { path: '', priority: 1.0, changefreq: 'weekly' as const },
