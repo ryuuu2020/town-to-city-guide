@@ -87,6 +87,13 @@ export default function HomePage() {
       {/* ===== HERO ===== */}
       <section className="hero-grid border-b border-blueprint-border">
         <div className="max-w-5xl mx-auto px-6 py-20 text-center">
+          <div className="mb-8 overflow-hidden rounded-[28px] border border-blueprint-border bg-blueprint-surface shadow-[0_24px_60px_rgba(15,23,42,0.22)]">
+            <img
+              src="/hero.jpg"
+              alt="Town to City city-building guide hero artwork"
+              className="block h-64 w-full object-cover md:h-80"
+            />
+          </div>
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blueprint-accent-light text-blueprint-accent text-sm font-semibold mb-6">
             <span className="w-2 h-2 rounded-full bg-blueprint-accent animate-pulse-dot" />
             Updated for Patch 1.0.4 — June 2026
