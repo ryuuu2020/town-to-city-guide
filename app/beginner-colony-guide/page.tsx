@@ -185,7 +185,7 @@ export default function BeginnerColonyGuidePage() {
               <li><a href="/defense-layout" className="text-accent hover:underline">Defense Layout Guide</a></li>
               <li><a href="/buildings" className="text-accent hover:underline">Complete Buildings Guide</a></li>
               <li><a href="/resource-management" className="text-accent hover:underline">Resource Management Guide</a></li>
-              <li><a href="/settler-happiness" className="text-accent hover:underline">Settler Happiness & Migration</a></li>
+              <li><a href="/villager-happiness" className="text-accent hover:underline">Settler Happiness & Migration</a></li>
             </ul>
           </div>
 
