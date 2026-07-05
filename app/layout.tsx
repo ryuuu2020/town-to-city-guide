@@ -123,6 +123,9 @@ gtag('config', 'G-ET6778V62K');`}
           </div>
 
           <p>&copy; {new Date().getFullYear()} Town to City Guide. Not affiliated with Galaxy Grove or Kwalee.</p>
+              <span className="font-body text-sm text-stone">
+                Part of the <a href="https://gguidehub.com" className="text-stone hover:text-bark underline underline-offset-2 transition-colors">GameGuideHub</a> network
+              </span>
         
               {/* E-E-A-T: Sources & Last Updated */}
               <div className="mt-4 pt-4 border-t border-clay/30">
