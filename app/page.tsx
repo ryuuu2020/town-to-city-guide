@@ -223,7 +223,7 @@ export default function HomePage() {
             <Link href="/faq" className="hover:text-blueprint-accent transition-colors">FAQ</Link>
             <Link href="/privacy" className="hover:text-blueprint-accent transition-colors">Privacy</Link>
             <Link href="/terms" className="hover:text-blueprint-accent transition-colors">Terms</Link>
-            <a href="https://afdian.com/a/gameguidehub" target="_blank" rel="noopener noreferrer" className="hover:text-blueprint-accent transition-colors">❤️ Support Us</a>
+            <a href="https://app.unifans.io/c/ryu2020" target="_blank" rel="noopener noreferrer" className="hover:text-blueprint-accent transition-colors">Support us on UniFans</a>
           </div>
           <p>&copy; {new Date().getFullYear()} Town to City Guide. Not affiliated with Galaxy Grove or Kwalee. All game content belongs to its respective owners.</p>
         </footer>
