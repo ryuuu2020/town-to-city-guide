@@ -91,7 +91,7 @@ export default function HomePage() {
             <img
               src="/hero.jpg"
               alt="Town to City city-building guide hero artwork"
-              className="block h-64 w-full object-cover md:h-80"
+              className="block h-48 w-full object-cover md:h-64"
             />
           </div>
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blueprint-accent-light text-blueprint-accent text-sm font-semibold mb-6">
