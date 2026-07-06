@@ -130,7 +130,7 @@ gtag('config', 'G-ET6778V62K');`}
               {/* E-E-A-T: Sources & Last Updated */}
               <div className="mt-4 pt-4 border-t border-clay/30">
                 <p className="font-body text-xs text-stone text-center">
-                  <strong>Sources:</strong> All guides are based on the <a href="https://store.steampowered.com/app/3115220/" target="_blank" rel="noopener noreferrer" className="text-terracotta hover:underline">Steam patch notes</a>, community testing, and gameplay experience.
+                  <strong>Sources:</strong> All guides are based on the <a href="https://store.steampowered.com/app/3115220/?curator_clanid=46198091" target="_blank" rel="noopener noreferrer" className="text-terracotta hover:underline">Steam patch notes</a>, community testing, and gameplay experience.
                 </p>
                 <p className="font-body text-xs text-stone text-center mt-1">Last updated: June 2026</p>
               </div>

@@ -72,7 +72,7 @@ export default function AboutPage() {
               <p className="text-sm text-blueprint-muted leading-relaxed">
                 Find Town to City on Steam:
                 <a
-                  href="https://store.steampowered.com/app/3115220"
+                  href="https://store.steampowered.com/app/3115220/?curator_clanid=46198091"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blueprint-accent hover:underline ml-2"
