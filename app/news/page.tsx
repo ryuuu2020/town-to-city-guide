@@ -3,6 +3,10 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'News & Updates — Town to City Guide',
   description: 'Town to City launch information and game updates. Released by Galaxy Grove on Steam.',
+  robots: {
+    index: false,
+    follow: true,
+  },
 };
 
 export default function NewsPage() {

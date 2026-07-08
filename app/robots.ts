@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://town-to-city-guide.vercel.app/sitemap.xml',
+    sitemap: 'https://towntocity.gguidehub.com/sitemap.xml',
   };
 }

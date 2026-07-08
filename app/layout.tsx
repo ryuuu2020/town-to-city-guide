@@ -55,7 +55,7 @@ gtag('config', 'G-ET6778V62K');`}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: `{"@context": "https://schema.org", "@type": "WebSite", "name": "Town to City Guide", "url": "https://town-to-city-guide.vercel.app"}`
+            __html: `{"@context": "https://schema.org", "@type": "WebSite", "name": "Town to City Guide", "url": "https://towntocity.gguidehub.com"}`
           }}
         />
 
@@ -110,25 +110,27 @@ gtag('config', 'G-ET6778V62K');`}
           <div className="border-t border-blueprint-border/50 pt-4 mb-3">
             <p className="text-xs text-blueprint-muted font-semibold uppercase tracking-wider mb-2">More Game Guides</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="https://menace-guide.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blueprint-muted hover:text-blueprint-accent transition-colors">
+              <a href="https://menace.gguidehub.com" target="_blank" rel="noopener noreferrer" className="text-xs text-blueprint-muted hover:text-blueprint-accent transition-colors">
                 MENACE Guide
               </a>
-              <a href="https://olden-era-guide-tau.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blueprint-muted hover:text-blueprint-accent transition-colors">
+              <a href="https://oldenera.gguidehub.com" target="_blank" rel="noopener noreferrer" className="text-xs text-blueprint-muted hover:text-blueprint-accent transition-colors">
                 Olden Era Guide
               </a>
-              <a href="https://dispatch-guide-sigma.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blueprint-muted hover:text-blueprint-accent transition-colors">
+              <a href="https://dispatch.gguidehub.com" target="_blank" rel="noopener noreferrer" className="text-xs text-blueprint-muted hover:text-blueprint-accent transition-colors">
                 Dispatch Guide
               </a>
             </div>
           </div>
 
-          <p>&copy; {new Date().getFullYear()} Town to City Guide. Not affiliated with Galaxy Grove or Kwalee.</p>
-              <span className="font-body text-sm text-stone">
-                Part of the <a href="https://gguidehub.com" className="text-stone hover:text-bark underline underline-offset-2 transition-colors">GameGuideHub</a> network
-              </span>
+          <div className="flex flex-col items-center gap-2">
+            <p>&copy; {new Date().getFullYear()} Town to City Guide. Not affiliated with Galaxy Grove or Kwalee.</p>
+            <span className="font-body text-sm text-stone">
+              Part of the <a href="https://gguidehub.com" className="text-stone hover:text-bark underline underline-offset-2 transition-colors">GameGuideHub</a> network
+            </span>
+          </div>
         
               {/* E-E-A-T: Sources & Last Updated */}
-              <div className="mt-4 pt-4 border-t border-clay/30">
+              <div className="mt-4 pt-4 border-t border-blueprint-border/50">
                 <p className="font-body text-xs text-stone text-center">
                   <strong>Sources:</strong> All guides are based on the <a href="https://store.steampowered.com/app/3115220/?curator_clanid=46198091" target="_blank" rel="noopener noreferrer" className="text-terracotta hover:underline">Steam patch notes</a>, community testing, and gameplay experience.
                 </p>
