@@ -15,7 +15,18 @@
           "value": "town-to-city-guide.vercel.app"
         }
       ],
-      "destination": "https://towntocity.gguidehub.com/$1",
+      "destination": "https://towntocityguide.wiki/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "towntocity.gguidehub.com"
+        }
+      ],
+      "destination": "https://towntocityguide.wiki/$1",
       "permanent": true
     }
   ],

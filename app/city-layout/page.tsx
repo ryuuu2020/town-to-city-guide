@@ -1,4 +1,7 @@
 export const metadata = {
+  alternates: {
+    canonical: "https://towntocityguide.wiki/city-layout",
+  },
   title: "Town to City Best Layout Guide — Optimal City Design (2026)",
   description: "Complete city layout guide for Town to City. Best district organization, road networks, and efficient city design for maximum growth.",
 };

@@ -1,6 +1,9 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://towntocityguide.wiki/buildings",
+  },
   title: 'Buildings Guide — Town to City Guide',
   description: 'Complete Town to City buildings reference covering crop-powered production, city buildings, tourism structures, and placement tips.',
 };

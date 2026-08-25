@@ -1,6 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "https://towntocityguide.wiki/villager-happiness",
+  },
   title: "Town to City Villager Happiness Guide — Needs, Mood & Productivity Optimization",
   description: "Keep villagers happy and productive with complete happiness guide. Covers needs, mood modifiers, recreation, and productivity bonuses.",
 };

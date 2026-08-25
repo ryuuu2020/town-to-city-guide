@@ -1,4 +1,7 @@
 export const metadata = {
+  alternates: {
+    canonical: "https://towntocityguide.wiki/production-chain",
+  },
   title: "Town to City Production Chain Guide — Resource Processing & Industry Optimization (2026)",
   description: "Complete Town to City production chain guide. Raw material to finished goods, supply chain optimization, factory placement, and industry efficiency for maximum city output.",
 };

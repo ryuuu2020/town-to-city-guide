@@ -1,6 +1,9 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://towntocityguide.wiki/trade",
+  },
   title: 'Trade & Routes Guide — Town to City Guide',
   description: 'Learn how trade routes work in Town to City: connecting multiple towns, export strategies, and maximizing trade income.',
 };

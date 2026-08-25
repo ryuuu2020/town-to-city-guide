@@ -1,6 +1,9 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://towntocityguide.wiki/research",
+  },
   title: 'Research Tree Guide — Town to City Guide',
   description: 'Understand the research system in Town to City: Research Center, technology tree overview, and how research unlocks new buildings, decorations, and upgrades.',
 };

@@ -1,32 +1,55 @@
-import { MetadataRoute } from 'next';
+import type { MetadataRoute } from 'next';
+
+export const dynamic = 'force-static';
+
+const BASE = 'https://towntocityguide.wiki';
+
+// 该文件由 scripts/sync-sitemaps.py 自动生成，新增页面后重新运行脚本即可
+const ROUTES = [
+    '',
+    '/about',
+    '/achievement-guide',
+    '/beach-biome-economy-guide',
+    '/beginner-colony-guide',
+    '/beginner-walkthrough',
+    '/beginners',
+    '/best-buildings',
+    '/buildings',
+    '/citizen-happiness-guide',
+    '/citizens',
+    '/city-layout',
+    '/city-upgrade-guide',
+    '/defense-layout',
+    '/economy',
+    '/faq',
+    '/industry-chains',
+    '/layouts',
+    '/logistics',
+    '/news',
+    '/performance-optimization',
+    '/population-guide',
+    '/privacy',
+    '/production-chain',
+    '/production-chain-guide',
+    '/research',
+    '/resource-management',
+    '/resources',
+    '/seasonal-challenges',
+    '/siege-survival',
+    '/terms',
+    '/tier-list',
+    '/tips',
+    '/trade',
+    '/traffic-management',
+    '/villager-happiness',
+];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://towntocity.gguidehub.com';
-
-  const pages = [
-    { path: '', priority: 1.0, changefreq: 'weekly' as const },
-    { path: '/buildings', priority: 0.9, changefreq: 'weekly' as const },
-    { path: '/layouts', priority: 0.9, changefreq: 'weekly' as const },
-    { path: '/resources', priority: 0.9, changefreq: 'weekly' as const },
-    { path: '/citizens', priority: 0.8, changefreq: 'weekly' as const },
-    { path: '/economy', priority: 0.8, changefreq: 'weekly' as const },
-    { path: '/research', priority: 0.8, changefreq: 'weekly' as const },
-    { path: '/trade', priority: 0.8, changefreq: 'weekly' as const },
-    { path: '/beginners', priority: 0.9, changefreq: 'weekly' as const },
-    { path: '/tips', priority: 0.7, changefreq: 'monthly' as const },
-    { path: '/beginner-colony-guide', priority: 0.9, changefreq: 'weekly' as const },
-    { path: '/defense-layout', priority: 0.9, changefreq: 'weekly' as const },
-    { path: '/news', priority: 0.8, changefreq: 'weekly' as const },
-    { path: '/faq', priority: 0.7, changefreq: 'monthly' as const },
-    { path: '/about', priority: 0.5, changefreq: 'monthly' as const },
-    { path: '/privacy', priority: 0.3, changefreq: 'yearly' as const },
-    { path: '/terms', priority: 0.3, changefreq: 'yearly' as const },
-  ];
-
-  return pages.map((page) => ({
-    url: `${baseUrl}${page.path}`,
-    lastModified: new Date(),
-    changeFrequency: page.changefreq,
-    priority: page.priority,
+  const now = new Date();
+  return ROUTES.map((path) => ({
+    url: `${BASE}${path}`,
+    lastModified: now,
+    changeFrequency: path === '' ? ('daily' as const) : ('weekly' as const),
+    priority: path === '' ? 1 : ['privacy', 'terms', 'about'].includes(path.slice(1)) ? 0.3 : 0.7,
   }));
 }

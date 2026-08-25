@@ -1,6 +1,9 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://towntocityguide.wiki/beginner-walkthrough",
+  },
   title: 'Town to City Beginner Walkthrough — Step-by-Step First City (2026) | Town to City Guide',
   description: 'Step-by-step Town to City beginner walkthrough covering your first 10 hours, essential buildings, resource management, and growth strategies for new mayors.',
 };

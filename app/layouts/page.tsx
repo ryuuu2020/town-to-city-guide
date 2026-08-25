@@ -1,6 +1,9 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://towntocityguide.wiki/layouts",
+  },
   title: 'City Layouts & Planning — Town to City Guide',
   description: 'Grid-less city planning tips for Town to City. Multi-town specialization, terraforming, and layout strategies for Mediterranean towns.',
 };

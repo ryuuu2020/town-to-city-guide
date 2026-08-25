@@ -1,6 +1,9 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://towntocityguide.wiki/economy",
+  },
   title: 'Economy & Income Guide — Town to City Guide',
   description: 'Master Town to City economy: tax system, trade routes between towns, tourism revenue, and citizen tier income scaling.',
 };

@@ -11,11 +11,18 @@ export const metadata: Metadata = {
     template: '%s — Town to City Guide',
   },
   description: 'Complete Town to City guide covering city building, resource management, supply chains, layouts, research tree, citizen happiness tips, and Mediterranean town planning. Free 2026 city builder guide.',
-  metadataBase: new URL("https://towntocity.gguidehub.com"),
+  metadataBase: new URL("https://towntocityguide.wiki"),
   openGraph: {
     title: 'Town to City Guide',
     description: 'Complete Town to City guide covering city building, resource management, supply chains, layouts, research tree, citizen happiness tips, and Mediterranean town planning.',
     type: 'website',
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Town to City Guide' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Town to City Guide',
+    description: 'Complete Town to City guide covering city building, resource management, supply chains, layouts, research tree, citizen happiness tips, and Mediterranean town planning. Free 2026 city builder guide.',
+    images: ['/og-image.png'],
   },
   verification: {
     google: 'google4cd6cdf221ea7b0b',
@@ -23,14 +30,14 @@ export const metadata: Metadata = {
 };
 
 const NAV_ITEMS = [
+  { label: 'Layouts', href: '/layouts' },
   { label: 'Buildings', href: '/buildings' },
-  { label: 'Crops & Farming', href: '/resources' },
+  { label: 'Resources', href: '/resources' },
   { label: 'Citizens', href: '/citizens' },
   { label: 'Economy', href: '/economy' },
+  { label: 'Trade', href: '/trade' },
   { label: 'Beginner Guide', href: '/beginners' },
-  { label: 'Tips', href: '/tips' },
   { label: 'FAQ', href: '/faq' },
-  { label: 'News', href: '/news' },
 ];
 
 export default function RootLayout({
@@ -41,6 +48,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48" />
+        <link rel="icon" href="/icon.png" sizes="512x512" type="image/png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
         <meta name="google-site-verification" content="google4cd6cdf221ea7b0b" />
         <Script strategy="lazyOnload" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8925824244664340" crossOrigin="anonymous" />
         <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-ET6778V62K" />
@@ -55,7 +65,7 @@ gtag('config', 'G-ET6778V62K');`}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: `{"@context": "https://schema.org", "@type": "WebSite", "name": "Town to City Guide", "url": "https://towntocity.gguidehub.com"}`
+            __html: `{"@context": "https://schema.org", "@type": "WebSite", "name": "Town to City Guide", "url": "https://towntocityguide.wiki"}`
           }}
         />
 
@@ -80,14 +90,7 @@ gtag('config', 'G-ET6778V62K');`}
                 ))}
               </nav>
             </div>
-            <a
-              href="https://app.unifans.io/c/ryu2020"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-blueprint-muted hover:text-blueprint-accent transition-colors"
-            >
-              Support us on UniFans
-            </a>
+            
           </div>
         </header>
 
@@ -102,8 +105,9 @@ gtag('config', 'G-ET6778V62K');`}
             <Link href="/about" className="hover:text-blueprint-accent transition-colors">About</Link>
             <Link href="/faq" className="hover:text-blueprint-accent transition-colors">FAQ</Link>
             <Link href="/privacy" className="hover:text-blueprint-accent transition-colors">Privacy</Link>
+            <a href="https://gguidehub.com/contact" className="hover:text-blueprint-accent transition-colors">Contact</a>
             <Link href="/terms" className="hover:text-blueprint-accent transition-colors">Terms</Link>
-            <a href="https://app.unifans.io/c/ryu2020" target="_blank" rel="noopener noreferrer" className="hover:text-blueprint-accent transition-colors">Support us on UniFans</a>
+            
           </div>
 
           {/* Cross-site links */}
@@ -123,20 +127,12 @@ gtag('config', 'G-ET6778V62K');`}
           </div>
 
           <div className="flex flex-col items-center gap-2">
-            <p>&copy; {new Date().getFullYear()} Town to City Guide. Not affiliated with Galaxy Grove or Kwalee.</p>
+            <p>&copy; {new Date().getFullYear()} · Written by the GameGuideHub Team · Last updated {new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' })} Town to City Guide. Not affiliated with Galaxy Grove or Kwalee.</p>
             <span className="font-body text-sm text-stone">
               Part of the <a href="https://gguidehub.com" className="text-stone hover:text-bark underline underline-offset-2 transition-colors">GameGuideHub</a> network
             </span>
           </div>
         
-              {/* E-E-A-T: Sources & Last Updated */}
-              <div className="mt-4 pt-4 border-t border-blueprint-border/50">
-                <p className="font-body text-xs text-stone text-center">
-                  <strong>Sources:</strong> All guides are based on the <a href="https://store.steampowered.com/app/3115220/?curator_clanid=46198091" target="_blank" rel="noopener noreferrer" className="text-terracotta hover:underline">Steam patch notes</a>, community testing, and gameplay experience.
-                </p>
-                <p className="font-body text-xs text-stone text-center mt-1">Last updated: June 2026</p>
-              </div>
-
             </footer>
       </body>
     </html>

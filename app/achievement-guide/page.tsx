@@ -1,6 +1,9 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://towntocityguide.wiki/achievement-guide",
+  },
   title: 'Town to City Achievement Guide — All Achievements & How to Unlock (2026) | Town to City Guide',
   description: 'Complete Town to City achievement guide with all achievements, unlock conditions, tips, and strategies. 100% your medieval city builder experience.',
 };

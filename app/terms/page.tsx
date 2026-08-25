@@ -1,6 +1,9 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://towntocityguide.wiki/terms",
+  },
   title: 'Terms of Service — Town to City Guide',
   description: 'Terms of Service for the Town to City Guide — informational use, accuracy disclaimers, affiliate disclosure, copyright, and intellectual property notices.',
   robots: {

@@ -1,6 +1,9 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://towntocityguide.wiki/citizen-happiness-guide",
+  },
   title: "Town to City Citizen Happiness Guide — 5-Star Formula | Town to City Guide",
   description: "Complete Town to City citizen happiness guide. The 5-star formula, mood sources, building priorities, and fastest path to max happiness.",
 };

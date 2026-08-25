@@ -1,6 +1,9 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://towntocityguide.wiki/faq",
+  },
   title: 'Frequently Asked Questions — Town to City Guide',
   description: 'Common questions about Town to City: grid-less building, citizen tiers, farming, trade routes, and research.',
 };

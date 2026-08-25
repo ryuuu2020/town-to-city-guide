@@ -1,4 +1,7 @@
 export const metadata = {
+  alternates: {
+    canonical: "https://towntocityguide.wiki/population-guide",
+  },
   title: "Town to City Population Guide — Grow Your City Fast (2026)",
   description: "Complete population guide for Town to City. How to grow population quickly, happiness management, and avoiding population decline.",
 };

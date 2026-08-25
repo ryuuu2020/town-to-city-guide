@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://towntocity.gguidehub.com/sitemap.xml',
+    sitemap: 'https://towntocityguide.wiki/sitemap.xml',
   };
 }

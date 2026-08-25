@@ -1,4 +1,7 @@
 export const metadata = {
+  alternates: {
+    canonical: "https://towntocityguide.wiki/logistics",
+  },
   title: "Trade & Logistics Guide | Town To City",
   description:
     "Town to City logistics guide covering cart flow, warehouse spacing, market corridors, trade route timing, and how to stop deliveries from choking city growth.",

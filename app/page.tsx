@@ -1,19 +1,22 @@
 import Link from 'next/link';
 
 export const metadata = {
+  alternates: {
+    canonical: "https://towntocityguide.wiki",
+  },
   title: 'Town to City Guide — Complete City Builder Guide 2026',
   description: 'Free Town to City guide covering buildings, layouts, resources, citizens, economy, research, trade, and tips. Master this cozy Mediterranean city builder from Galaxy Grove.',
 };
 
 const navItems = [
-  { label: 'Buildings', href: '/buildings' },
   { label: 'Layouts', href: '/layouts' },
+  { label: 'Buildings', href: '/buildings' },
   { label: 'Resources', href: '/resources' },
   { label: 'Citizens', href: '/citizens' },
   { label: 'Economy', href: '/economy' },
   { label: 'Research', href: '/research' },
   { label: 'Trade', href: '/trade' },
-  { label: 'Tips', href: '/tips' },
+  { label: 'FAQ', href: '/faq' },
 ];
 
 const featureCards = [
@@ -75,10 +78,19 @@ const quickTips = [
   { tip: 'Use first-person mode (F key) to walk your streets and spot ugly areas citizens hate.', cat: 'Quality' },
 ];
 
-const newsItems = [
-  { date: 'Jun 22, 2026', text: 'Patch 1.0.4: Tourism system overhaul with new attractions and balance adjustments.' },
-  { date: 'Jun 15, 2026', text: 'Content update: Archipelago map, festival events, and Cathedral building added.' },
-  { date: 'Jun 2, 2026', text: 'Hotfix 1.0.2: Save file fixes, 40% performance boost, and build queue added.' },
+const growthCheckpoints = [
+  {
+    stage: 'Starter Hamlet',
+    text: 'Food, storage, and the first service buildings matter more than beauty or tourism.',
+  },
+  {
+    stage: 'Stable Town',
+    text: 'This is where you add dedicated warehouses, cleaner districts, and the first trade routes.',
+  },
+  {
+    stage: 'Growth Pivot',
+    text: 'Only scale prestige, tourism, and large defensive works after core transport and materials stay positive.',
+  },
 ];
 
 export default function HomePage() {
@@ -199,20 +211,19 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ===== LATEST NEWS ===== */}
+        {/* ===== GROWTH CHECKPOINTS ===== */}
         <section className="mb-16">
           <div className="bluepr-card">
-            <h2 className="font-display text-2xl font-bold text-blueprint-text mb-2">Latest Updates</h2>
-            <p className="text-blueprint-muted mb-6">Recent patches and content additions for Town to City.</p>
+            <h2 className="font-display text-2xl font-bold text-blueprint-text mb-2">Growth Checkpoints</h2>
+            <p className="text-blueprint-muted mb-6">A cleaner way to think about when to expand, specialize, and spend.</p>
             <div className="space-y-4">
-              {newsItems.map((n, i) => (
+              {growthCheckpoints.map((item, i) => (
                 <div key={i} className="flex gap-4 items-start pb-4 border-b border-blueprint-border last:border-0 last:pb-0">
-                  <span className="shrink-0 bp-tag blue text-xs">{n.date}</span>
-                  <p className="text-sm text-blueprint-text">{n.text}</p>
+                  <span className="shrink-0 bp-tag blue text-xs">{item.stage}</span>
+                  <p className="text-sm text-blueprint-text">{item.text}</p>
                 </div>
               ))}
             </div>
-            <Link href="/news" className="inline-block mt-4 text-sm text-blueprint-accent hover:underline font-medium">View all updates →</Link>
           </div>
         </section>
 
@@ -223,7 +234,7 @@ export default function HomePage() {
             <Link href="/faq" className="hover:text-blueprint-accent transition-colors">FAQ</Link>
             <Link href="/privacy" className="hover:text-blueprint-accent transition-colors">Privacy</Link>
             <Link href="/terms" className="hover:text-blueprint-accent transition-colors">Terms</Link>
-            <a href="https://app.unifans.io/c/ryu2020" target="_blank" rel="noopener noreferrer" className="hover:text-blueprint-accent transition-colors">Support us on UniFans</a>
+            
           </div>
           <p>&copy; {new Date().getFullYear()} Town to City Guide. Not affiliated with Galaxy Grove or Kwalee. All game content belongs to its respective owners.</p>
         </footer>

@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://towntocityguide.wiki/tier-list",
+  },
   title: "Town to City Building Tier List — Best Buildings Ranked (2026)",
   description:
     "Complete Town to City building tier list ranking every structure from S to C tier. Find the best production buildings, logistics hubs, housing, and late-game structures with detailed explanations and unlock conditions.",

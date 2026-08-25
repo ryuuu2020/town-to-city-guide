@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://towntocityguide.wiki/traffic-management",
+  },
   title: "Town to City — Traffic Management Guide (2026)",
   description: "Town to City traffic management guide — road planning strategies, congestion avoidance, logistics optimization, and traffic flow design for efficient city layouts.",
 };

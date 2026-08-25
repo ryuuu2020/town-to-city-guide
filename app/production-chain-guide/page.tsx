@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://towntocityguide.wiki/production-chain-guide",
+  },
   title: "Town to City Production Chain Guide — Complete Resource Flow (2026)",
   description:
     "Master every production chain in Town to City. Complete resource flow guide covering food, construction, trade goods, and luxury chains with input/output data, worker requirements, bottleneck fixes, and efficiency optimization strategies.",

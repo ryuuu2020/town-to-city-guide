@@ -1,6 +1,9 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://towntocityguide.wiki/citizens",
+  },
   title: 'Citizens Guide: Tiers & Needs — Town to City Guide',
   description: 'Master citizen management in Town to City. Learn Worker, Artisan, and Bourgeoisie tiers, job assignments, and needs.',
 };

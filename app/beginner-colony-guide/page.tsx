@@ -1,4 +1,7 @@
 export const metadata = {
+  alternates: {
+    canonical: "https://towntocityguide.wiki/beginner-colony-guide",
+  },
   title: "Town to City Beginner Guide — First Colony Setup & Early Game Walkthrough (2026)",
   description: "Step-by-step Town to City beginner guide covering first buildings order, resource priorities, settler assignment, food supply management, and early trade routes for a thriving colony.",
 };
@@ -175,7 +178,7 @@ export default function BeginnerColonyGuidePage() {
             </div>
           </section>
 
-          <p className="text-sm text-ink-faded mt-8 italic">Last updated: June 2026. Guide reflects Town to City version 2.4 standard difficulty settings. Resource values verified against community wiki data.</p>
+          <p className="text-sm text-ink-faded mt-8 italic">Last updated: June 2026. Guide reflects Town to City version 2.4 standard difficulty settings.</p>
         </div>
 
         <aside className="lg:w-[30%] space-y-6">
