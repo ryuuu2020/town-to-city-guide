@@ -53,12 +53,12 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
         <meta name="google-site-verification" content="google4cd6cdf221ea7b0b" />
         <Script strategy="lazyOnload" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8925824244664340" crossOrigin="anonymous" />
-        <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-ET6778V62K" />
+        <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-5QV5VL08HX" />
         <Script strategy="lazyOnload" id="gtag-init">
               {`window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'G-ET6778V62K');`}
+gtag('config', 'G-5QV5VL08HX');`}
             </Script>
       
         {/* JSON-LD Structured Data */}
