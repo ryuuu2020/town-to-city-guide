@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Privacy Policy — Town to City Guide',
   description: 'Privacy Policy for the Town to City Guide — information about data collection, cookies, third-party services, and how we handle your information.',
   robots: {
-    index: false,
+    index: true,
     follow: true,
   },
 };

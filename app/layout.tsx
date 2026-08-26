@@ -105,7 +105,7 @@ gtag('config', 'G-5QV5VL08HX');`}
             <Link href="/about" className="hover:text-blueprint-accent transition-colors">About</Link>
             <Link href="/faq" className="hover:text-blueprint-accent transition-colors">FAQ</Link>
             <Link href="/privacy" className="hover:text-blueprint-accent transition-colors">Privacy</Link>
-            <a href="https://gguidehub.com/contact" className="hover:text-blueprint-accent transition-colors">Contact</a>
+            <a href="mailto:sonic6640@gmail.com" className="hover:text-blueprint-accent transition-colors">Contact: sonic6640@gmail.com</a>
             <Link href="/terms" className="hover:text-blueprint-accent transition-colors">Terms</Link>
             
           </div>
@@ -127,7 +127,8 @@ gtag('config', 'G-5QV5VL08HX');`}
           </div>
 
           <div className="flex flex-col items-center gap-2">
-            <p>&copy; {new Date().getFullYear()} · Written by the GameGuideHub Team · Last updated {new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' })} Town to City Guide. Not affiliated with Galaxy Grove or Kwalee.</p>
+            <p>© {new Date().getFullYear()} · Town to City Guide. Not affiliated with Galaxy Grove or Kwalee.</p>
+            <p><a href="mailto:sonic6640@gmail.com" className="text-blueprint-accent hover:underline">Contact: sonic6640@gmail.com</a></p>
             <span className="font-body text-sm text-stone">
               Part of the <a href="https://gguidehub.com" className="text-stone hover:text-bark underline underline-offset-2 transition-colors">GameGuideHub</a> network
             </span>

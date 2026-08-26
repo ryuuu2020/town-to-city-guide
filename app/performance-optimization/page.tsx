@@ -245,7 +245,7 @@ export default function Page() {
           </div>
         </section>
 
-        {/* Chart placeholder — image inserted below */}
+        {/* Performance reports chart */}
         <figure className="my-10">
           <img
             src="/images/performance-optimization.png"
