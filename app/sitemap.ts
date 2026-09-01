@@ -19,6 +19,7 @@ const ROUTES = [
     '/citizens',
     '/city-layout',
     '/city-upgrade-guide',
+    '/contact',
     '/defense-layout',
     '/economy',
     '/faq',

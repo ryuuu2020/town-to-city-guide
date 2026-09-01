@@ -106,7 +106,8 @@ gtag('config', 'G-5QV5VL08HX');`}
             <Link href="/about" className="hover:text-blueprint-accent transition-colors">About</Link>
             <Link href="/faq" className="hover:text-blueprint-accent transition-colors">FAQ</Link>
             <Link href="/privacy" className="hover:text-blueprint-accent transition-colors">Privacy</Link>
-            <a href="mailto:sonic6640@gmail.com" className="hover:text-blueprint-accent transition-colors">Contact: sonic6640@gmail.com</a>
+            <Link href="/contact" className="hover:text-blueprint-accent transition-colors">Contact</Link>
+            <a href="mailto:sonic6640@gmail.com" className="hover:text-blueprint-accent transition-colors">Email: sonic6640@gmail.com</a>
             <Link href="/terms" className="hover:text-blueprint-accent transition-colors">Terms</Link>
             
           </div>
