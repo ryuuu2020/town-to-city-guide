@@ -231,7 +231,7 @@ export default function VillagerHappinessPage() {
           <h2 className="text-xl font-semibold text-ink mb-4">Related Guides</h2>
           <ul className="space-y-2">
             <li>
-              <Link href="/production-chain" className="text-accent hover:underline text-sm">
+              <Link href="/production-chain-guide" className="text-accent hover:underline text-sm">
                 Production Chain Guide — Maximize resource efficiency
               </Link>
             </li>

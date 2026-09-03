@@ -422,7 +422,7 @@ export default function Page() {
         <section className="mb-12">
           <h2 className="font-display text-2xl font-bold text-blueprint-text mb-4">Related Guides</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <Link href="/city-layout" className="bluepr-card block hover:border-blueprint-accent">
+            <Link href="/layouts" className="bluepr-card block hover:border-blueprint-accent">
               <div className="font-display font-semibold text-blueprint-text">City Layout Guide</div>
               <div className="text-sm text-blueprint-muted mt-1">Grid-less layouts that scale without pathfinding spikes.</div>
             </Link>

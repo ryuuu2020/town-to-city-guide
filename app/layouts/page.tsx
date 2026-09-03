@@ -91,8 +91,18 @@ export default function LayoutsPage() {
             <div className="tip-box">
               <strong>Leave room for expansion.</strong> Farms Tier 3 doubles surface area. Warehouse transport ranges need to cover growing districts. Plan layouts with future growth in mind rather than maximizing initial density.
             </div>
+            <div className="tip-box">
+              <strong>Do not outrun your service coverage.</strong> Every shop, Town Hall and Research Center only pays off inside its walking/transport range. Expanding into new districts that sit outside that coverage costs you more citizen happiness than the new plots add &mdash; extend coverage first, then density.
+            </div>
           </div>
         </section>
+
+        <p className="text-xs text-blueprint-muted italic">
+          Last updated: 4 September 2026. This page is now the single layout reference for the site &mdash; the separate
+          &ldquo;best city layout&rdquo; page (4-lane boulevards, industrial downwind zoning) described a snap-to-grid
+          city builder, not Town to City&apos;s grid-less model, so its URL redirects here without its claims being
+          carried over.
+        </p>
       </div>
     </div>
   );

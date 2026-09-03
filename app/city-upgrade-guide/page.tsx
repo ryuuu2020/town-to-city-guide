@@ -209,11 +209,11 @@ export default function CityUpgradeGuidePage() {
           <div className="bg-gray-800 border border-gray-700 rounded-sm p-5">
             <h3 className="text-xl font-semibold text-gray-100 mb-3">Related Guides</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="/beginner-walkthrough" className="text-blue-400 hover:underline">Beginner Walkthrough</a></li>
+              <li><a href="/beginner-colony-guide" className="text-blue-400 hover:underline">Beginner Colony Guide</a></li>
               <li><a href="/citizen-happiness-guide" className="text-blue-400 hover:underline">Citizen Happiness Guide</a></li>
               <li><a href="/population-guide" className="text-blue-400 hover:underline">Population Guide</a></li>
               <li><a href="/economy" className="text-blue-400 hover:underline">Economy Guide</a></li>
-              <li><a href="/city-layout" className="text-blue-400 hover:underline">City Layout Guide</a></li>
+              <li><a href="/layouts" className="text-blue-400 hover:underline">City Layouts &amp; Planning</a></li>
               <li><a href="/buildings" className="text-blue-400 hover:underline">Buildings Guide</a></li>
             </ul>
           </div>

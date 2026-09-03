@@ -28,6 +28,21 @@
       ],
       "destination": "https://towntocityguide.wiki/$1",
       "permanent": true
+    },
+    {
+      "source": "/production-chain",
+      "destination": "/production-chain-guide",
+      "permanent": true
+    },
+    {
+      "source": "/beginner-walkthrough",
+      "destination": "/beginner-colony-guide",
+      "permanent": true
+    },
+    {
+      "source": "/city-layout",
+      "destination": "/layouts",
+      "permanent": true
     }
   ],
   "cleanUrls": true

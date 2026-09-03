@@ -65,7 +65,7 @@ export default function IndustryChainsPage() {
         <h3 className="font-display text-lg text-ink mb-2">Related Guides</h3>
         <ul className="space-y-1">
           <li><Link href="/economy" className="text-accent hover:underline">Economy Guide</Link></li>
-          <li><Link href="/production-chain" className="text-accent hover:underline">Production Chains</Link></li>
+          <li><Link href="/production-chain-guide" className="text-accent hover:underline">Production Chains</Link></li>
           <li><Link href="/trade" className="text-accent hover:underline">Trading Guide</Link></li>
           <li><Link href="/resources" className="text-accent hover:underline">Resources Guide</Link></li>
         </ul>

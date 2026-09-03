@@ -47,6 +47,14 @@ export default function BeginnerColonyGuidePage() {
           <section>
             <h2 className="font-display text-2xl font-semibold text-ink mb-4">Day 1 — First Buildings and Settler Assignment</h2>
             <p className="text-ink-light leading-relaxed mb-3">
+              Map choice comes before the first building. For your first settlement pick a
+              <strong className="text-ink"> Plains</strong> map with <strong className="text-ink">river</strong>
+              access: flat terrain and abundant fertile soil make the early build order forgiving, while Mountain
+              and Desert maps demand resource-management skill you have not needed yet. Look for a start position
+              with forest tiles and stone deposits close to each other — short hauls in the first days are worth
+              more than a slightly prettier location.
+            </p>
+            <p className="text-ink-light leading-relaxed mb-3">
               You start with 5 settlers, a cart of basic supplies (200 timber, 50 food), and a procedurally generated map tile. Pause the game immediately and survey the area. Look for dense forest (dark green on the terrain overlay), rocky outcroppings for stone, and fertile soil (dark brown tiles with grass). Water proximity is valuable but not essential — you can dig wells anywhere, but a natural river gives free fishing and water access.
             </p>
             <p className="text-ink-light leading-relaxed mb-3">
@@ -88,6 +96,22 @@ export default function BeginnerColonyGuidePage() {
                 </tbody>
               </table>
             </div>
+          </section>
+
+          <section>
+            <h2 className="font-display text-2xl font-semibold text-ink mb-4">Plot Roads Before You Place Buildings</h2>
+            <p className="text-ink-light leading-relaxed mb-3">
+              Roads are not an afterthought in Town to City — they are the constraint every other system runs on.
+              Workers move along your road network, and caravan trade only reaches buildings that touch a road, so a
+              Market Stall placed off the main road simply will not trade. Lay the spine of your road grid first, then
+              place buildings against it, rather than dropping buildings and back-filling paths.
+            </p>
+            <p className="text-ink-light leading-relaxed">
+              Upgrading the roads on your busiest links pays for itself: a stone road between your storage buildings
+              and your processing district cuts worker travel time (roughly 40% versus a dirt path), the same lever
+              described in the <a href="/production-chain-guide" className="text-accent hover:underline">Production Chain Guide</a>.
+              The rule that keeps a colony fed keeps a city rich — shorten the walk, not the building count.
+            </p>
           </section>
 
           <section>
@@ -178,7 +202,7 @@ export default function BeginnerColonyGuidePage() {
             </div>
           </section>
 
-          <p className="text-sm text-ink-faded mt-8 italic">Last updated: June 2026. Guide reflects Town to City version 2.4 standard difficulty settings.</p>
+          <p className="text-sm text-ink-faded mt-8 italic">Last updated: 4 September 2026. This page now also carries the map-choice and road-layout guidance previously published on a separate beginner walkthrough, whose URL redirects here.</p>
         </div>
 
         <aside className="lg:w-[30%] space-y-6">
@@ -189,6 +213,7 @@ export default function BeginnerColonyGuidePage() {
               <li><a href="/buildings" className="text-accent hover:underline">Complete Buildings Guide</a></li>
               <li><a href="/resource-management" className="text-accent hover:underline">Resource Management Guide</a></li>
               <li><a href="/villager-happiness" className="text-accent hover:underline">Settler Happiness & Migration</a></li>
+              <li><a href="/layouts" className="text-accent hover:underline">City Layouts & Planning</a></li>
             </ul>
           </div>
 

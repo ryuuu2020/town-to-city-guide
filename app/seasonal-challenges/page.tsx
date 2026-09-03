@@ -184,7 +184,7 @@ export default function SeasonalChallengesPage() {
       <section className="mb-10">
         <h2 className="text-xl font-heading font-bold text-ink mb-3">Related Guides</h2>
         <div className="flex flex-wrap gap-3 text-sm">
-          <a href="/production-chain" className="text-accent hover:underline">Production Chains</a>
+          <a href="/production-chain-guide" className="text-accent hover:underline">Production Chains</a>
           <a href="/resource-management" className="text-accent hover:underline">Resource Management</a>
           <a href="/citizens" className="text-accent hover:underline">Citizens Guide</a>
           <a href="/economy" className="text-accent hover:underline">Economy Guide</a>

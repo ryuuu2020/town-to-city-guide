@@ -234,7 +234,7 @@ export default function BestBuildingsPage() {
               <div className="font-display font-semibold text-blueprint-text">Citizens Guide</div>
               <div className="text-sm text-blueprint-muted mt-1">Worker, Artisan, and Bourgeoisie needs and job assignments.</div>
             </Link>
-            <Link href="/city-layout" className="bluepr-card block hover:border-blueprint-accent">
+            <Link href="/layouts" className="bluepr-card block hover:border-blueprint-accent">
               <div className="font-display font-semibold text-blueprint-text">City Layout Guide</div>
               <div className="text-sm text-blueprint-muted mt-1">Districts, roads, and grid-less placement strategies.</div>
             </Link>

@@ -2,7 +2,9 @@ import Link from 'next/link';
 
 export const metadata = {
   alternates: {
-    canonical: "https://towntocityguide.wiki",
+    // 站点根路径的实际形式就是带斜杠的 "/"；首页 canonical / sitemap <loc> / WebSite schema
+    // 三处必须逐字相同，否则 Google 会在镜像域与主域之间另选 canonical。
+    canonical: "https://towntocityguide.wiki/",
   },
   title: 'Town to City Guide — Complete City Builder Guide 2026',
   description: 'Free Town to City guide covering buildings, layouts, resources, citizens, economy, research, trade, and tips. Master this cozy Mediterranean city builder from Galaxy Grove.',
@@ -60,6 +62,27 @@ const featureCards = [
     desc: 'Worker, Artisan, Bourgeoisie tiers explained. Happiness, families, pets, and population growth.',
     href: '/citizens',
     tag: 'Guide',
+    color: 'green' as const,
+  },
+  {
+    title: 'Production Chain Guide',
+    desc: 'Every crop-to-goods chain mapped, with Granary placement rules and the six bottlenecks that stall output.',
+    href: '/production-chain-guide',
+    tag: 'Deep Dive',
+    color: 'orange' as const,
+  },
+  {
+    title: 'Building Tier List',
+    desc: 'Every building ranked S to C with unlock conditions, worker needs, and strategic value.',
+    href: '/tier-list',
+    tag: 'Ranking',
+    color: 'blue' as const,
+  },
+  {
+    title: 'First Colony Setup',
+    desc: 'Day 1 build order, food buffers, settler assignment, and the first trade route before winter.',
+    href: '/beginner-colony-guide',
+    tag: 'Early Game',
     color: 'green' as const,
   },
 ];

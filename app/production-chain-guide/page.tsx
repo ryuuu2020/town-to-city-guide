@@ -477,10 +477,46 @@ export default function ProductionChainGuidePage() {
               </div>
             </section>
 
+            {/* Section 7: Chain Diagnosis — merged from the former /production-chain page */}
+            <section>
+              <h2 className="font-display text-2xl font-semibold text-blueprint-text mb-4">
+                7. Diagnosing a Broken Chain Before You Build Anything
+              </h2>
+              <p className="text-blueprint-muted leading-relaxed mb-4">
+                Most players react to a stalled chain by building another processing building. That is usually the wrong move. Select the building that is under-producing and read its efficiency figure — well below the 80% range is the signal that the problem is upstream or downstream, not inside the building itself. A farm whose wheat rots in the field before the Granary collects it, or a Bakery whose output shelf is full, are both &ldquo;broken chain&rdquo; failures; the fix is different in each case.
+              </p>
+              <div className="bluepr-card space-y-3">
+                <div>
+                  <strong className="text-blueprint-accent">Trace upstream first.</strong>
+                  <span className="text-blueprint-muted text-sm block mt-1">
+                    If the building is idle waiting on inputs, the shortfall is in the raw-material link: more farm plots, a closer Granary, or more collection workers. Players consistently under-produce raw materials relative to processing capacity, so this is the most common failure direction.
+                  </span>
+                </div>
+                <div>
+                  <strong className="text-blueprint-accent">A full output shelf is a downstream blockage.</strong>
+                  <span className="text-blueprint-muted text-sm block mt-1">
+                    If inputs are consumed but output does not move, add storage or the next processing step — not another producer. Building a second Bakery when the first one cannot offload bread just doubles the blockage.
+                  </span>
+                </div>
+                <div>
+                  <strong className="text-blueprint-accent">One large processing building usually beats several small ones.</strong>
+                  <span className="text-blueprint-muted text-sm block mt-1">
+                    Fixed overhead (building upkeep, base staffing) is spread over more units at scale. The exception is geography: if your fields are scattered and transport distance eats the scale gain, split the load across smaller buildings placed inside each cluster.
+                  </span>
+                </div>
+                <div>
+                  <strong className="text-blueprint-accent">Perishables set the transport priority.</strong>
+                  <span className="text-blueprint-muted text-sm block mt-1">
+                    Food chains need the shortest, fastest routes — a crop that rots before reaching the Granary funds nothing. Goods that do not spoil can use slower, higher-capacity routing, so spend road upgrades on food links first.
+                  </span>
+                </div>
+              </div>
+            </section>
+
             {/* Verification */}
             <section>
               <p className="font-body text-xs text-blueprint-muted italic">
-                Production chain data verified against in-game requirements, the official Town to City Steam store page, community testing reports, and farming tier progression charts. All crop input quantities and building unlock conditions reflect the current Early Access build as of June 2026.
+                Production chain data verified against in-game requirements, the official Town to City Steam store page, community testing reports, and farming tier progression charts. All crop input quantities and building unlock conditions reflect the current Early Access build as of June 2026. This page absorbed the former /production-chain guide on 2026-09-04; that URL now redirects here.
               </p>
             </section>
 

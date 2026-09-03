@@ -174,7 +174,7 @@ export default function BeginnerWalkthroughPage() {
               <li><a href="/beginner-colony-guide" className="text-accent hover:underline">Beginner Colony Guide</a></li>
               <li><a href="/production-chain-guide" className="text-accent hover:underline">Production Chain Guide</a></li>
               <li><a href="/resource-management" className="text-accent hover:underline">Resource Management</a></li>
-              <li><a href="/city-layout" className="text-accent hover:underline">City Layout Guide</a></li>
+              <li><a href="/layouts" className="text-accent hover:underline">City Layout Guide</a></li>
               <li><a href="/faq" className="text-accent hover:underline">FAQ</a></li>
             </ul>
           </div>

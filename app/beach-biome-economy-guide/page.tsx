@@ -444,11 +444,11 @@ export default function Page() {
               <div className="font-display font-semibold text-blueprint-text">Economy &amp; Income Guide</div>
               <div className="text-sm text-blueprint-muted mt-1">Tax, trade, and tourism revenue at every citizen tier.</div>
             </Link>
-            <Link href="/production-chain" className="bluepr-card block hover:border-blueprint-accent">
+            <Link href="/production-chain-guide" className="bluepr-card block hover:border-blueprint-accent">
               <div className="font-display font-semibold text-blueprint-text">Production Chain Guide</div>
               <div className="text-sm text-blueprint-muted mt-1">Italian food chain and other multi-step production lines.</div>
             </Link>
-            <Link href="/city-layout" className="bluepr-card block hover:border-blueprint-accent">
+            <Link href="/layouts" className="bluepr-card block hover:border-blueprint-accent">
               <div className="font-display font-semibold text-blueprint-text">City Layout Guide</div>
               <div className="text-sm text-blueprint-muted mt-1">Grid-less layouts that scale without pathfinding spikes.</div>
             </Link>

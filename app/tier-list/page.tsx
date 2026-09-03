@@ -609,7 +609,7 @@ export default function TierListPage() {
                   <h4 className="font-display text-sm font-semibold text-blueprint-text group-hover:text-blueprint-accent transition-colors">Complete Buildings Reference</h4>
                   <p className="font-body text-xs text-blueprint-muted mt-1">Every building type with categories, inputs, and descriptions</p>
                 </a>
-                <a href="/production-chain" className="block p-3 rounded-md bg-blueprint-alt/50 hover:bg-blueprint-alt transition-colors group">
+                <a href="/production-chain-guide" className="block p-3 rounded-md bg-blueprint-alt/50 hover:bg-blueprint-alt transition-colors group">
                   <h4 className="font-display text-sm font-semibold text-blueprint-text group-hover:text-blueprint-accent transition-colors">Production Chain Guide</h4>
                   <p className="font-body text-xs text-blueprint-muted mt-1">Crop-to-product flow from farms to finished goods</p>
                 </a>
@@ -621,7 +621,7 @@ export default function TierListPage() {
                   <h4 className="font-display text-sm font-semibold text-blueprint-text group-hover:text-blueprint-accent transition-colors">Research Tech Tree</h4>
                   <p className="font-body text-xs text-blueprint-muted mt-1">Optimal unlock order and research priorities</p>
                 </a>
-                <a href="/city-layout" className="block p-3 rounded-md bg-blueprint-alt/50 hover:bg-blueprint-alt transition-colors group">
+                <a href="/layouts" className="block p-3 rounded-md bg-blueprint-alt/50 hover:bg-blueprint-alt transition-colors group">
                   <h4 className="font-display text-sm font-semibold text-blueprint-text group-hover:text-blueprint-accent transition-colors">City Layout Guide</h4>
                   <p className="font-body text-xs text-blueprint-muted mt-1">Zoning, road design, and district planning</p>
                 </a>
