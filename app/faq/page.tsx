@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   alternates: {
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
   description: 'Common questions about Town to City: grid-less building, citizen tiers, farming, trade routes, and research.',
 };
 
-const faqItems = [
+const faqItems: { question: string; answer: string; tags: string[]; link?: { href: string; label: string } }[] = [
   {
     question: 'How does grid-less building work in Town to City?',
     answer: 'Town to City is a grid-less city builder. Unlike traditional city builders that lock you to a square or hex grid, buildings can be freely placed anywhere. You can rotate and offset structures, create winding streets, and place each element with pixel precision. This allows for organic, Mediterranean-style town layouts rather than grid-aligned blocks.',
@@ -59,11 +60,64 @@ const faqItems = [
     answer: 'Minimum: Windows 10 64-bit, Intel i5-10600K or AMD Ryzen 5 3600X, 8GB RAM, GTX 960 or RX 570. Recommended: Intel i7-11700K or AMD Ryzen 7 5700, 16GB RAM, RTX 2060 or RX 5700 XT. The game requires 3GB storage and DirectX 12.',
     tags: ['blue'],
   },
+  {
+    question: 'When did Town to City come out?',
+    answer: 'Town to City released on May 26, 2026 on Steam for Windows PC.',
+    tags: ['blue'],
+  },
+  {
+    question: 'How much does Town to City cost?',
+    answer: 'The Steam store lists Town to City at $29.99 USD (checked September 4, 2026, with no discount active). Sales come and go, so confirm the current price on the store page before buying.',
+    tags: ['blue'],
+  },
+  {
+    question: 'Is Town to City on Xbox, PS5, Switch, or mobile?',
+    answer: 'No console or mobile edition exists. Town to City is sold on Steam for Windows PC only — the store listing offers no Mac or Linux builds either, and there is no Xbox, PlayStation, or Switch version.',
+    tags: ['blue'],
+  },
+  {
+    question: 'Is Town to City single-player or multiplayer?',
+    answer: 'Single-player only. The Steam store listing marks Town to City as a single-player game with no multiplayer or co-op modes.',
+    tags: ['blue'],
+  },
+  {
+    question: 'How do I get Artisans in Town to City?',
+    answer: 'Artisans are the second citizen tier. A Worker family upgrades to Artisan once its basic needs are met — food access and market access — along with general town progress. Watch the labor trade-off: an upgraded Artisan leaves its Worker job slot empty, so balance your tier ratios before upgrading families in bulk.',
+    tags: ['orange'],
+    link: { href: '/citizens', label: 'citizen tiers and needs in detail' },
+  },
+  {
+    question: 'How do I upgrade houses?',
+    answer: 'Houses upgrade through the same three tiers as your citizens — Worker Houses, Artisan Houses, and Bourgeoisie Houses. Each upgrade requires meeting the specific needs of the current tier first, so happiness management is the gate. After upgrading, keep labor priority in mind: higher-tier citizens stop filling lower-tier job slots.',
+    tags: ['green'],
+    link: { href: '/citizens', label: 'housing and tier requirements' },
+  },
+  {
+    question: 'How many maps or regions does Town to City have?',
+    answer: 'The default map setup provides three regions: Belvau (the main hub for housing, administration, and research), Fontebrac (agriculture), and Rocemarée (tourism). You start in Belvau and expand outward, connecting the regions with trade and travel routes.',
+    tags: ['green'],
+    link: { href: '/layouts', label: 'multi-town planning' },
+  },
+  {
+    question: 'Why does Town to City lag or drop frames?',
+    answer: 'Late-game density is the usual culprit. Player-reported benchmarks show dense cities with 500+ citizens dropping well below 60 FPS even on flagship hardware, and complaints start before the late game on weaker GPUs. Lower citizen counts, borderless window mode, and a fixed FPS cap all help — the performance guide lists the settings that matter plus the July 2026 optimization patch roadmap.',
+    tags: ['orange'],
+    link: { href: '/performance-optimization', label: 'fixes for FPS drops and lag' },
+  },
 ];
 
 export default function FAQPage() {
   return (
     <div className="min-h-screen bg-blueprint-bg">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqItems.map(({ question, answer }) => ({
+          '@type': 'Question',
+          name: question,
+          acceptedAnswer: { '@type': 'Answer', text: answer },
+        })),
+      }) }} />
       <div className="max-w-5xl mx-auto px-6 py-12">
 
         <div className="text-sm text-blueprint-muted mb-8">
@@ -91,6 +145,7 @@ export default function FAQPage() {
               </h3>
               <p className="text-blueprint-muted leading-relaxed">
                 {item.answer}
+                {item.link ? <> See our <Link href={item.link.href} className="text-blueprint-accent hover:underline">{item.link.label}</Link>.</> : null}
               </p>
             </div>
           ))}
@@ -99,7 +154,7 @@ export default function FAQPage() {
         <div className="tip-box mb-16">
           <p className="font-semibold text-blueprint-text mb-1">Still have a question?</p>
           <p className="text-blueprint-muted leading-relaxed">
-            Check the Beginner&apos;s Guide, Crops & Farming, and Buildings pages for deeper dives into specific systems.
+            Check the Beginner&apos;s Guide, Crops &amp; Farming, and Buildings pages for deeper dives into specific systems. Every revision to this FAQ and the other guides is dated and logged on the <Link href="/updates" className="text-blueprint-accent hover:underline">guide updates page</Link>.
           </p>
         </div>
 

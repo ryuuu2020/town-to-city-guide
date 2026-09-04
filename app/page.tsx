@@ -22,6 +22,7 @@ const navItems = [
   { label: 'Research', href: '/research' },
   { label: 'Trade', href: '/trade' },
   { label: 'FAQ', href: '/faq' },
+  { label: 'Updates', href: '/updates' },
 ];
 
 const featureCards = [
@@ -300,6 +301,7 @@ export default function HomePage() {
           <div className="flex flex-wrap justify-center gap-6 mb-4">
             <Link href="/about" className="hover:text-blueprint-accent transition-colors">About</Link>
             <Link href="/faq" className="hover:text-blueprint-accent transition-colors">FAQ</Link>
+            <Link href="/updates" className="hover:text-blueprint-accent transition-colors">Updates</Link>
             <Link href="/privacy" className="hover:text-blueprint-accent transition-colors">Privacy</Link>
             <Link href="/terms" className="hover:text-blueprint-accent transition-colors">Terms</Link>
             

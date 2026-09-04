@@ -49,6 +49,7 @@ const ROUTES: { path: string; lastmod: string }[] = [
   { path: '/tier-list', lastmod: '2026-08-25' },
   { path: '/trade', lastmod: '2026-08-25' },
   { path: '/traffic-management', lastmod: '2026-08-25' },
+  { path: '/updates', lastmod: '2026-09-04' },
   { path: '/villager-happiness', lastmod: '2026-08-25' },
 ];
 

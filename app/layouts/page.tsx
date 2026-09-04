@@ -25,6 +25,46 @@ export default function LayoutsPage() {
           Town to City breaks free from the grid. Buildings can be freely placed, rotated, and arranged organically. Here is how to plan your towns for beauty and efficiency.
         </p>
 
+        {/* At a Glance */}
+        <section className="bluepr-card mb-8">
+          <h2 className="font-display text-2xl font-bold text-blueprint-text mb-2">Layout Planning at a Glance</h2>
+          <p className="text-blueprint-muted leading-relaxed mb-4">
+            Every layout decision on this page comes back to five levers. The detailed sections below explain each one.
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-blueprint-alt text-left">
+                  <th className="p-3 font-semibold">Lever</th>
+                  <th className="p-3 font-semibold">What It Controls</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-blueprint-border">
+                  <td className="p-3 font-medium whitespace-nowrap">Building placement</td>
+                  <td className="p-3 text-blueprint-muted">No snap-to-grid — angle and position every structure for organic streets and clustered plazas.</td>
+                </tr>
+                <tr className="border-t border-blueprint-border">
+                  <td className="p-3 font-medium whitespace-nowrap">Service coverage</td>
+                  <td className="p-3 text-blueprint-muted">Shops, Town Hall, and the Research Center only pay off inside their walking/transport range — extend coverage first, then density.</td>
+                </tr>
+                <tr className="border-t border-blueprint-border">
+                  <td className="p-3 font-medium whitespace-nowrap">Beauty</td>
+                  <td className="p-3 text-blueprint-muted">Drives happiness, attracts higher-tier citizens, and boosts tourism income — an economic lever, not decoration.</td>
+                </tr>
+                <tr className="border-t border-blueprint-border">
+                  <td className="p-3 font-medium whitespace-nowrap">Terraforming</td>
+                  <td className="p-3 text-blueprint-muted">Elevation, water, and terrain tools — plan major projects before placing expensive buildings.</td>
+                </tr>
+                <tr className="border-t border-blueprint-border">
+                  <td className="p-3 font-medium whitespace-nowrap">Multi-town network</td>
+                  <td className="p-3 text-blueprint-muted">Three regions, each specialized, connected by trade and transport routes.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
         {/* Grid-Less Philosophy */}
         <section className="bluepr-card mb-8">
           <h2 className="font-display text-2xl font-bold text-blueprint-text mb-4">The Grid-Less Philosophy</h2>
@@ -73,6 +113,28 @@ export default function LayoutsPage() {
           <p className="text-blueprint-text leading-relaxed">
             Specialize each town for a clear economic purpose. Connect them with trade routes and transport links. A well-planned network of specialized towns generates more income than a single sprawling city. The research tree benefits all connected towns, so centralize research in your main hub.
           </p>
+        </section>
+
+        {/* Choose Your Layout Goal */}
+        <section className="bluepr-card mb-8">
+          <h2 className="font-display text-2xl font-bold text-blueprint-text mb-2">Choose Your Layout Goal</h2>
+          <p className="text-blueprint-muted leading-relaxed mb-4">
+            Three planning goals cover most towns. Pick one goal for each district — or each region — instead of chasing all three at once.
+          </p>
+          <div className="grid md:grid-cols-3 gap-4">
+            <div className="tip-box">
+              <strong>🏘️ The Organic Old Town</strong>
+              <p className="text-sm mt-1">Cluster housing around plazas, let streets wind, and check the result in first-person view. Beauty adjacency rewards decoration placed between houses, not in a far-off park district.</p>
+            </div>
+            <div className="tip-box">
+              <strong>🌊 The Tourist Coast</strong>
+              <p className="text-sm mt-1">Develop the waterfront: Hotels, the Lighthouse, and attractions along the shoreline of Rocemarée. Terraform water features and elevation first — scenic terrain multiplies the tourism payoff.</p>
+            </div>
+            <div className="tip-box">
+              <strong>🚚 The Working Network</strong>
+              <p className="text-sm mt-1">Dedicate Fontebrac to farming, keep granaries and warehouses inside transport range, and connect everything with trade routes. Leave room — Tier 3 farms double their surface area.</p>
+            </div>
+          </div>
         </section>
 
         {/* Layout Strategies */}

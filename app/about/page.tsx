@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   alternates: {
@@ -110,6 +111,19 @@ export default function AboutPage() {
             <p className="text-blueprint-muted leading-relaxed">
               The guide currently spans eight major topic areas, each with dedicated pages that go deep on mechanics and strategy. The Beginner&apos;s Guide walks new players through the first hour with an exact build order and UI walkthrough. The Buildings page catalogs every structure in the game with resource costs, requirements, and placement tips. Citizens covers tier progression, happiness management, couples, pets, and hidden quests. Resources maps out production chains, raw material management, and supply chain optimization. The Economy page details taxation, gold management, marketplace dynamics, and trade profitability. Research breaks down all 22 tech tree nodes with priority rankings. Tips and Tricks collects 15 battle-tested strategies that experienced players use. And Layouts explains the three-zone planning system and beauty adjacency mechanics.
             </p>
+          </div>
+        </section>
+
+        {/* How This Guide Is Made */}
+        <section className="mb-16">
+          <div className="tip-box">
+            <h2 className="font-display text-xl font-semibold text-blueprint-text mb-3">How This Guide Is Made</h2>
+            <ul className="list-disc list-inside space-y-2 text-sm text-blueprint-muted leading-relaxed">
+              <li><strong className="text-blueprint-text">The game comes first.</strong> Every factual claim traces back to gameplay in Town to City or the official Steam store listing — building costs, unlock requirements, citizen needs, and system specs are checked against the shipped game, not summarized from secondhand posts.</li>
+              <li><strong className="text-blueprint-text">Uncertainty is labeled, not hidden.</strong> When something cannot be confirmed — a mechanic nobody has tested, a number that differs between reports — pages say so instead of printing a guess.</li>
+              <li><strong className="text-blueprint-text">Revisions are public.</strong> Every guide revision is dated and logged on our <Link href="/updates" className="text-blueprint-accent hover:underline">guide updates page</Link>, so you can check how current any page is before trusting it.</li>
+              <li><strong className="text-blueprint-text">Readers keep us honest.</strong> Spotted something wrong or outdated? <Link href="/contact" className="text-blueprint-accent hover:underline">Send a correction</Link> — verified fixes land quickly and get logged.</li>
+            </ul>
           </div>
         </section>
 

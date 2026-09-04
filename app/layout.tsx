@@ -40,6 +40,7 @@ const NAV_ITEMS = [
   { label: 'Trade', href: '/trade' },
   { label: 'Beginner Guide', href: '/beginners' },
   { label: 'FAQ', href: '/faq' },
+  { label: 'Updates', href: '/updates' },
 ];
 
 export default function RootLayout({
@@ -107,6 +108,7 @@ gtag('config', 'G-5QV5VL08HX');`}
           <div className="flex flex-wrap justify-center gap-6 mb-4">
             <Link href="/about" className="hover:text-blueprint-accent transition-colors">About</Link>
             <Link href="/faq" className="hover:text-blueprint-accent transition-colors">FAQ</Link>
+            <Link href="/updates" className="hover:text-blueprint-accent transition-colors">Updates</Link>
             <Link href="/privacy" className="hover:text-blueprint-accent transition-colors">Privacy</Link>
             <Link href="/contact" className="hover:text-blueprint-accent transition-colors">Contact</Link>
             <a href="mailto:sonic6640@gmail.com" className="hover:text-blueprint-accent transition-colors">Email: sonic6640@gmail.com</a>

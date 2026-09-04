@@ -46,6 +46,43 @@ export default function CitizensPage() {
             Town to City features a tiered citizen system where families progress from Workers through Artisans to Bourgeoisie. Each tier unlocks new building types, job slots, and demands different goods and services.
           </p>
 
+          {/* Progression at a Glance */}
+          <div className="bluepr-card mb-6">
+            <h3 className="font-display text-lg font-semibold text-blueprint-text mb-4">Citizen Progression at a Glance</h3>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-blueprint-alt text-left">
+                    <th className="p-3 font-semibold">Tier</th>
+                    <th className="p-3 font-semibold">Jobs They Fill</th>
+                    <th className="p-3 font-semibold">What They Demand</th>
+                    <th className="p-3 font-semibold">Upgrade Requirement</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-t border-blueprint-border">
+                    <td className="p-3 font-medium whitespace-nowrap">Worker</td>
+                    <td className="p-3 text-blueprint-muted">Farms, warehouses, basic production</td>
+                    <td className="p-3 text-blueprint-muted">Basic food and market access</td>
+                    <td className="p-3 text-blueprint-muted">→ Artisan: food access, market access, town progress</td>
+                  </tr>
+                  <tr className="border-t border-blueprint-border">
+                    <td className="p-3 font-medium whitespace-nowrap">Artisan</td>
+                    <td className="p-3 text-blueprint-muted">Bakeries, Wineries, Hatteries, Pubs</td>
+                    <td className="p-3 text-blueprint-muted">Better food, apparel, leisure goods</td>
+                    <td className="p-3 text-blueprint-muted">→ Bourgeoisie: luxury goods, public services, high beauty</td>
+                  </tr>
+                  <tr className="border-t border-blueprint-border">
+                    <td className="p-3 font-medium whitespace-nowrap">Bourgeoisie</td>
+                    <td className="p-3 text-blueprint-muted">Advanced buildings, highest tax income</td>
+                    <td className="p-3 text-blueprint-muted">Luxury goods, the Apothecary, high beauty, the Cathedral (Large City)</td>
+                    <td className="p-3 text-blueprint-muted">End tier — the goal is keeping these citizens happy and paying</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
             {citizenTiers.map((ct) => (
               <div key={ct.tier} className="stat-card">
