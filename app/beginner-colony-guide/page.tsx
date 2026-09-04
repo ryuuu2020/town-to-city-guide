@@ -209,6 +209,12 @@ export default function BeginnerColonyGuidePage() {
           <div className="bg-parchment-light border border-ink-faded/20 rounded-sm p-5">
             <h3 className="font-display text-lg font-semibold text-ink mb-3">Related Guides</h3>
             <ul className="space-y-2 text-sm">
+              <li><a href="/best-buildings" className="text-accent hover:underline">Best Buildings Priority Guide</a></li>
+              <li><a href="/citizen-happiness-guide" className="text-accent hover:underline">Citizen Happiness 5-Star Formula</a></li>
+              <li><a href="/seasonal-challenges" className="text-accent hover:underline">Seasonal Challenges Strategy</a></li>
+              <li><a href="/city-upgrade-guide" className="text-accent hover:underline">Settlement Upgrade Guide</a></li>
+              <li><a href="/beach-biome-economy-guide" className="text-accent hover:underline">Beach Biome Economy (Pizza Baker Loop)</a></li>
+              <li><a href="/siege-survival" className="text-accent hover:underline">Siege Survival Guide</a></li>
               <li><a href="/defense-layout" className="text-accent hover:underline">Defense Layout Guide</a></li>
               <li><a href="/buildings" className="text-accent hover:underline">Complete Buildings Guide</a></li>
               <li><a href="/resource-management" className="text-accent hover:underline">Resource Management Guide</a></li>

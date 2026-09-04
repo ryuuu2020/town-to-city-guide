@@ -88,6 +88,48 @@ const featureCards = [
     tag: 'Early Game',
     color: 'green' as const,
   },
+  {
+    title: 'Industry Chains Deep Dive',
+    desc: 'Production lines, supply routes, and economic optimization across every settlement stage.',
+    href: '/industry-chains',
+    tag: 'Deep Dive',
+    color: 'orange' as const,
+  },
+  {
+    title: 'Trade & Routes',
+    desc: 'Trade routes, passive income scaling, and which goods move between settlements profitably.',
+    href: '/trade',
+    tag: 'Economy',
+    color: 'blue' as const,
+  },
+  {
+    title: 'Settlement Upgrades',
+    desc: 'Hamlet to city: every upgrade milestone, its cost, and what to prioritize at each stage.',
+    href: '/city-upgrade-guide',
+    tag: 'Progression',
+    color: 'green' as const,
+  },
+  {
+    title: 'Seasonal Challenges',
+    desc: 'Spring, summer, autumn and winter strategy — what each season changes and how to prepare.',
+    href: '/seasonal-challenges',
+    tag: 'Strategy',
+    color: 'blue' as const,
+  },
+  {
+    title: 'Achievements Guide',
+    desc: 'All achievements with how to unlock them, including the missable and late-game ones.',
+    href: '/achievement-guide',
+    tag: 'Completion',
+    color: 'orange' as const,
+  },
+  {
+    title: 'Beach Biome Economy',
+    desc: 'The pizza baker & trattoria income loop: the strongest early money engine on the coast.',
+    href: '/beach-biome-economy-guide',
+    tag: 'Money',
+    color: 'green' as const,
+  },
 ];
 
 const keyBuildings = [

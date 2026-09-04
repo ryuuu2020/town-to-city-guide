@@ -625,6 +625,22 @@ export default function ProductionChainGuidePage() {
             <div className="bluepr-card">
               <h3 className="font-display text-lg font-semibold text-blueprint-text mb-4">Related Guides</h3>
               <div className="space-y-3">
+                <a href="/industry-chains" className="block p-3 rounded-md bg-blueprint-alt/50 hover:bg-blueprint-alt transition-colors group">
+                  <h4 className="font-display text-sm font-semibold text-blueprint-text group-hover:text-blueprint-accent transition-colors">Industry Chains Deep Dive</h4>
+                  <p className="font-body text-xs text-blueprint-muted mt-1">Production lines, supply routes, and economic optimization across settlement stages</p>
+                </a>
+                <a href="/logistics" className="block p-3 rounded-md bg-blueprint-alt/50 hover:bg-blueprint-alt transition-colors group">
+                  <h4 className="font-display text-sm font-semibold text-blueprint-text group-hover:text-blueprint-accent transition-colors">Trade &amp; Logistics Guide</h4>
+                  <p className="font-body text-xs text-blueprint-muted mt-1">Moving goods between storage, markets, and trade posts without bottlenecks</p>
+                </a>
+                <a href="/trade" className="block p-3 rounded-md bg-blueprint-alt/50 hover:bg-blueprint-alt transition-colors group">
+                  <h4 className="font-display text-sm font-semibold text-blueprint-text group-hover:text-blueprint-accent transition-colors">Trade &amp; Routes Guide</h4>
+                  <p className="font-body text-xs text-blueprint-muted mt-1">Trade routes, passive income scaling, and profitable goods between settlements</p>
+                </a>
+                <a href="/research" className="block p-3 rounded-md bg-blueprint-alt/50 hover:bg-blueprint-alt transition-colors group">
+                  <h4 className="font-display text-sm font-semibold text-blueprint-text group-hover:text-blueprint-accent transition-colors">Research Tree Guide</h4>
+                  <p className="font-body text-xs text-blueprint-muted mt-1">Optimal research order and which unlocks to prioritize</p>
+                </a>
                 <a href="/tier-list" className="block p-3 rounded-md bg-blueprint-alt/50 hover:bg-blueprint-alt transition-colors group">
                   <h4 className="font-display text-sm font-semibold text-blueprint-text group-hover:text-blueprint-accent transition-colors">Building Tier List</h4>
                   <p className="font-body text-xs text-blueprint-muted mt-1">Every building ranked S to C with unlock conditions and strategic value</p>
