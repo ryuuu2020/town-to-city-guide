@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description: 'Complete Town to City guide covering city building, resource management, supply chains, layouts, research tree, citizen happiness tips, and Mediterranean town planning. Free 2026 city builder guide.',
   // 带尾斜杠的 metadataBase：所有相对 URL（og:image 等）都在它之下解析，
   // 与各页面写死的绝对 canonical 不冲突。
-  metadataBase: new URL("https://towntocityguide.wiki/"),
+  metadataBase: new URL("https://towntocityguide.wiki"),
   openGraph: {
     title: 'Town to City Guide',
     description: 'Complete Town to City guide covering city building, resource management, supply chains, layouts, research tree, citizen happiness tips, and Mediterranean town planning.',
@@ -68,7 +68,7 @@ gtag('config', 'G-5QV5VL08HX');`}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: `{"@context": "https://schema.org", "@type": "WebSite", "name": "Town to City Guide", "url": "https://towntocityguide.wiki/"}`
+            __html: `{"@context": "https://schema.org", "@type": "WebSite", "name": "Town to City Guide", "url": "https://towntocityguide.wiki"}`
           }}
         />
 

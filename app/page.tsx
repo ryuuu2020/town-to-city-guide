@@ -2,9 +2,12 @@ import Link from 'next/link';
 
 export const metadata = {
   alternates: {
-    // 站点根路径的实际形式就是带斜杠的 "/"；首页 canonical / sitemap <loc> / WebSite schema
-    // 三处必须逐字相同，否则 Google 会在镜像域与主域之间另选 canonical。
-    canonical: "https://towntocityguide.wiki/",
+    // 首页 canonical / sitemap <loc> / WebSite schema 三处必须逐字相同，
+    // 且一律用**不带尾斜杠**的形式：trailingSlash:false 下 Next 构建会把 canonical 的
+    // 尾斜杠剥掉（线上实测输出 ...wiki 而非 ...wiki/），sitemap 若写带斜杠就与
+    // HTML canonical 打架，Google 会在镜像域干扰下趁机自选 canonical。
+    // cairnguide.wiki 全站不带斜杠、首页正常被索引，即对照样本。
+    canonical: "https://towntocityguide.wiki",
   },
   title: 'Town to City Guide — Complete City Builder Guide 2026',
   description: 'Free Town to City guide covering buildings, layouts, resources, citizens, economy, research, trade, and tips. Master this cozy Mediterranean city builder from Galaxy Grove.',
