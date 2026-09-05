@@ -202,7 +202,7 @@ export default function CityUpgradeGuidePage() {
             </div>
           </section>
 
-          <p className="text-sm text-gray-500 mt-8 italic">Last updated: July 18, 2026. Based on Town to City latest patch. Upgrade requirements tested across all settlement tiers. Independent fan guide, not affiliated with the developer.</p>
+          <p className="text-sm text-gray-500 mt-8 italic">Last updated: July 18, 2026. Based on Town to City latest patch. Upgrade requirements checked against the current patch version. Independent fan guide, not affiliated with the developer.</p>
         </div>
 
         <aside className="lg:w-[30%] space-y-6">

@@ -102,7 +102,7 @@ export default function AboutPage() {
           <div className="bluepr-card">
             <h3 className="font-display text-lg font-semibold text-blueprint-text mb-4">Site Mission</h3>
             <p className="text-blueprint-muted leading-relaxed">
-              Our mission is simple: provide the most accurate Town to City guide available anywhere. Every guide page is written from tested gameplay experience rather than speculation or marketing copy. When we say a tax rate of 15% is optimal, it is because we tested every percentage from 0% to 50% across multiple playthroughs. When we recommend a build order, it is because we ran the first hour of the game dozens of times to find the most reliable sequence. We believe community knowledge should be freely available and permanently accessible: no paywalls, no login requirements, no account needed.
+              Our mission is simple: provide the most accurate Town to City guide available anywhere. Every guide page is checked against the current patch before it ships, so recommendations rest on the systems the game actually runs. When we say a tax rate of 15% is optimal, the page shows the in-game numbers behind that figure and names the patch version it was checked against. When we recommend a build order, it follows the sequence the current patch makes most reliable, and pages say so plainly when a figure comes from player reports rather than official sources. We believe community knowledge should be freely available and permanently accessible: no paywalls, no login requirements, no account needed.
             </p>
           </div>
 

@@ -16,7 +16,7 @@ export default function TrafficManagementPage() {
           <section>
             <h1 className="text-3xl font-bold text-gray-100 mb-4">Town to City Traffic Management Guide | Road Planning &amp; Congestion Avoidance (2026)</h1>
             <p className="text-gray-300 leading-relaxed text-lg">
-              Traffic management is the most critical factor in maintaining a functioning city in Town to City. Poor road planning leads to congestion, which causes delays in goods delivery, reduces citizen happiness, and can completely stall your production chains. As your city grows from a small settlement of "50" citizens to a major city of "2,000" or more, traffic volume increases exponentially. Without proper road planning, your city will grind to a halt before you reach the late game. This guide covers road network design principles, congestion avoidance strategies, logistics optimization techniques, and traffic flow patterns that scale to cities of any size. All strategies are validated against the latest patch and tested in cities with populations exceeding "3,000" citizens.
+              Traffic management is the most critical factor in maintaining a functioning city in Town to City. Poor road planning leads to congestion, which causes delays in goods delivery, reduces citizen happiness, and can completely stall your production chains. As your city grows from a small settlement of "50" citizens to a major city of "2,000" or more, traffic volume increases exponentially. Without proper road planning, your city will grind to a halt before you reach the late game. This guide covers road network design principles, congestion avoidance strategies, logistics optimization techniques, and traffic flow patterns that scale to cities of any size. All strategies are written against the latest patch, and population figures in the examples come from in-game milestones.
             </p>
           </section>
 
@@ -188,7 +188,7 @@ export default function TrafficManagementPage() {
             </div>
           </section>
 
-          <p className="text-sm text-gray-500 mt-8 italic">Last updated: June 2026. Based on Town to City latest patch. Traffic strategies tested in cities with "3,000"+ citizens. Independent fan guide, not affiliated with the developer.</p>
+          <p className="text-sm text-gray-500 mt-8 italic">Last updated: June 2026. Based on Town to City latest patch. Strategies checked against the current patch version. Independent fan guide, not affiliated with the developer.</p>
         </div>
 
         <aside className="lg:w-[30%] space-y-6">
