@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/about",
   },
-  title: 'About | Town to City Guide',
+  title: 'About',
   description: 'About the Town to City Guide, a community-maintained resource covering building guides, beginner tips, trade routes, citizen management, beauty scoring, and research strategies for Town to City by Galaxy Grove.',
   robots: {
     index: true,

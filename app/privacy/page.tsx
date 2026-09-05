@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/privacy",
   },
-  title: 'Privacy Policy | Town to City Guide',
+  title: 'Privacy Policy',
   description: 'Privacy Policy for the Town to City Guide: information about data collection, cookies, third-party services, and how we handle your information.',
   robots: {
     index: true,

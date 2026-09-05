@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/tips",
   },
-  title: 'Tips & Strategies | Town to City Guide',
+  title: 'Tips & Strategies',
   description: 'Practical Town to City tips covering multi-town planning, crop optimization, citizen management, tourism, and warehouse logistics.',
   robots: {
     index: false,

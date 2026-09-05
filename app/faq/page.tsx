@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/faq",
   },
-  title: 'Frequently Asked Questions | Town to City Guide',
+  title: 'Frequently Asked Questions',
   description: 'Common questions about Town to City: grid-less building, citizen tiers, farming, trade routes, and research.',
 };
 
