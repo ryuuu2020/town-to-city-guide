@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const ENTRIES: { date: string; title: string; items: string[] }[] = [
   {
+    date: 'September 5, 2026',
+    title: 'Platform facts corrected',
+    items: [
+      'An earlier version of this guide described Town to City as a Windows-only release. The Steam store API lists Windows, macOS, and Linux builds, so the platform answers now reflect all three.',
+      'Console availability is unchanged: no Xbox, PlayStation, or Switch version is listed anywhere.',
+    ],
+  },
+  {
     date: 'September 4, 2026',
     title: 'Guide hub refresh, URL cleanup, and this changelog',
     items: [

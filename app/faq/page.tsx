@@ -62,7 +62,7 @@ const faqItems: { question: string; answer: string; tags: string[]; link?: { hre
   },
   {
     question: 'When did Town to City come out?',
-    answer: 'Town to City released on May 26, 2026 on Steam for Windows PC.',
+    answer: 'Town to City released on May 26, 2026 on Steam, with Windows, macOS, and Linux builds all included in one purchase.',
     tags: ['blue'],
   },
   {
@@ -72,7 +72,7 @@ const faqItems: { question: string; answer: string; tags: string[]; link?: { hre
   },
   {
     question: 'Is Town to City on Xbox, PS5, Switch, or mobile?',
-    answer: 'No console or mobile edition exists. Town to City is sold on Steam for Windows PC only — the store listing offers no Mac or Linux builds either, and there is no Xbox, PlayStation, or Switch version.',
+    answer: 'No console or mobile edition exists. Town to City is sold on Steam for Windows, macOS, and Linux, and there is no Xbox, PlayStation, or Switch version on any store listing.',
     tags: ['blue'],
   },
   {
