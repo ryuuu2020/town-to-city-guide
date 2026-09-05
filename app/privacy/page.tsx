@@ -4,8 +4,8 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/privacy",
   },
-  title: 'Privacy Policy — Town to City Guide',
-  description: 'Privacy Policy for the Town to City Guide — information about data collection, cookies, third-party services, and how we handle your information.',
+  title: 'Privacy Policy | Town to City Guide',
+  description: 'Privacy Policy for the Town to City Guide: information about data collection, cookies, third-party services, and how we handle your information.',
   robots: {
     index: true,
     follow: true,
@@ -50,7 +50,7 @@ export default function PrivacyPage() {
               <div>
                 <h4 className="font-display text-base font-semibold text-blueprint-text mb-1">Google Analytics</h4>
                 <p className="text-blueprint-muted leading-relaxed">
-                  We use Google Analytics to understand how visitors interact with the site — which pages are most popular, how long readers spend on guide content, and where our traffic originates. Google Analytics uses cookies and similar technologies to collect anonymous usage data, including pages visited, time spent on pages, browser type, device information, and approximate geographic location derived from IP addresses. This data is aggregated and does not identify individual users. You can learn more about how Google handles data at{' '}
+                  We use Google Analytics to understand how visitors interact with the site: which pages are most popular, how long readers spend on guide content, and where our traffic originates. Google Analytics uses cookies and similar technologies to collect anonymous usage data, including pages visited, time spent on pages, browser type, device information, and approximate geographic location derived from IP addresses. This data is aggregated and does not identify individual users. You can learn more about how Google handles data at{' '}
                   <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-blueprint-accent hover:underline">policies.google.com/privacy</a>. To opt out of Google Analytics tracking across all websites, you can install the{' '}
                   <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer" className="text-blueprint-accent hover:underline">Google Analytics Opt-out Browser Add-on</a>.
                 </p>
@@ -72,13 +72,13 @@ export default function PrivacyPage() {
         <section className="mb-16">
           <h2 className="font-display text-2xl font-bold text-blueprint-text mb-2">Cookies</h2>
           <p className="text-blueprint-muted leading-relaxed mb-6">
-            Cookies are small text files placed on your device by websites you visit. The Town to City Guide does not set any first-party cookies. However, our third-party service providers — specifically Google Analytics and Google AdSense — may set cookies through our site for the purposes described above.
+            Cookies are small text files placed on your device by websites you visit. The Town to City Guide does not set any first-party cookies. However, our third-party service providers (specifically Google Analytics and Google AdSense) may set cookies through our site for the purposes described above.
           </p>
 
           <div className="bluepr-card">
             <h3 className="font-display text-lg font-semibold text-blueprint-text mb-4">Managing Cookies</h3>
             <p className="text-blueprint-muted leading-relaxed">
-              Most web browsers allow you to control cookie behavior through their settings. You can configure your browser to block all cookies, delete existing cookies, or notify you when a cookie is being set. Instructions for managing cookies vary by browser — consult your browser&apos;s help documentation for specific steps. Please note that blocking all cookies may affect the functionality of some websites, though the Town to City Guide&apos;s core content and navigation do not require cookies to function. For more detailed information about cookies and how to manage them, visit{' '}
+              Most web browsers allow you to control cookie behavior through their settings. You can configure your browser to block all cookies, delete existing cookies, or notify you when a cookie is being set. Instructions for managing cookies vary by browser. Consult your browser&apos;s help documentation for specific steps. Please note that blocking all cookies may affect the functionality of some websites, though the Town to City Guide&apos;s core content and navigation do not require cookies to function. For more detailed information about cookies and how to manage them, visit{' '}
               <a href="https://www.allaboutcookies.org" target="_blank" rel="noopener noreferrer" className="text-blueprint-accent hover:underline">allaboutcookies.org</a>.
             </p>
           </div>

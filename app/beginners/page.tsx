@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/beginners",
   },
-  title: "Beginner's Guide: Getting Started — Town to City Guide",
+  title: "Beginner's Guide: Getting Started | Town to City Guide",
   description: 'Getting started with Town to City: basic town setup, crop farming, citizen tiers, and essential tips for new players.',
 };
 
@@ -30,7 +30,7 @@ export default function BeginnersPage() {
         <section className="mb-16">
           <h2 className="font-display text-2xl font-bold text-blueprint-text mb-2">Core Concepts</h2>
           <p className="text-blueprint-muted leading-relaxed mb-6">
-            Town to City is a grid-less 19th century Mediterranean city builder from Galaxy Grove, the creators of Station to Station. Unlike traditional city builders, buildings can be freely placed anywhere — there is no grid system. Your goal is to grow a small settlement into a thriving city.
+            Town to City is a grid-less 19th century Mediterranean city builder from Galaxy Grove, the creators of Station to Station. Unlike traditional city builders, buildings can be freely placed anywhere because there is no grid system. Your goal is to grow a small settlement into a thriving city.
           </p>
 
           <div className="bluepr-card">
@@ -59,7 +59,7 @@ export default function BeginnersPage() {
                 <div>
                   <h4 className="font-display text-base font-semibold text-blueprint-text">Crop Farming & Supply Chains</h4>
                   <p className="text-sm text-blueprint-muted leading-relaxed">
-                    Farms grow 13 different crop types across 4 tiers of farm upgrades. Crops feed production buildings — for example, the Bakery needs Corn and Wheat to produce Bread. Plan your crop ratios based on what buildings you want to operate.
+                    Farms grow 13 different crop types across 4 tiers of farm upgrades. Crops feed production buildings. For example, the Bakery needs Corn and Wheat to produce Bread. Plan your crop ratios based on what buildings you want to operate.
                   </p>
                 </div>
               </div>
@@ -68,7 +68,7 @@ export default function BeginnersPage() {
                 <div>
                   <h4 className="font-display text-base font-semibold text-blueprint-text">Multiple Towns & Specialization</h4>
                   <p className="text-sm text-blueprint-muted leading-relaxed">
-                    You can develop multiple towns connected by trade routes. Specialize different towns for different purposes — farming towns (like Fontebrac), tourism towns (like Rocemarée), and your main administrative hub (Belvau).
+                    You can develop multiple towns connected by trade routes. Specialize different towns for different purposes: farming towns (like Fontebrac), tourism towns (like Rocemarée), and your main administrative hub (Belvau).
                   </p>
                 </div>
               </div>
@@ -98,7 +98,7 @@ export default function BeginnersPage() {
               <div>
                 <h4 className="font-display text-base font-semibold text-blueprint-text">3. Start Farming</h4>
                 <p className="text-sm text-blueprint-muted leading-relaxed">
-                  Place Farms and begin growing your first crops: Corn, Wheat, and Grapes. These feed your initial production buildings — Bakery and Winery. Farms upgrade through tiers, unlocking new crop types at each level. Farm surface area doubles at Tier 3.
+                  Place Farms and begin growing your first crops: Corn, Wheat, and Grapes. These feed your initial production buildings: Bakery and Winery. Farms upgrade through tiers, unlocking new crop types at each level. Farm surface area doubles at Tier 3.
                 </p>
               </div>
               <div>
@@ -161,7 +161,7 @@ export default function BeginnersPage() {
               <div>
                 <h4 className="font-display text-base font-semibold text-blueprint-text mb-2">Labor Priority</h4>
                 <p className="text-sm text-blueprint-muted leading-relaxed">
-                  Town to City has a labor priority system. Different citizen tiers are needed for different jobs. Be careful when upgrading — an upgraded Artisan may leave a Worker job slot empty. Balance your tier ratios to maintain essential services.
+                  Town to City has a labor priority system. Different citizen tiers are needed for different jobs. Be careful when upgrading. An upgraded Artisan may leave a Worker job slot empty. Balance your tier ratios to maintain essential services.
                 </p>
               </div>
             </div>
@@ -185,11 +185,11 @@ export default function BeginnersPage() {
               </div>
               <div className="p-3 bg-blueprint-alt rounded-card">
                 <h4 className="font-display text-sm font-semibold text-blueprint-text mb-1">Tier 2: Beeswax, Cotton, Rose</h4>
-                <p className="text-xs text-blueprint-muted">Powers Hattery — your first apparel building</p>
+                <p className="text-xs text-blueprint-muted">Powers Hattery: your first apparel building</p>
               </div>
               <div className="p-3 bg-blueprint-alt rounded-card">
                 <h4 className="font-display text-sm font-semibold text-blueprint-text mb-1">Tier 3: Hops, Potatoes, Tomatoes, Lettuce</h4>
-                <p className="text-xs text-blueprint-muted">Powers Pub — leisure building. Farm surface doubles!</p>
+                <p className="text-xs text-blueprint-muted">Powers Pub: leisure building. Farm surface doubles!</p>
               </div>
               <div className="p-3 bg-blueprint-alt rounded-card">
                 <h4 className="font-display text-sm font-semibold text-blueprint-text mb-1">Tier 4: Pumpkin, Lavender, Medicinal Herbs</h4>
@@ -214,7 +214,7 @@ export default function BeginnersPage() {
                 <div>
                   <h4 className="font-display text-base font-semibold text-blueprint-text">Use Warehouses for Supply Chains</h4>
                   <p className="text-sm text-blueprint-muted leading-relaxed">
-                    Warehouses have a transport range — production buildings within range automatically access stored crops and goods. Place warehouses strategically between farms and processing buildings to minimize logistics issues.
+                    Warehouses have a transport range. Production buildings within range automatically access stored crops and goods. Place warehouses strategically between farms and processing buildings to minimize logistics issues.
                   </p>
                 </div>
               </div>
@@ -223,7 +223,7 @@ export default function BeginnersPage() {
                 <div>
                   <h4 className="font-display text-base font-semibold text-blueprint-text">Specialize Your Towns</h4>
                   <p className="text-sm text-blueprint-muted leading-relaxed">
-                    The default map has three towns: Belvau (main hub), Fontebrac (agriculture), and Rocemarée (tourism). Develop each with a focus — farming in Fontebrac, administration in Belvau, tourism in Rocemarée. Trade routes connect them.
+                    The default map has three towns: Belvau (main hub), Fontebrac (agriculture), and Rocemarée (tourism). Develop each with a focus: farming in Fontebrac, administration in Belvau, tourism in Rocemarée. Trade routes connect them.
                   </p>
                 </div>
               </div>
@@ -250,7 +250,7 @@ export default function BeginnersPage() {
                 <div>
                   <h4 className="font-display text-base font-semibold text-blueprint-text">Plan Crop Ratios</h4>
                   <p className="text-sm text-blueprint-muted leading-relaxed">
-                    Different buildings consume crops at different rates. The Pub requires 75 Hops vs. 25 of each other crop — grow 3x more Hops. Use our Crops &amp; Farming page for detailed building input requirements.
+                    Different buildings consume crops at different rates. The Pub requires 75 Hops vs. 25 of each other crop, so grow 3x more Hops. Use our Crops &amp; Farming page for detailed building input requirements.
                   </p>
                 </div>
               </div>

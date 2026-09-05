@@ -2,9 +2,9 @@ import type { MetadataRoute } from 'next';
 
 export const dynamic = 'force-static';
 
-// 唯一站点 URL 前缀 —— 与每个页面 metadata.alternates.canonical 完全一致。
+// 唯一站点 URL 前缀，与每个页面 metadata.alternates.canonical 完全一致。
 // 尾斜杠策略：next.config.mjs 里 trailingSlash: false，所以子页面一律不带尾斜杠；
-// 首页也写不带斜杠的 `${BASE}` —— Next 构建会把 canonical 的尾斜杠剥掉，
+// 首页也写不带斜杠的 `${BASE}`，Next 构建会把 canonical 的尾斜杠剥掉，
 // sitemap <loc> 必须与线上 HTML canonical 逐字一致（cairn 即此形式且首页被索引）。
 const BASE = 'https://towntocityguide.wiki';
 

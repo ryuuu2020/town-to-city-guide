@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://towntocityguide.wiki/updates',
   },
-  title: 'Guide Updates — Changelog of Every Revision',
+  title: 'Guide Updates | Changelog of Every Revision',
   description: 'Every revision to Town to City Guide, dated: new guides, corrected facts, merged pages, and site changes. See at a glance how current the guide is.',
 };
 
@@ -25,7 +25,7 @@ const ENTRIES: { date: string; title: string; items: string[] }[] = [
       'Homepage guide cards and cross-links were rebuilt around the pages readers actually reach from search.',
       'Every canonical URL, sitemap entry, and structured-data link was unified to a single address form to stop mirror-domain confusion.',
       'Three overlapping guide pages were merged: the production chain, beginner walkthrough, and city layout references now each live on one authoritative page, with the old addresses redirecting.',
-      'Added this changelog page — every future revision gets logged here.',
+      'Added this changelog page. Every future revision gets logged here.',
     ],
   },
   {
@@ -39,7 +39,7 @@ const ENTRIES: { date: string; title: string; items: string[] }[] = [
     date: 'August 26, 2026',
     title: 'Advertising and analytics readiness sweep',
     items: [
-      'ads.txt was published and verified, an AdSense account meta tag was added, and a full readiness audit passed — contact links, indexing, and placeholder cleanup included.',
+      'ads.txt was published and verified, an AdSense account meta tag was added, and a full readiness audit passed, covering contact links, indexing, and placeholder cleanup.',
       'Analytics moved to a dedicated measurement property.',
     ],
   },
@@ -56,7 +56,7 @@ const ENTRIES: { date: string; title: string; items: string[] }[] = [
     date: 'July 9, 2026',
     title: 'Seasonal challenges guide',
     items: [
-      'New guide covering spring, summer, autumn, and winter strategy — what each season changes and how to prepare for disasters and events.',
+      'New guide covering spring, summer, autumn, and winter strategy: what each season changes and how to prepare for disasters and events.',
     ],
   },
   {
@@ -68,7 +68,7 @@ const ENTRIES: { date: string; title: string; items: string[] }[] = [
     ],
   },
   {
-    date: 'July 1–5, 2026',
+    date: 'July 1-5, 2026',
     title: 'Guide library expansion',
     items: [
       'Five deep-dive guides landed in one week: industry chains, the production chain reference, a building tier list, an expanded FAQ, and the citizen happiness guide.',
@@ -76,7 +76,7 @@ const ENTRIES: { date: string; title: string; items: string[] }[] = [
     ],
   },
   {
-    date: 'June 25–30, 2026',
+    date: 'June 25-30, 2026',
     title: 'Launch week',
     items: [
       'Town to City Guide went live with fifteen guide pages covering buildings, resources, citizens, economy, research, trade, and layouts.',
@@ -95,7 +95,7 @@ export default function UpdatesPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Town to City Guide Updates — Changelog of Every Revision',
+            headline: 'Town to City Guide Updates | Changelog of Every Revision',
             description: 'Every revision to Town to City Guide, dated: new guides, corrected facts, merged pages, and site changes.',
             datePublished: '2026-09-04',
             dateModified: '2026-09-04',
@@ -119,7 +119,7 @@ export default function UpdatesPage() {
         <span className="bp-tag orange">Changelog</span>
         <h1 className="font-display text-4xl font-bold text-blueprint-text mt-3 mb-4">Guide Updates</h1>
         <p className="text-lg text-blueprint-muted mb-10 max-w-3xl">
-          Town to City Guide is a living project — pages get revised whenever a fact gets verified in-game, a patch changes the numbers, or a reader flags a mistake. This page is the dated record of every revision, so you can see at a glance how current the guide is.
+          Town to City Guide is a living project: pages get revised whenever a fact gets verified in-game, a patch changes the numbers, or a reader flags a mistake. This page is the dated record of every revision, so you can see at a glance how current the guide is.
         </p>
 
         {/* Changelog entries */}
@@ -141,10 +141,10 @@ export default function UpdatesPage() {
         <section className="tip-box mb-12">
           <h2 className="font-display text-xl font-semibold text-blueprint-text mb-3">How Pages Get Written &amp; Revised</h2>
           <ul className="list-disc list-inside space-y-2 text-sm text-blueprint-muted leading-relaxed">
-            <li><strong className="text-blueprint-text">The game itself comes first.</strong> Every factual claim traces back to gameplay in Town to City or the official Steam store listing — numbers like building costs, unlock requirements, and system specs are checked against the shipped game, not summarized from secondhand posts.</li>
-            <li><strong className="text-blueprint-text">Unverified claims stay out.</strong> When something cannot be confirmed — a mechanic nobody has tested, a number that differs between reports — the page says so instead of printing a guess.</li>
+            <li><strong className="text-blueprint-text">The game itself comes first.</strong> Every factual claim traces back to gameplay in Town to City or the official Steam store listing: numbers like building costs, unlock requirements, and system specs are checked against the shipped game, not summarized from secondhand posts.</li>
+            <li><strong className="text-blueprint-text">Unverified claims stay out.</strong> When something cannot be confirmed (a mechanic nobody has tested, a number that differs between reports), the page says so instead of printing a guess.</li>
             <li><strong className="text-blueprint-text">Revisions are public.</strong> Every guide revision is dated and logged on this page, so you can check how current any page is before trusting it.</li>
-            <li><strong className="text-blueprint-text">Readers keep us honest.</strong> Spotted something wrong or outdated? <Link href="/contact" className="text-blueprint-accent hover:underline">Tell us</Link> — verified fixes land quickly and get logged here.</li>
+            <li><strong className="text-blueprint-text">Readers keep us honest.</strong> Spotted something wrong or outdated? <Link href="/contact" className="text-blueprint-accent hover:underline">Tell us</Link>. Verified fixes land quickly and get logged here.</li>
           </ul>
         </section>
 
@@ -152,9 +152,9 @@ export default function UpdatesPage() {
         <div className="bluepr-card">
           <h2 className="font-display text-lg font-semibold text-blueprint-text mb-3">Keep Reading</h2>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/beginners" className="text-blueprint-accent hover:underline">Beginner&apos;s Guide — Your First Hour in Town to City</Link></li>
-            <li><Link href="/buildings" className="text-blueprint-accent hover:underline">Buildings — Every Structure Explained</Link></li>
-            <li><Link href="/layouts" className="text-blueprint-accent hover:underline">Layouts — Grid-Less City Planning</Link></li>
+            <li><Link href="/beginners" className="text-blueprint-accent hover:underline">Beginner&apos;s Guide | Your First Hour in Town to City</Link></li>
+            <li><Link href="/buildings" className="text-blueprint-accent hover:underline">Buildings | Every Structure Explained</Link></li>
+            <li><Link href="/layouts" className="text-blueprint-accent hover:underline">Layouts | Grid-Less City Planning</Link></li>
             <li><Link href="/faq" className="text-blueprint-accent hover:underline">Frequently Asked Questions</Link></li>
             <li><Link href="/about" className="text-blueprint-accent hover:underline">About Town to City Guide</Link></li>
           </ul>

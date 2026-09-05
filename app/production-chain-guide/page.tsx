@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/production-chain-guide",
   },
-  title: "Town to City Production Chain Guide — Complete Resource Flow (2026)",
+  title: "Town to City Production Chain Guide | Complete Resource Flow (2026)",
   description:
     "Master every production chain in Town to City. Complete resource flow guide covering food, construction, trade goods, and luxury chains with input/output data, worker requirements, bottleneck fixes, and efficiency optimization strategies.",
   keywords: [
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "Town to City resource management",
   ],
   openGraph: {
-    title: "Town to City Production Chain Guide — Complete Resource Flow (2026)",
+    title: "Town to City Production Chain Guide | Complete Resource Flow (2026)",
     description:
       "Master every production chain in Town to City. Complete resource flow guide covering food, construction, trade goods, and luxury chains with input/output data, worker requirements, and bottleneck fixes.",
   },
@@ -159,38 +159,38 @@ const allChains: ChainEntry[] = [
 const topFiveChains = [
   {
     rank: 1,
-    name: "Bread Chain — The Food Foundation",
+    name: "Bread Chain: The Food Foundation",
     icon: "🍞",
     detail:
-      "The Bread Chain is the single most important production chain in Town to City because it satisfies the primary food need for Workers and Artisans — your two most populous citizen classes. With modest inputs of 15 Corn and 15 Wheat per cycle, the Bakery produces consistent, high-efficiency food output. This chain should be your first crop-powered production line after unlocking Fontebrac. Place two Farms growing Corn and Wheat, connect them to a Granary, and route the crops through a Warehouse to your Bakery. The efficiency ratio is unmatched: no other food building converts such low farm input into such high citizen satisfaction.",
+      "The Bread Chain is the single most important production chain in Town to City because it satisfies the primary food need for Workers and Artisans, your two most populous citizen classes. With modest inputs of 15 Corn and 15 Wheat per cycle, the Bakery produces consistent, high-efficiency food output. This chain should be your first crop-powered production line after unlocking Fontebrac. Place two Farms growing Corn and Wheat, connect them to a Granary, and route the crops through a Warehouse to your Bakery. The efficiency ratio is unmatched: no other food building converts such low farm input into such high citizen satisfaction.",
   },
   {
     rank: 2,
-    name: "Import Trade Chain — The Economic Backbone",
+    name: "Import Trade Chain: The Economic Backbone",
     icon: "🚂",
     detail:
-      "Before you unlock Fontebrac and crop-based production, your entire city runs on imported goods arriving via the Train Station. The Import Trade Chain — Train Station → Warehouse → Market Stall — is the circulatory system of your early-game economy. Without a well-placed warehouse network receiving train shipments and distributing goods to market stalls, your citizens have no food, no apparel, and no leisure. Even after unlocking crop production, the import chain remains essential for supplementing goods that your farms cannot yet produce. Build a dedicated Small Warehouse near the train station and assign at least 2 workers immediately after founding your town.",
+      "Before you unlock Fontebrac and crop-based production, your entire city runs on imported goods arriving via the Train Station. The Import Trade Chain (Train Station → Warehouse → Market Stall) is the circulatory system of your early-game economy. Without a well-placed warehouse network receiving train shipments and distributing goods to market stalls, your citizens have no food, no apparel, and no leisure. Even after unlocking crop production, the import chain remains essential for supplementing goods that your farms cannot yet produce. Build a dedicated Small Warehouse near the train station and assign at least 2 workers immediately after founding your town.",
   },
   {
     rank: 3,
-    name: "Wine Chain — High-Value Trade Goods",
+    name: "Wine Chain: High-Value Trade Goods",
     icon: "🍷",
     detail:
       "Wine is the premier trade commodity in Town to City. While requiring 50 Grapes per production cycle, Wine satisfies Bourgeoisie luxury needs and commands premium prices in trade. The Wine Chain becomes viable once you have at least 3-4 farm plots dedicated to grape cultivation and a Granary placed near your vineyard district. The return on investment is substantial: Wine generates more gold per worker-hour than bread and contributes significantly to your Luxury Value score. Pair the Winery with a warehouse that has an upgraded road connection to maximize throughput.",
   },
   {
     rank: 4,
-    name: "Research Progression Chain — The Technology Engine",
+    name: "Research Progression Chain: The Technology Engine",
     icon: "🔬",
     detail:
-      "The Research Center doesn't produce physical goods, but its output — Research Points — is arguably the most valuable resource in the game. Every building tier, every farm upgrade, every decoration, and every city rank upgrade is gated behind Research Points. Assign 2-3 workers to the Research Center from day one. Each additional worker linearly increases RP generation, so staffing your Research Center is never wasted labor. The faster you accumulate RP, the sooner you unlock Farms Tier 2 (Cotton, Rose, Beeswax) and Farms Tier 3 (Hops, Potatoes, Tomatoes, Lettuce), which open up your entire production chain network.",
+      "The Research Center doesn't produce physical goods, but its output, Research Points, is arguably the most valuable resource in the game. Every building tier, every farm upgrade, every decoration, and every city rank upgrade is gated behind Research Points. Assign 2-3 workers to the Research Center from day one. Each additional worker linearly increases RP generation, so staffing your Research Center is never wasted labor. The faster you accumulate RP, the sooner you unlock Farms Tier 2 (Cotton, Rose, Beeswax) and Farms Tier 3 (Hops, Potatoes, Tomatoes, Lettuce), which open up your entire production chain network.",
   },
   {
     rank: 5,
-    name: "Hattery Apparel Chain — The Mid-Game Bridge",
+    name: "Hattery Apparel Chain: The Mid-Game Bridge",
     icon: "👒",
     detail:
-      "The Hattery is your first apparel production chain and the bridge between basic food chains and advanced luxury goods. Requiring Beeswax (20), Cotton (20), and Rose (20), the Hattery satisfies Artisan apparel needs — the trigger that upgrades Worker Houses to Artisan Houses. Without Artisans, you cannot staff bakeries, wineries, or any advanced production building. This makes the Hattery a mandatory mid-game investment. Plant Cotton and Rose at Farms Tier 2 and establish bee farms for Beeswax. The chain unlocks at Farms Tier 2, giving you a natural progression path from food (Tier 1) to apparel (Tier 2) to luxury (Tier 3+).",
+      "The Hattery is your first apparel production chain and the bridge between basic food chains and advanced luxury goods. Requiring Beeswax (20), Cotton (20), and Rose (20), the Hattery satisfies Artisan apparel needs, the trigger that upgrades Worker Houses to Artisan Houses. Without Artisans, you cannot staff bakeries, wineries, or any advanced production building. This makes the Hattery a mandatory mid-game investment. Plant Cotton and Rose at Farms Tier 2 and establish bee farms for Beeswax. The chain unlocks at Farms Tier 2, giving you a natural progression path from food (Tier 1) to apparel (Tier 2) to luxury (Tier 3+).",
   },
 ];
 
@@ -199,7 +199,7 @@ const bottlenecks = [
   {
     problem: "Crops rotting in fields before collection",
     cause: "No Granary near farm district; warehouse workers overwhelmed",
-    fix: "Build a Granary within 3-4 tiles of your farm cluster. Granary workers are dedicated crop collectors — they prioritize harvesting over all other tasks, dramatically reducing crop waste.",
+    fix: "Build a Granary within 3-4 tiles of your farm cluster. Granary workers are dedicated crop collectors. They prioritize harvesting over all other tasks, dramatically reducing crop waste.",
   },
   {
     problem: "Market stalls sit empty while warehouses overflow",
@@ -219,12 +219,12 @@ const bottlenecks = [
   {
     problem: "Research stalls in the late game",
     cause: "Only 1-2 workers assigned to Research Center despite growing needs",
-    fix: "Assign at least 3-4 research workers as your population grows. Upgrade the Research Center capacity via the tech tree. Research Points do not decay — invest workers early and often.",
+    fix: "Assign at least 3-4 research workers as your population grows. Upgrade the Research Center capacity via the tech tree. Research Points do not decay, so invest workers early and often.",
   },
   {
     problem: "Bourgeoisie constantly unhappy despite luxury goods",
     cause: "Missing a specific luxury type (apparel, leisure, or public service)",
-    fix: "Bourgeoisie require ALL luxury categories to maintain happiness. Check the citizen panel for specific unmet needs. Late-game buildings like the Cathedral, Restaurant, and Social Club fill different needs — you need all of them.",
+    fix: "Bourgeoisie require ALL luxury categories to maintain happiness. Check the citizen panel for specific unmet needs. Late-game buildings like the Cathedral, Restaurant, and Social Club fill different needs, and you need all of them.",
   },
 ];
 
@@ -242,10 +242,10 @@ export default function ProductionChainGuidePage() {
         {/* H1 + Intro */}
         <section className="mb-10">
           <h1 className="font-display text-4xl lg:text-5xl font-bold text-blueprint-text mb-4">
-            Town to City Production Chain Guide — Complete Resource Flow
+            Town to City Production Chain Guide | Complete Resource Flow
           </h1>
           <p className="text-lg text-blueprint-muted leading-relaxed max-w-3xl">
-            Every thriving Mediterranean town in Town to City operates on a delicate web of interconnected production chains. Raw materials flow from farms to granaries, through warehouses, into processing buildings, and finally onto market stalls where citizens purchase their daily needs. One broken link in any chain — a warehouse with too few workers, a granary placed too far from farmland, a bakery starved of Corn — and your entire settlement economy grinds to a halt. This guide maps every major production chain from input to output, identifies the five most critical chains you must master, and provides actionable solutions for the bottlenecks that kill city growth.
+            Every thriving Mediterranean town in Town to City operates on a delicate web of interconnected production chains. Raw materials flow from farms to granaries, through warehouses, into processing buildings, and finally onto market stalls where citizens purchase their daily needs. One broken link in any chain (a warehouse with too few workers, a granary placed too far from farmland, a bakery starved of Corn) and your entire settlement economy grinds to a halt. This guide maps every major production chain from input to output, identifies the five most critical chains you must master, and provides actionable solutions for the bottlenecks that kill city growth.
           </p>
         </section>
 
@@ -258,7 +258,7 @@ export default function ProductionChainGuidePage() {
             <section>
               <div className="bluepr-card">
                 <h2 className="font-display text-xl font-semibold text-blueprint-text mb-4">
-                  Production Chain Overview — Key Stats
+                  Production Chain Overview: Key Stats
                 </h2>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   <div className="stat-card">
@@ -293,7 +293,7 @@ export default function ProductionChainGuidePage() {
                 Every production chain in Town to City follows a three-stage pipeline. Stage one is <strong className="text-blueprint-text">production</strong>: farmers plant crops in assigned fields adjacent to their Farm buildings. Each Farm can grow one crop type, and the crop type determines which downstream processing buildings it feeds. Stage two is <strong className="text-blueprint-text">logistics</strong>: Granary workers collect harvested crops from fields, then Warehouse workers pick up those crops from the Granary and deliver them to processing buildings. Stage three is <strong className="text-blueprint-text">processing and consumption</strong>: buildings like the Bakery, Winery, and Perfumer convert raw crops into finished goods, which are then distributed to Market Stalls where citizens purchase them to satisfy their needs.
               </p>
               <p className="text-blueprint-muted leading-relaxed mb-4">
-                The most misunderstood part of this system is the <strong className="text-blueprint-text">Granary-Warehouse handoff</strong>. Crops harvested from farms do not automatically appear in your warehouse network. They must first be collected by Granary workers and stored in the Granary. Warehouse workers must then travel to the Granary, pick up the crops, and transport them to the processing destination. If your Granary is on the opposite side of the map from your Warehouse, workers spend more time walking than delivering — and your production buildings sit idle.
+                The most misunderstood part of this system is the <strong className="text-blueprint-text">Granary-Warehouse handoff</strong>. Crops harvested from farms do not automatically appear in your warehouse network. They must first be collected by Granary workers and stored in the Granary. Warehouse workers must then travel to the Granary, pick up the crops, and transport them to the processing destination. If your Granary is on the opposite side of the map from your Warehouse, workers spend more time walking than delivering, and your production buildings sit idle.
               </p>
               <p className="text-blueprint-muted leading-relaxed mb-4">
                 The path system in Town to City uses physical road connections. Workers travel along roads at a speed determined by road quality. Dirt paths are slow. Stone roads increase worker movement speed by approximately 40%. Paved roads provide even greater speed. Prioritize upgrading the roads connecting your Granary to your Warehouse, and your Warehouse to your processing buildings. A single stone road upgrade on a high-traffic logistics route can reduce worker travel time by 30-40%, effectively increasing your delivery capacity without adding a single new worker.
@@ -306,7 +306,7 @@ export default function ProductionChainGuidePage() {
                 2. Five Most Important Production Chains
               </h2>
               <p className="text-blueprint-muted leading-relaxed mb-4">
-                Not all production chains are created equal. Some are foundational — without them, your city cannot function at any level. Others are optimization tools that enhance an already-functioning economy. The five chains below represent the critical path every successful town must master, ranked by their impact on city growth, citizen happiness, and long-term sustainability.
+                Not all production chains are created equal. Some are foundational. Without them, your city cannot function at any level. Others are optimization tools that enhance an already-functioning economy. The five chains below represent the critical path every successful town must master, ranked by their impact on city growth, citizen happiness, and long-term sustainability.
               </p>
 
               {topFiveChains.map((chain) => (
@@ -395,7 +395,7 @@ export default function ProductionChainGuidePage() {
             {/* Section 5: Crop Tier Progression */}
             <section>
               <h2 className="font-display text-2xl font-semibold text-blueprint-text mb-4">
-                5. Crop Tier Progression — When to Unlock Each Chain
+                5. Crop Tier Progression: When to Unlock Each Chain
               </h2>
               <p className="text-blueprint-muted leading-relaxed mb-4">
                 Your production chain options expand through four Farm Tiers, unlocked via Research Points. Each tier adds new crop types that feed into progressively more advanced processing chains. Understanding this progression prevents the common mistake of rushing a production building before you have the crops to supply it.
@@ -444,46 +444,46 @@ export default function ProductionChainGuidePage() {
             {/* Section 6: Logistics Optimization */}
             <section>
               <h2 className="font-display text-2xl font-semibold text-blueprint-text mb-4">
-                6. Logistics Optimization — Making Every Chain Faster
+                6. Logistics Optimization: Making Every Chain Faster
               </h2>
               <p className="text-blueprint-muted leading-relaxed mb-4">
-                Logistics is the hidden multiplier that determines whether your production chains operate at 50% or 100% efficiency. Two identical cities with the same buildings and worker count can have dramatically different output — purely based on how their logistics network is designed. Here are the principles that maximize throughput:
+                Logistics is the hidden multiplier that determines whether your production chains operate at 50% or 100% efficiency. Two identical cities with the same buildings and worker count can have dramatically different output, purely based on how their logistics network is designed. Here are the principles that maximize throughput:
               </p>
               <div className="bluepr-card space-y-3">
                 <div>
                   <strong className="text-blueprint-accent">Distributed Warehouse Network.</strong>
                   <span className="text-blueprint-muted text-sm block mt-1">
-                    Do not cluster all warehouses around the train station. As your city expands, place satellite warehouses near residential districts, farming zones, and production hubs. Each warehouse creates a logistics cell that serves 6-10 nearby buildings. Workers assigned to a warehouse split their time across all connected destinations — fewer destinations per warehouse means more deliveries per building.
+                    Do not cluster all warehouses around the train station. As your city expands, place satellite warehouses near residential districts, farming zones, and production hubs. Each warehouse creates a logistics cell that serves 6-10 nearby buildings. Workers assigned to a warehouse split their time across all connected destinations. Fewer destinations per warehouse means more deliveries per building.
                   </span>
                 </div>
                 <div>
                   <strong className="text-blueprint-accent">Road Priority Upgrades.</strong>
                   <span className="text-blueprint-muted text-sm block mt-1">
-                    Upgrade roads on your highest-traffic routes first, not all roads equally. The path between your Granary and your primary Warehouse is the most critical logistics artery in your city — upgrade it to stone the moment you can afford it. Secondary routes (Warehouse to Bakery, Warehouse to Market Stall) should follow.
+                    Upgrade roads on your highest-traffic routes first rather than all roads equally. The path between your Granary and your primary Warehouse is the most critical logistics artery in your city. Upgrade it to stone the moment you can afford it. Secondary routes (Warehouse to Bakery, Warehouse to Market Stall) should follow.
                   </span>
                 </div>
                 <div>
                   <strong className="text-blueprint-accent">Granary Placement is Make-or-Break.</strong>
                   <span className="text-blueprint-muted text-sm block mt-1">
-                    The Granary must sit within 3-4 tiles of your farm cluster. Every extra tile of distance adds travel time to every harvest collection trip — and Granary workers make dozens of trips per in-game day. A poorly placed Granary can reduce your effective farming output by 30-50% compared to an optimally placed one.
+                    The Granary must sit within 3-4 tiles of your farm cluster. Every extra tile of distance adds travel time to every harvest collection trip, and Granary workers make dozens of trips per in-game day. A poorly placed Granary can reduce your effective farming output by 30-50% compared to an optimally placed one.
                   </span>
                 </div>
                 <div>
                   <strong className="text-blueprint-accent">60% Happiness is the Magic Number.</strong>
                   <span className="text-blueprint-muted text-sm block mt-1">
-                    Happiness above 60% triggers new family arrivals, growing your workforce. Below 50%, citizens start leaving. Every production chain ultimately depends on having enough workers to staff every building. Prioritize citizen happiness — through food variety, apparel, and leisure — as aggressively as you prioritize new production buildings.
+                    Happiness above 60% triggers new family arrivals, growing your workforce. Below 50%, citizens start leaving. Every production chain ultimately depends on having enough workers to staff every building. Prioritize citizen happiness (food variety, apparel, and leisure) as aggressively as you prioritize new production buildings.
                   </span>
                 </div>
               </div>
             </section>
 
-            {/* Section 7: Chain Diagnosis — merged from the former /production-chain page */}
+            {/* Section 7: Chain Diagnosis (merged from the former /production-chain page */}
             <section>
               <h2 className="font-display text-2xl font-semibold text-blueprint-text mb-4">
                 7. Diagnosing a Broken Chain Before You Build Anything
               </h2>
               <p className="text-blueprint-muted leading-relaxed mb-4">
-                Most players react to a stalled chain by building another processing building. That is usually the wrong move. Select the building that is under-producing and read its efficiency figure — well below the 80% range is the signal that the problem is upstream or downstream, not inside the building itself. A farm whose wheat rots in the field before the Granary collects it, or a Bakery whose output shelf is full, are both &ldquo;broken chain&rdquo; failures; the fix is different in each case.
+                The instinctive reaction to a stalled chain is building another processing building. That is usually the wrong move. Select the building that is under-producing and read its efficiency figure. A figure well below the 80% range signals that the problem is upstream or downstream, not inside the building itself. A farm whose wheat rots in the field before the Granary collects it, or a Bakery whose output shelf is full, are both &ldquo;broken chain&rdquo; failures; the fix is different in each case.
               </p>
               <div className="bluepr-card space-y-3">
                 <div>
@@ -495,7 +495,7 @@ export default function ProductionChainGuidePage() {
                 <div>
                   <strong className="text-blueprint-accent">A full output shelf is a downstream blockage.</strong>
                   <span className="text-blueprint-muted text-sm block mt-1">
-                    If inputs are consumed but output does not move, add storage or the next processing step — not another producer. Building a second Bakery when the first one cannot offload bread just doubles the blockage.
+                    If inputs are consumed but output does not move, add storage or the next processing step rather than another producer. Building a second Bakery when the first one cannot offload bread just doubles the blockage.
                   </span>
                 </div>
                 <div>
@@ -507,7 +507,7 @@ export default function ProductionChainGuidePage() {
                 <div>
                   <strong className="text-blueprint-accent">Perishables set the transport priority.</strong>
                   <span className="text-blueprint-muted text-sm block mt-1">
-                    Food chains need the shortest, fastest routes — a crop that rots before reaching the Granary funds nothing. Goods that do not spoil can use slower, higher-capacity routing, so spend road upgrades on food links first.
+                    Food chains need the shortest, fastest routes. A crop that rots before reaching the Granary funds nothing. Goods that do not spoil can use slower, higher-capacity routing, so spend road upgrades on food links first.
                   </span>
                 </div>
               </div>
@@ -565,19 +565,19 @@ export default function ProductionChainGuidePage() {
               <div className="space-y-4">
                 <div>
                   <h4 className="font-display text-sm font-semibold text-blueprint-green">Food Chains</h4>
-                  <p className="font-body text-xs text-blueprint-muted mt-1">Bread, Wine, Pub, Restaurant — satisfy the primary citizen need. Highest priority at every stage.</p>
+                  <p className="font-body text-xs text-blueprint-muted mt-1">Bread, Wine, Pub, Restaurant satisfy the primary citizen need. Highest priority at every stage.</p>
                 </div>
                 <div>
                   <h4 className="font-display text-sm font-semibold text-blueprint-accent">Apparel Chains</h4>
-                  <p className="font-body text-xs text-blueprint-muted mt-1">Hattery, Perfumer — unlock Artisan upgrades and Bourgeoisie satisfaction.</p>
+                  <p className="font-body text-xs text-blueprint-muted mt-1">Hattery, Perfumer unlock Artisan upgrades and Bourgeoisie satisfaction.</p>
                 </div>
                 <div>
                   <h4 className="font-display text-sm font-semibold text-blueprint-warm">Luxury Chains</h4>
-                  <p className="font-body text-xs text-blueprint-muted mt-1">Candle Maker, Apothecary, Cathedral — late-game optimization for Bourgeoisie happiness.</p>
+                  <p className="font-body text-xs text-blueprint-muted mt-1">Candle Maker, Apothecary, Cathedral: late-game optimization for Bourgeoisie happiness.</p>
                 </div>
                 <div>
                   <h4 className="font-display text-sm font-semibold text-yellow-400">Logistics Chains</h4>
-                  <p className="font-body text-xs text-blueprint-muted mt-1">Import Trade, Research, Tax — infrastructure that enables all other chains.</p>
+                  <p className="font-body text-xs text-blueprint-muted mt-1">Import Trade, Research, Tax: infrastructure that enables all other chains.</p>
                 </div>
               </div>
             </div>
@@ -604,7 +604,7 @@ export default function ProductionChainGuidePage() {
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="step-num w-6 h-6 text-xs">5</span>
-                  <span>Bakery — bread chain online</span>
+                  <span>Bakery: bread chain online</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="step-num w-6 h-6 text-xs">6</span>
@@ -663,7 +663,7 @@ export default function ProductionChainGuidePage() {
                 </a>
                 <a href="/beginners" className="block p-3 rounded-md bg-blueprint-alt/50 hover:bg-blueprint-alt transition-colors group">
                   <h4 className="font-display text-sm font-semibold text-blueprint-text group-hover:text-blueprint-accent transition-colors">Beginner Guide</h4>
-                  <p className="font-body text-xs text-blueprint-muted mt-1">First steps for new players — town founding, basic chains, and early unlocks</p>
+                  <p className="font-body text-xs text-blueprint-muted mt-1">First steps for new players: town founding, basic chains, and early unlocks</p>
                 </a>
               </div>
             </div>
@@ -671,7 +671,7 @@ export default function ProductionChainGuidePage() {
             {/* Key Insight */}
             <div className="tip-box">
               <p className="font-body text-xs text-blueprint-text leading-relaxed">
-                <strong className="text-blueprint-accent">Key Insight:</strong> The Granary is the single most underrated building in Town to City. Players obsess over which crops to plant and which processing buildings to erect, but without a properly placed Granary, your farms produce nothing. The Granary sits at the critical junction between production (farms) and logistics (warehouses). Place it wrong, and your entire food chain runs at half speed. Place it right, and crops flow seamlessly from field to bakery to citizen. Always build your Granary before your first crop-powered production building — never after.
+                <strong className="text-blueprint-accent">Key Insight:</strong> The Granary is the single most underrated building in Town to City. Players obsess over which crops to plant and which processing buildings to erect, but without a properly placed Granary, your farms produce nothing. The Granary sits at the critical junction between production (farms) and logistics (warehouses). Place it wrong, and your entire food chain runs at half speed. Place it right, and crops flow from field to bakery to citizen without stalling. Always build your Granary before your first crop-powered production building.
               </p>
             </div>
           </aside>

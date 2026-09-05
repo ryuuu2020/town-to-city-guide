@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/trade",
   },
-  title: 'Trade & Routes Guide — Town to City Guide',
+  title: 'Trade & Routes Guide | Town to City Guide',
   description: 'Learn how trade routes work in Town to City: connecting multiple towns, export strategies, and maximizing trade income.',
 };
 
@@ -38,7 +38,7 @@ export default function TradePage() {
                 <strong>Warehouse logistics:</strong> Warehouses have transport ranges. Place warehouses strategically to bridge gaps between production towns and consumer hubs. Buildings within warehouse range automatically access stored goods.
               </div>
               <div className="tip-box">
-                <strong>Trade income scales with town development:</strong> As your towns grow and produce more goods, trade route income increases. Diversifying exports — managing multiple product types rather than relying on a single trade good — provides more stable income.
+                <strong>Trade income scales with town development:</strong> As your towns grow and produce more goods, trade route income increases. Diversifying exports, meaning managing multiple product types rather than relying on a single trade good, provides more stable income.
               </div>
             </div>
           </div>

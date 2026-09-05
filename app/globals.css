@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 /* ============================================
-   Town to City Guide — Dark Blueprint Design
+   Town to City Guide | Dark Blueprint Design
    City Builder / Management Sim Style
    Design: Dark tech, blueprint-inspired,
            deep navy + cyan accents, data-driven.
@@ -74,7 +74,7 @@
   .bp-tag.orange { @apply bg-orange-950 text-orange-300; }
   .bp-tag.green { @apply bg-green-950 text-green-300; }
 
-  /* Hero grid pattern — dark */
+  /* Hero grid pattern, dark */
   .hero-grid {
     background-image:
       linear-gradient(rgba(56, 189, 248, 0.04) 1px, transparent 1px),

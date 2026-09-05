@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/layouts",
   },
-  title: 'City Layouts & Planning — Town to City Guide',
+  title: 'City Layouts & Planning | Town to City Guide',
   description: 'Grid-less city planning tips for Town to City. Multi-town specialization, terraforming, and layout strategies for Mediterranean towns.',
 };
 
@@ -42,19 +42,19 @@ export default function LayoutsPage() {
               <tbody>
                 <tr className="border-t border-blueprint-border">
                   <td className="p-3 font-medium whitespace-nowrap">Building placement</td>
-                  <td className="p-3 text-blueprint-muted">No snap-to-grid — angle and position every structure for organic streets and clustered plazas.</td>
+                  <td className="p-3 text-blueprint-muted">No snap-to-grid. Angle and position every structure for organic streets and clustered plazas.</td>
                 </tr>
                 <tr className="border-t border-blueprint-border">
                   <td className="p-3 font-medium whitespace-nowrap">Service coverage</td>
-                  <td className="p-3 text-blueprint-muted">Shops, Town Hall, and the Research Center only pay off inside their walking/transport range — extend coverage first, then density.</td>
+                  <td className="p-3 text-blueprint-muted">Shops, Town Hall, and the Research Center only pay off inside their walking/transport range. Extend coverage first, then density.</td>
                 </tr>
                 <tr className="border-t border-blueprint-border">
                   <td className="p-3 font-medium whitespace-nowrap">Beauty</td>
-                  <td className="p-3 text-blueprint-muted">Drives happiness, attracts higher-tier citizens, and boosts tourism income — an economic lever, not decoration.</td>
+                  <td className="p-3 text-blueprint-muted">Drives happiness, attracts higher-tier citizens, and boosts tourism income. It is an economic lever rather than decoration.</td>
                 </tr>
                 <tr className="border-t border-blueprint-border">
                   <td className="p-3 font-medium whitespace-nowrap">Terraforming</td>
-                  <td className="p-3 text-blueprint-muted">Elevation, water, and terrain tools — plan major projects before placing expensive buildings.</td>
+                  <td className="p-3 text-blueprint-muted">Elevation, water, and terrain tools: plan major projects before placing expensive buildings.</td>
                 </tr>
                 <tr className="border-t border-blueprint-border">
                   <td className="p-3 font-medium whitespace-nowrap">Multi-town network</td>
@@ -72,7 +72,7 @@ export default function LayoutsPage() {
             Town to City has no snap-to-grid mechanic. You can place buildings at any angle and position, creating organic, winding streets and clustered plazas. This design philosophy encourages Mediterranean-style towns that grow naturally rather than grid-aligned blocks.
           </p>
           <p className="text-blueprint-text leading-relaxed mb-4">
-            Beauty is directly tied to economic outcomes — higher beauty attracts higher-tier citizens and boosts tourism income. A beautifully planned town is not just aesthetic, it is economically superior.
+            Beauty is directly tied to economic outcomes: higher beauty attracts higher-tier citizens and boosts tourism income. A beautifully planned town looks good and performs better economically.
           </p>
           <div className="tip-box">
             <strong>Tip:</strong> Use the first-person view mode to walk through your streets and see your town from ground level. The photo mode lets you capture and share your best creations.
@@ -86,7 +86,7 @@ export default function LayoutsPage() {
             Town to City includes land and water terraforming tools. You can reshape elevation, create water features, and modify terrain. The Steam description confirms: &quot;Freely shape the land beneath your feet with terraforming tools for elevation, water, and terrain.&quot;
           </p>
           <p className="text-blueprint-text leading-relaxed">
-            Use terraforming to create scenic terrain features that boost beauty scores. Elevated positions provide natural sightlines and visual appeal. Water features add aesthetic value to surrounding areas. Plan major terraforming projects before placing expensive buildings to avoid relocation costs.
+            Use terraforming to create scenic terrain features that boost beauty scores. Higher ground provides natural sightlines and visual appeal. Water features add aesthetic value to surrounding areas. Plan major terraforming projects before placing expensive buildings to avoid relocation costs.
           </p>
         </section>
 
@@ -119,7 +119,7 @@ export default function LayoutsPage() {
         <section className="bluepr-card mb-8">
           <h2 className="font-display text-2xl font-bold text-blueprint-text mb-2">Choose Your Layout Goal</h2>
           <p className="text-blueprint-muted leading-relaxed mb-4">
-            Three planning goals cover most towns. Pick one goal for each district — or each region — instead of chasing all three at once.
+            Three planning goals cover most towns. Pick one goal for each district (or each region) instead of chasing all three at once.
           </p>
           <div className="grid md:grid-cols-3 gap-4">
             <div className="tip-box">
@@ -128,11 +128,11 @@ export default function LayoutsPage() {
             </div>
             <div className="tip-box">
               <strong>🌊 The Tourist Coast</strong>
-              <p className="text-sm mt-1">Develop the waterfront: Hotels, the Lighthouse, and attractions along the shoreline of Rocemarée. Terraform water features and elevation first — scenic terrain multiplies the tourism payoff.</p>
+              <p className="text-sm mt-1">Develop the waterfront: Hotels, the Lighthouse, and attractions along the shoreline of Rocemarée. Terraform water features and elevation first, since scenic terrain multiplies the tourism payoff.</p>
             </div>
             <div className="tip-box">
               <strong>🚚 The Working Network</strong>
-              <p className="text-sm mt-1">Dedicate Fontebrac to farming, keep granaries and warehouses inside transport range, and connect everything with trade routes. Leave room — Tier 3 farms double their surface area.</p>
+              <p className="text-sm mt-1">Dedicate Fontebrac to farming, keep granaries and warehouses inside transport range, and connect everything with trade routes. Leave room. Tier 3 farms double their surface area.</p>
             </div>
           </div>
         </section>
@@ -154,13 +154,13 @@ export default function LayoutsPage() {
               <strong>Leave room for expansion.</strong> Farms Tier 3 doubles surface area. Warehouse transport ranges need to cover growing districts. Plan layouts with future growth in mind rather than maximizing initial density.
             </div>
             <div className="tip-box">
-              <strong>Do not outrun your service coverage.</strong> Every shop, Town Hall and Research Center only pays off inside its walking/transport range. Expanding into new districts that sit outside that coverage costs you more citizen happiness than the new plots add &mdash; extend coverage first, then density.
+              <strong>Do not outrun your service coverage.</strong> Every shop, Town Hall and Research Center only pays off inside its walking/transport range. Expanding into new districts that sit outside that coverage costs you more citizen happiness than the new plots add. Extend coverage first, then density.
             </div>
           </div>
         </section>
 
         <p className="text-xs text-blueprint-muted italic">
-          Last updated: 4 September 2026. This page is now the single layout reference for the site &mdash; the separate
+          Last updated: 4 September 2026. This page is now the single layout reference for the site, and the separate
           &ldquo;best city layout&rdquo; page (4-lane boulevards, industrial downwind zoning) described a snap-to-grid
           city builder, not Town to City&apos;s grid-less model, so its URL redirects here without its claims being
           carried over.

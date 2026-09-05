@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/contact",
   },
-  title: 'Contact — Town to City Guide',
+  title: 'Contact | Town to City Guide',
   description:
     'Contact the Town to City Guide to report a wrong building stat, a stale production-chain note, a broken page, or an advertising and privacy question.',
   robots: {
@@ -55,8 +55,8 @@ export default function ContactPage() {
             </p>
             <p>
               <strong className="text-blueprint-text">Your game version.</strong> Town to City is
-              still updated, so advice can go stale quickly. Say which build you are on — Steam
-              lists it under Properties → Updates — otherwise we may "fix" a page against the
+              still updated, so advice can go stale quickly. Say which build you are on. Steam
+              lists it under Properties → Updates. Otherwise we may "fix" a page against the
               wrong version.
             </p>
             <p>
@@ -87,7 +87,7 @@ export default function ContactPage() {
           <p className="text-blueprint-muted leading-relaxed">
             This is an independent guide. It is not affiliated with Galaxy Grove or Kwalee, and
             it has no ability to fix the game, restore a save, or process a refund. Those go to
-            the developer and Steam — the{' '}
+            the developer and Steam. The{' '}
             <a
               href="https://store.steampowered.com/app/3115220/"
               target="_blank"

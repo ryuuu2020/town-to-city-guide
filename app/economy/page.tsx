@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/economy",
   },
-  title: 'Economy & Income Guide — Town to City Guide',
+  title: 'Economy & Income Guide | Town to City Guide',
   description: 'Master Town to City economy: tax system, trade routes between towns, tourism revenue, and citizen tier income scaling.',
 };
 
@@ -37,7 +37,7 @@ export default function EconomyPage() {
             </div>
             <div className="stat-card">
               <div className="font-display text-xl font-bold text-blueprint-accent mb-1">Trade Routes</div>
-              <div className="text-sm text-blueprint-muted">Passive income from trade between towns. Establish routes between specialized towns — connect your farming town to your main hub for ongoing trade income.</div>
+              <div className="text-sm text-blueprint-muted">Passive income from trade between towns. Establish routes between specialized towns. Connect your farming town to your main hub for ongoing trade income.</div>
             </div>
             <div className="stat-card">
               <div className="font-display text-xl font-bold text-blueprint-green mb-1">Tourism Revenue</div>
@@ -55,7 +55,7 @@ export default function EconomyPage() {
           <h2 className="font-display text-2xl font-bold text-blueprint-text mb-4">Tax System</h2>
           <div className="bluepr-card">
             <p className="text-blueprint-muted leading-relaxed mb-4">
-              Every citizen in your town pays taxes based on their tier. The three tiers — Worker, Artisan, and Bourgeoisie — generate different tax amounts, with Bourgeoisie paying the most. Citizen happiness impacts tax efficiency, and higher-quality housing typically generates more tax revenue.
+              Every citizen in your town pays taxes based on their tier. The three tiers (Worker, Artisan, and Bourgeoisie) generate different tax amounts, with Bourgeoisie paying the most. Citizen happiness impacts tax efficiency, and higher-quality housing typically generates more tax revenue.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -74,7 +74,7 @@ export default function EconomyPage() {
             </div>
 
             <div className="tip-box mt-4">
-              <strong>Tax strategy:</strong> Monitor tax pressure via the town management view. Over-taxed citizens become unhappy — balance tax collection with citizen satisfaction to maintain sustainable growth.
+              <strong>Tax strategy:</strong> Monitor tax pressure via the town management view. Over-taxed citizens become unhappy, so balance tax collection with citizen satisfaction to maintain sustainable growth.
             </div>
           </div>
         </section>
@@ -84,7 +84,7 @@ export default function EconomyPage() {
           <h2 className="font-display text-2xl font-bold text-blueprint-text mb-4">Trade Between Towns</h2>
           <div className="bluepr-card">
             <p className="text-blueprint-muted leading-relaxed mb-4">
-              Once you expand beyond your first town, you can establish trade and travel routes between settlements. Specialize different towns — farming in Fontebrac, tourism in Rocemarée, production in Belvau — and connect them with trade routes for mutual benefit.
+              Once you expand beyond your first town, you can establish trade and travel routes between settlements. Specialize different towns (farming in Fontebrac, tourism in Rocemarée, production in Belvau) and connect them with trade routes for mutual benefit.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -113,7 +113,7 @@ export default function EconomyPage() {
             </p>
 
             <div className="tip-box">
-              <strong>Tourism tip:</strong> Build a dedicated tourist town with high beauty scores, hotels, and attractions. Connect it to your main hub via trade routes. Tourism revenue grows alongside your town&apos;s overall appeal — invest in decorations and landmarks consistently.
+              <strong>Tourism tip:</strong> Build a dedicated tourist town with high beauty scores, hotels, and attractions. Connect it to your main hub via trade routes. Tourism revenue grows alongside your town&apos;s overall appeal. Invest in decorations and landmarks consistently.
             </div>
           </div>
         </section>

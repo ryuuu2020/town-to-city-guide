@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/news",
   },
-  title: 'News & Updates — Town to City Guide',
+  title: 'News & Updates | Town to City Guide',
   description: 'Town to City launch information and game updates. Released by Galaxy Grove on Steam.',
   robots: {
     index: false,
@@ -34,9 +34,9 @@ export default function NewsPage() {
               <span className="bp-tag green">Guide</span>
               <span className="text-xs text-blueprint-muted">June 27, 2026</span>
             </div>
-            <h3 className="font-display text-lg font-semibold text-blueprint-text mb-2">Town to City 1.0 Full Release Recap — Tourist Routes, New Map</h3>
+            <h3 className="font-display text-lg font-semibold text-blueprint-text mb-2">Town to City 1.0 Full Release Recap: Tourist Routes, New Map</h3>
             <p className="text-sm text-blueprint-muted leading-relaxed">
-              Town to City officially exited Early Access on May 26 with its 1.0 full release. The headline addition is the Tourist Routes system, letting you establish guided tours through city landmarks — a new revenue stream rewarding thoughtful urban planning. A brand-new map launched alongside 1.0, offering a fresh starting layout with unique terrain challenges. The Big Expanded Campaign update adds an additional city with unique mechanics and decorations, effectively doubling campaign content. Early Access saves are fully compatible with 1.0. Galaxy Grove confirmed free updates will continue post-launch, with holiday-themed content and a mystery major update planned for later in 2026. The game is currently 20% off during the Steam Summer Sale.
+              Town to City officially exited Early Access on May 26 with its 1.0 full release. The headline addition is the Tourist Routes system, letting you establish guided tours through city landmarks, a new revenue stream rewarding thoughtful urban planning. A brand-new map launched alongside 1.0, offering a fresh starting layout with unique terrain challenges. The Big Expanded Campaign update adds an additional city with unique mechanics and decorations, effectively doubling campaign content. Early Access saves are fully compatible with 1.0. Galaxy Grove confirmed free updates will continue post-launch, with holiday-themed content and a mystery major update planned for later in 2026. The game is currently 20% off during the Steam Summer Sale.
             </p>
           </div>
 
@@ -47,7 +47,7 @@ export default function NewsPage() {
             </div>
             <h3 className="font-display text-lg font-semibold text-blueprint-text mb-2">Steam Summer Sale + New Patch</h3>
             <p className="text-blueprint-muted leading-relaxed">
-              Town to City is participating in the Steam Summer Sale 2026, its first major discount since the May 26 full launch. Galaxy Grove and Kwalee have also released a new patch with quality-of-life improvements: enhanced photo mode controls, additional building placement grid snapping options, and UI refinements for the trade route panel. The community continues to grow with 97% positive reviews from over 3,900 players — Town to City remains one of the highest-rated city builders of 2026. For new players picking up the game during the sale: our Beginner&apos;s Guide covers the first 2 hours of gameplay, including optimal starting layouts.
+              Town to City is participating in the Steam Summer Sale 2026, its first major discount since the May 26 full launch. Galaxy Grove and Kwalee have also released a new patch with quality-of-life improvements: enhanced photo mode controls, additional building placement grid snapping options, and UI refinements for the trade route panel. The community continues to grow with 97% positive reviews from over 3,900 players. Town to City remains one of the highest-rated city builders of 2026. For new players picking up the game during the sale: our Beginner&apos;s Guide covers the first 2 hours of gameplay, including optimal starting layouts.
             </p>
           </div>
 <div className="bluepr-card">

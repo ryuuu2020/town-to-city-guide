@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/research",
   },
-  title: 'Research Tree Guide — Town to City Guide',
+  title: 'Research Tree Guide | Town to City Guide',
   description: 'Understand the research system in Town to City: Research Center, technology tree overview, and how research unlocks new buildings, decorations, and upgrades.',
 };
 
@@ -27,7 +27,7 @@ export default function ResearchPage() {
           <h2 className="font-display text-2xl font-bold text-blueprint-text mb-4">The Research Center</h2>
           <div className="bluepr-card">
             <p className="text-blueprint-muted leading-relaxed mb-4">
-              The Research Center is the engine of town progression. Assign Research Workers to generate research points and unlock new buildings, decorations, and technologies. Research is organized into trees covering different aspects of your town — buildings, technology, and decorations.
+              The Research Center is the engine of town progression. Assign Research Workers to generate research points and unlock new buildings, decorations, and technologies. Research is organized into trees covering different aspects of your town: buildings, technology, and decorations.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -56,13 +56,13 @@ export default function ResearchPage() {
 
             <div className="space-y-4">
               <div className="tip-box">
-                <strong>Farm upgrades are top priority.</strong> Each Farm tier unlocks new crops and buildings. Farms Tier 1 grants your first crops and the Bakery/Winery. Tier 2 adds Hattery. Tier 3 adds Pub and doubles farm surface area — prioritize this upgrade for crop production.
+                <strong>Farm upgrades are top priority.</strong> Each Farm tier unlocks new crops and buildings. Farms Tier 1 grants your first crops and the Bakery/Winery. Tier 2 adds Hattery. Tier 3 adds Pub and doubles farm surface area, so prioritize this upgrade for crop production.
               </div>
               <div className="tip-box">
                 <strong>City rank unlocks late-game buildings.</strong> Reaching City rank unlocks the Apothecary, Perfumer, Social Club, and Candle Maker. Large City adds Cathedral and Restaurant.
               </div>
               <div className="tip-box">
-                <strong>Research Center placement:</strong> Keep the Research Center in your main hub town (Belvau) since research benefits all connected towns. Balance research workers with other labor needs — too many researchers means too few production workers.
+                <strong>Research Center placement:</strong> Keep the Research Center in your main hub town (Belvau) since research benefits all connected towns. Balance research workers with other labor needs, since too many researchers means too few production workers.
               </div>
             </div>
           </div>

@@ -4,8 +4,8 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/terms",
   },
-  title: 'Terms of Service — Town to City Guide',
-  description: 'Terms of Service for the Town to City Guide — informational use, accuracy disclaimers, affiliate disclosure, copyright, and intellectual property notices.',
+  title: 'Terms of Service | Town to City Guide',
+  description: 'Terms of Service for the Town to City Guide: informational use, accuracy disclaimers, affiliate disclosure, copyright, and intellectual property notices.',
   robots: {
     index: false,
     follow: true,
@@ -37,7 +37,7 @@ export default function TermsPage() {
         <section className="mb-16">
           <h2 className="font-display text-2xl font-bold text-blueprint-text mb-2">Informational Use Only</h2>
           <p className="text-blueprint-muted leading-relaxed mb-6">
-            The Town to City Guide is a fan-created informational resource. All content — including guides, tips, strategy recommendations, data tables, and gameplay analysis — is provided for educational and entertainment purposes only.
+            The Town to City Guide is a fan-created informational resource. All content, including guides, tips, strategy recommendations, data tables, and gameplay analysis, is provided for educational and entertainment purposes only.
           </p>
 
           <div className="bluepr-card">
@@ -58,10 +58,10 @@ export default function TermsPage() {
           <div className="bluepr-card">
             <h3 className="font-display text-lg font-semibold text-blueprint-text mb-4">Disclaimer of Accuracy</h3>
             <p className="text-blueprint-muted leading-relaxed mb-4">
-              Town to City is an actively developed game that may receive updates, patches, and balance changes at any time. Information on this site — including but not limited to resource costs, building stats, upgrade requirements, research tree data, trade route mechanics, and citizen behavior — may become outdated following game updates.
+              Town to City is an actively developed game that may receive updates, patches, and balance changes at any time. Information on this site, including but not limited to resource costs, building stats, upgrade requirements, research tree data, trade route mechanics, and citizen behavior, may become outdated following game updates.
             </p>
             <p className="text-blueprint-muted leading-relaxed">
-              We make reasonable efforts to review and update content after major patches, but there may be gaps between a game update and the corresponding guide update. The Town to City Guide and its contributors assume no responsibility for any gameplay outcomes, lost progress, or other consequences resulting from reliance on information found on this site. If you notice inaccurate or outdated information, please reach out and let us know — we correct errors as quickly as possible.
+              We make reasonable efforts to review and update content after major patches, but there may be gaps between a game update and the corresponding guide update. The Town to City Guide and its contributors assume no responsibility for any gameplay outcomes, lost progress, or other consequences resulting from reliance on information found on this site. If you notice inaccurate or outdated information, please reach out and let us know. We correct errors as quickly as possible.
             </p>
           </div>
         </section>
@@ -82,7 +82,7 @@ export default function TermsPage() {
               Links to the Town to City Steam store page (App ID: 3115220) are provided for convenience. We are not affiliated with Valve Corporation, Steam, Galaxy Grove, or Kwalee, and we do not receive compensation from any game developer or publisher for links, mentions, or recommendations. If any affiliate relationship is established in the future that could influence the content or recommendations on this site, it will be clearly disclosed on the relevant pages.
             </p>
             <p className="text-blueprint-muted leading-relaxed">
-              Your use of the site and any purchases you make on external platforms are entirely voluntary. Advertising and links do not affect the editorial content of our guides — we recommend strategies and approaches based on gameplay effectiveness, not commercial relationships.
+              Your use of the site and any purchases you make on external platforms are entirely voluntary. Advertising and links do not affect the editorial content of our guides. We recommend strategies and approaches based on gameplay effectiveness rather than commercial relationships.
             </p>
           </div>
         </section>
@@ -97,14 +97,14 @@ export default function TermsPage() {
           <div className="bluepr-card">
             <h3 className="font-display text-lg font-semibold text-blueprint-text mb-4">Game Content Ownership</h3>
             <p className="text-blueprint-muted leading-relaxed">
-              Town to City, its name, logo, in-game assets, character designs, building names, mechanics terminology, story elements, and all related intellectual property are the exclusive property of Galaxy Grove (developer) and Kwalee (publisher). This guide is an independent, unofficial resource created by fans of the game. We claim no ownership over any Town to City game content. References to game elements — including building names, resource types, citizen tiers, and game mechanics — are used for identification and educational purposes and do not imply any endorsement by or affiliation with the rights holders.
+              Town to City, its name, logo, in-game assets, character designs, building names, mechanics terminology, story elements, and all related intellectual property are the exclusive property of Galaxy Grove (developer) and Kwalee (publisher). This guide is an independent, unofficial resource created by fans of the game. We claim no ownership over any Town to City game content. References to game elements, including building names, resource types, citizen tiers, and game mechanics, are used for identification and educational purposes and do not imply any endorsement by or affiliation with the rights holders.
             </p>
           </div>
 
           <div className="bluepr-card">
             <h3 className="font-display text-lg font-semibold text-blueprint-text mb-4">Guide Content Copyright</h3>
             <p className="text-blueprint-muted leading-relaxed">
-              The original content on the Town to City Guide — including written guides, strategy analysis, layout suggestions, data compilations, tips, FAQ answers, and the site&apos;s design and structure — is the original work of the guide&apos;s contributors and is protected by copyright. You may reference or quote reasonable portions of guide content for personal, non-commercial use, provided you credit the Town to City Guide and include a link back to the source page. Republishing substantial portions of guide content on other websites, in videos, or in any commercial context without permission is not permitted. If you would like to use our content beyond what fair use allows, please contact us to discuss.
+              The original content on the Town to City Guide, including written guides, strategy analysis, layout suggestions, data compilations, tips, FAQ answers, and the site&apos;s design and structure, is the original work of the guide&apos;s contributors and is protected by copyright. You may reference or quote reasonable portions of guide content for personal, non-commercial use, provided you credit the Town to City Guide and include a link back to the source page. Republishing substantial portions of guide content on other websites, in videos, or in any commercial context without permission is not permitted. If you would like to use our content beyond what fair use allows, please contact us to discuss.
             </p>
           </div>
         </section>
@@ -134,10 +134,10 @@ export default function TermsPage() {
           <div className="bluepr-card">
             <h3 className="font-display text-lg font-semibold text-blueprint-text mb-4">External Sites</h3>
             <p className="text-blueprint-muted leading-relaxed mb-4">
-              Links to external sites — including the Town to City Steam store page, Google services, and any other third-party websites — are provided for your convenience. Following these links is at your own discretion. The inclusion of a link does not imply endorsement of the linked site or its content. Each external site has its own terms of service and privacy policy, which you should review before engaging with that site.
+              Links to external sites, including the Town to City Steam store page, Google services, and any other third-party websites, are provided for your convenience. Following these links is at your own discretion. The inclusion of a link does not imply endorsement of the linked site or its content. Each external site has its own terms of service and privacy policy, which you should review before engaging with that site.
             </p>
             <p className="text-blueprint-muted leading-relaxed">
-              Third-party services integrated on this site — including Google Analytics for usage tracking and Google AdSense for advertising — are governed by Google&apos;s terms of service and privacy policy. We do not control the data collection, processing, or storage practices of these services. For details on how these services handle your data, please refer to our{' '}
+              Third-party services integrated on this site, including Google Analytics for usage tracking and Google AdSense for advertising, are governed by Google&apos;s terms of service and privacy policy. We do not control the data collection, processing, or storage practices of these services. For details on how these services handle your data, please refer to our{' '}
               <a href="/privacy" className="text-blueprint-accent hover:underline">Privacy Policy</a> and Google&apos;s own documentation.
             </p>
           </div>

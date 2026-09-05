@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/faq",
   },
-  title: 'Frequently Asked Questions — Town to City Guide',
+  title: 'Frequently Asked Questions | Town to City Guide',
   description: 'Common questions about Town to City: grid-less building, citizen tiers, farming, trade routes, and research.',
 };
 
@@ -27,22 +27,22 @@ const faqItems: { question: string; answer: string; tags: string[]; link?: { hre
   },
   {
     question: 'How do citizen tiers work?',
-    answer: 'Citizens progress through three tiers: Worker, Artisan, and Bourgeoisie. Workers staff farms and basic production. Artisans run advanced production like Bakeries, Wineries, and Pubs. Bourgeoisie are the elite class that generates the most tax income. Each tier requires different services — meeting citizen needs is key to enabling upgrades.',
+    answer: 'Citizens progress through three tiers: Worker, Artisan, and Bourgeoisie. Workers staff farms and basic production. Artisans run advanced production like Bakeries, Wineries, and Pubs. Bourgeoisie are the elite class that generates the most tax income. Each tier requires different services. Meeting citizen needs is key to enabling upgrades.',
     tags: ['orange'],
   },
   {
     question: 'How do trade routes work?',
-    answer: 'Once you establish multiple towns, you can connect them with trade and travel routes. Specialize different towns — farming in Fontebrac, tourism in Rocemarée — and connect them for mutual economic benefit. Trade routes allow goods to flow between settlements, and scenic routes boost tourism income.',
+    answer: 'Once you establish multiple towns, you can connect them with trade and travel routes. Specialize different towns (farming in Fontebrac, tourism in Rocemarée) and connect them for mutual economic benefit. Trade routes allow goods to flow between settlements, and scenic routes boost tourism income.',
     tags: ['blue'],
   },
   {
     question: 'What does the Research Center do?',
-    answer: 'The Research Center unlocks new buildings, decorations, and technologies. Assign Research Workers to generate research points. Research trees cover buildings, technology, and decorations. Farm tier upgrades are gated behind research — advancing your farms unlocks new crop types and buildings throughout the game.',
+    answer: 'The Research Center unlocks new buildings, decorations, and technologies. Assign Research Workers to generate research points. Research trees cover buildings, technology, and decorations. Farm tier upgrades are gated behind research. Advancing your farms unlocks new crop types and buildings throughout the game.',
     tags: ['blue'],
   },
   {
     question: 'How do farms and crops work?',
-    answer: 'Farms advance through four tiers, each unlocking new crop types. Tier 1: Grapes, Corn, Wheat. Tier 2: Beeswax, Cotton, Rose. Tier 3: Hops, Potatoes, Tomatoes, Lettuce (farm surface doubles). Tier 4: Pumpkin, Lavender, Medicinal Herbs. Crops feed production buildings — check the Crops & Farming page for detailed building input requirements.',
+    answer: 'Farms advance through four tiers, each unlocking new crop types. Tier 1: Grapes, Corn, Wheat. Tier 2: Beeswax, Cotton, Rose. Tier 3: Hops, Potatoes, Tomatoes, Lettuce (farm surface doubles). Tier 4: Pumpkin, Lavender, Medicinal Herbs. Crops feed production buildings. Check the Crops & Farming page for detailed building input requirements.',
     tags: ['green'],
   },
   {
@@ -82,13 +82,13 @@ const faqItems: { question: string; answer: string; tags: string[]; link?: { hre
   },
   {
     question: 'How do I get Artisans in Town to City?',
-    answer: 'Artisans are the second citizen tier. A Worker family upgrades to Artisan once its basic needs are met — food access and market access — along with general town progress. Watch the labor trade-off: an upgraded Artisan leaves its Worker job slot empty, so balance your tier ratios before upgrading families in bulk.',
+    answer: 'Artisans are the second citizen tier. A Worker family upgrades to Artisan once its basic needs are met (food access and market access) along with general town progress. Watch the labor trade-off: an upgraded Artisan leaves its Worker job slot empty, so balance your tier ratios before upgrading families in bulk.',
     tags: ['orange'],
     link: { href: '/citizens', label: 'citizen tiers and needs in detail' },
   },
   {
     question: 'How do I upgrade houses?',
-    answer: 'Houses upgrade through the same three tiers as your citizens — Worker Houses, Artisan Houses, and Bourgeoisie Houses. Each upgrade requires meeting the specific needs of the current tier first, so happiness management is the gate. After upgrading, keep labor priority in mind: higher-tier citizens stop filling lower-tier job slots.',
+    answer: 'Houses upgrade through the same three tiers as your citizens: Worker Houses, Artisan Houses, and Bourgeoisie Houses. Each upgrade requires meeting the specific needs of the current tier first, so happiness management is the gate. After upgrading, keep labor priority in mind: higher-tier citizens stop filling lower-tier job slots.',
     tags: ['green'],
     link: { href: '/citizens', label: 'housing and tier requirements' },
   },
@@ -100,7 +100,7 @@ const faqItems: { question: string; answer: string; tags: string[]; link?: { hre
   },
   {
     question: 'Why does Town to City lag or drop frames?',
-    answer: 'Late-game density is the usual culprit. Player-reported benchmarks show dense cities with 500+ citizens dropping well below 60 FPS even on flagship hardware, and complaints start before the late game on weaker GPUs. Lower citizen counts, borderless window mode, and a fixed FPS cap all help — the performance guide lists the settings that matter plus the July 2026 optimization patch roadmap.',
+    answer: 'Late-game density is the usual culprit. Player-reported benchmarks show dense cities with 500+ citizens dropping well below 60 FPS even on flagship hardware, and complaints start before the late game on weaker GPUs. Lower citizen counts, borderless window mode, and a fixed FPS cap all help. The performance guide lists the settings that matter plus the July 2026 optimization patch roadmap.',
     tags: ['orange'],
     link: { href: '/performance-optimization', label: 'fixes for FPS drops and lag' },
   },
@@ -154,7 +154,7 @@ export default function FAQPage() {
         <div className="tip-box mb-16">
           <p className="font-semibold text-blueprint-text mb-1">Still have a question?</p>
           <p className="text-blueprint-muted leading-relaxed">
-            Check the Beginner&apos;s Guide, Crops &amp; Farming, and Buildings pages for deeper dives into specific systems. Every revision to this FAQ and the other guides is dated and logged on the <Link href="/updates" className="text-blueprint-accent hover:underline">guide updates page</Link>.
+            Check the Beginner&apos;s Guide, Crops &amp; Farming, and Buildings pages for deeper coverage of specific systems. Every revision to this FAQ and the other guides is dated and logged on the <Link href="/updates" className="text-blueprint-accent hover:underline">guide updates page</Link>.
           </p>
         </div>
 

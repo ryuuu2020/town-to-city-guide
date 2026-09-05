@@ -9,7 +9,7 @@ export const metadata = {
     // cairnguide.wiki 全站不带斜杠、首页正常被索引，即对照样本。
     canonical: "https://towntocityguide.wiki",
   },
-  title: 'Town to City Guide — Complete City Builder Guide 2026',
+  title: 'Town to City Guide | Complete City Builder Guide 2026',
   description: 'Free Town to City guide covering buildings, layouts, resources, citizens, economy, research, trade, and tips. Master this cozy Mediterranean city builder from Galaxy Grove.',
 };
 
@@ -112,7 +112,7 @@ const featureCards = [
   },
   {
     title: 'Seasonal Challenges',
-    desc: 'Spring, summer, autumn and winter strategy — what each season changes and how to prepare.',
+    desc: 'Spring, summer, autumn and winter strategy: what each season changes and how to prepare.',
     href: '/seasonal-challenges',
     tag: 'Strategy',
     color: 'blue' as const,
@@ -134,14 +134,14 @@ const featureCards = [
 ];
 
 const keyBuildings = [
-  { name: 'Town Hall', effect: 'Unlocks city management & taxes', tier: 'Tier 1 — Free' },
-  { name: 'Marketplace', effect: 'Boosts trade income by 25%', tier: 'Tier 2 — 500 coin' },
-  { name: 'University', effect: 'Enables advanced research', tier: 'Tier 3 — 2,000 coin' },
-  { name: 'Tourist Pier', effect: 'Unlocks tourism revenue stream', tier: 'Tier 4 — 5,000 coin' },
+  { name: 'Town Hall', effect: 'Unlocks city management & taxes', tier: 'Tier 1: Free' },
+  { name: 'Marketplace', effect: 'Boosts trade income by 25%', tier: 'Tier 2: 500 coin' },
+  { name: 'University', effect: 'Enables advanced research', tier: 'Tier 3: 2,000 coin' },
+  { name: 'Tourist Pier', effect: 'Unlocks tourism revenue stream', tier: 'Tier 4: 5,000 coin' },
 ];
 
 const quickTips = [
-  { tip: 'Place parks between houses, not in separate districts — overlapping beauty bonuses stack.', cat: 'Layout' },
+  { tip: 'Place parks between houses rather than in separate districts; overlapping beauty bonuses stack.', cat: 'Layout' },
   { tip: 'Connect towns with trade routes early. Passive income scales with each new settlement.', cat: 'Economy' },
   { tip: 'Research decoration unlocks before expanding too fast to keep beauty scores high.', cat: 'Planning' },
   { tip: 'Use first-person mode (F key) to walk your streets and spot ugly areas citizens hate.', cat: 'Quality' },
@@ -177,13 +177,13 @@ export default function HomePage() {
           </div>
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blueprint-accent-light text-blueprint-accent text-sm font-semibold mb-6">
             <span className="w-2 h-2 rounded-full bg-blueprint-accent animate-pulse-dot" />
-            Updated for Patch 1.0.4 — June 2026
+            Updated for Patch 1.0.4, June 2026
           </div>
           <h1 className="font-display text-5xl md:text-6xl font-extrabold text-blueprint-text mb-4 tracking-tight">
             Town to City<br /><span className="text-blueprint-accent">Guide</span>
           </h1>
           <p className="text-xl text-blueprint-muted max-w-2xl mx-auto mb-8">
-            Build Your Mediterranean Dream City — the complete guide to Town to City, the cozy grid-less city builder from Galaxy Grove.
+            Build Your Mediterranean Dream City: the complete guide to Town to City, the cozy grid-less city builder from Galaxy Grove.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/beginners" className="inline-flex items-center px-6 py-3 bg-blueprint-accent text-white font-semibold rounded-lg hover:bg-blueprint-accent/90 transition-colors">

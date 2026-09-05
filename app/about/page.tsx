@@ -5,8 +5,8 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/about",
   },
-  title: 'About — Town to City Guide',
-  description: 'About the Town to City Guide — a community-maintained resource covering building guides, beginner tips, trade routes, citizen management, beauty scoring, and research strategies for Town to City by Galaxy Grove.',
+  title: 'About | Town to City Guide',
+  description: 'About the Town to City Guide, a community-maintained resource covering building guides, beginner tips, trade routes, citizen management, beauty scoring, and research strategies for Town to City by Galaxy Grove.',
   robots: {
     index: true,
     follow: true,
@@ -28,7 +28,7 @@ export default function AboutPage() {
         {/* Page Header */}
         <h1 className="font-display text-4xl font-bold text-blueprint-text mb-4">About the Town to City Guide</h1>
         <p className="text-lg text-blueprint-muted mb-8 max-w-3xl">
-          A comprehensive, community-maintained resource for players of Town to City — the Mediterranean city builder by Galaxy Grove. Whether you are building your first fishing dock or optimizing a 500-citizen trade empire, this guide has you covered.
+          A comprehensive, community-maintained resource for players of Town to City, the Mediterranean city builder by Galaxy Grove. This guide covers everything from your first fishing dock to a 500-citizen trade empire.
         </p>
 
         {/* The Game */}
@@ -102,7 +102,7 @@ export default function AboutPage() {
           <div className="bluepr-card">
             <h3 className="font-display text-lg font-semibold text-blueprint-text mb-4">Site Mission</h3>
             <p className="text-blueprint-muted leading-relaxed">
-              Our mission is simple: provide the most accurate, comprehensive, and accessible Town to City guide available anywhere. Every guide page is written from tested gameplay experience — not speculation, not marketing copy, not AI-generated filler. When we say a tax rate of 15% is optimal, it is because we tested every percentage from 0% to 50% across multiple playthroughs. When we recommend a build order, it is because we ran the first hour of the game dozens of times to find the most reliable sequence. We believe community knowledge should be freely available and permanently accessible — no paywalls, no login requirements, no account needed.
+              Our mission is simple: provide the most accurate Town to City guide available anywhere. Every guide page is written from tested gameplay experience rather than speculation or marketing copy. When we say a tax rate of 15% is optimal, it is because we tested every percentage from 0% to 50% across multiple playthroughs. When we recommend a build order, it is because we ran the first hour of the game dozens of times to find the most reliable sequence. We believe community knowledge should be freely available and permanently accessible: no paywalls, no login requirements, no account needed.
             </p>
           </div>
 
@@ -119,10 +119,10 @@ export default function AboutPage() {
           <div className="tip-box">
             <h2 className="font-display text-xl font-semibold text-blueprint-text mb-3">How This Guide Is Made</h2>
             <ul className="list-disc list-inside space-y-2 text-sm text-blueprint-muted leading-relaxed">
-              <li><strong className="text-blueprint-text">The game comes first.</strong> Every factual claim traces back to gameplay in Town to City or the official Steam store listing — building costs, unlock requirements, citizen needs, and system specs are checked against the shipped game, not summarized from secondhand posts.</li>
-              <li><strong className="text-blueprint-text">Uncertainty is labeled, not hidden.</strong> When something cannot be confirmed — a mechanic nobody has tested, a number that differs between reports — pages say so instead of printing a guess.</li>
+              <li><strong className="text-blueprint-text">The game comes first.</strong> Every factual claim traces back to gameplay in Town to City or the official Steam store listing: building costs, unlock requirements, citizen needs, and system specs are checked against the shipped game, not summarized from secondhand posts.</li>
+              <li><strong className="text-blueprint-text">Uncertainty is labeled, not hidden.</strong> When something cannot be confirmed (a mechanic nobody has tested, a number that differs between reports), pages say so instead of printing a guess.</li>
               <li><strong className="text-blueprint-text">Revisions are public.</strong> Every guide revision is dated and logged on our <Link href="/updates" className="text-blueprint-accent hover:underline">guide updates page</Link>, so you can check how current any page is before trusting it.</li>
-              <li><strong className="text-blueprint-text">Readers keep us honest.</strong> Spotted something wrong or outdated? <Link href="/contact" className="text-blueprint-accent hover:underline">Send a correction</Link> — verified fixes land quickly and get logged.</li>
+              <li><strong className="text-blueprint-text">Readers keep us honest.</strong> Spotted something wrong or outdated? <Link href="/contact" className="text-blueprint-accent hover:underline">Send a correction</Link>. Verified fixes land quickly and get logged.</li>
             </ul>
           </div>
         </section>
@@ -140,7 +140,7 @@ export default function AboutPage() {
               The best way to contribute is to share your tested strategies and discoveries. If you have found an optimal tax rate, a better build order, a hidden citizen interaction, or a research priority that outperforms what is currently documented, let us know. We verify all community submissions through testing before publishing, ensuring the guide maintains its standard of accuracy.
             </p>
             <p className="text-blueprint-muted leading-relaxed">
-              Additionally, if you notice any information that has become outdated due to a game patch — building costs that changed, mechanics that were rebalanced, or new systems that are not yet covered — reporting it helps keep the guide current for everyone. The game is actively developed, and our guide evolves alongside it.
+              Additionally, if you notice any information that has become outdated due to a game patch (building costs that changed, mechanics that were rebalanced, or new systems that are not yet covered), reporting it helps keep the guide current for everyone. The game is actively developed, and our guide evolves alongside it.
             </p>
           </div>
 
@@ -162,7 +162,7 @@ export default function AboutPage() {
           <div className="bluepr-card">
             <h3 className="font-display text-lg font-semibold text-blueprint-text mb-4">Copyright Notice</h3>
             <p className="text-blueprint-muted leading-relaxed">
-              Town to City and all related game assets, names, and trademarks are the property of Galaxy Grove and published by Kwalee. The Town to City Guide content — including guides, tips, data tables, layout suggestions, and strategy analysis — is original work created by the community and is not derived from or a reproduction of the game&apos;s code or assets. Game screenshots and references to in-game content are used under fair use for the purpose of education, commentary, and gameplay assistance.
+              Town to City and all related game assets, names, and trademarks are the property of Galaxy Grove and published by Kwalee. The Town to City Guide content, including guides, tips, data tables, layout suggestions, and strategy analysis, is original work created by the community and is not derived from or a reproduction of the game&apos;s code or assets. Game screenshots and references to in-game content are used under fair use for the purpose of education, commentary, and gameplay assistance.
             </p>
           </div>
 

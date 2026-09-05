@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/tips",
   },
-  title: 'Tips & Strategies — Town to City Guide',
+  title: 'Tips & Strategies | Town to City Guide',
   description: 'Practical Town to City tips covering multi-town planning, crop optimization, citizen management, tourism, and warehouse logistics.',
   robots: {
     index: false,
@@ -15,12 +15,12 @@ export const metadata: Metadata = {
 const tips = [
   {
     title: 'Specialize Your Towns',
-    content: 'The default map features three distinct towns — Belvau (main hub), Fontebrac (agriculture), and Rocemarée (tourism). Develop each with a clear focus rather than trying to make every town self-sufficient. Fontebrac should focus on farming and granaries, Rocemarée on hotels and attractions, and Belvau on administration, research, and processing.',
+    content: 'The default map features three distinct towns: Belvau (main hub), Fontebrac (agriculture), and Rocemarée (tourism). Develop each with a clear focus rather than trying to make every town self-sufficient. Fontebrac should focus on farming and granaries, Rocemarée on hotels and attractions, and Belvau on administration, research, and processing.',
     tags: ['blue'],
   },
   {
     title: 'Plan Crop Ratios Around Building Inputs',
-    content: 'Different crop-powered buildings consume crops at very different rates. The Pub needs 75 Hops vs. 25 of each other crop — plant roughly 3x more Hops than other Tier 3 crops. The Candle Maker alone consumes 75 Beeswax, rivaling the combined demand of Hattery and Cathedral. Reference the exact input requirements before planting.',
+    content: 'Different crop-powered buildings consume crops at very different rates. The Pub needs 75 Hops vs. 25 of each other crop, so plant roughly 3x more Hops than other Tier 3 crops. The Candle Maker alone consumes 75 Beeswax, rivaling the combined demand of Hattery and Cathedral. Reference the exact input requirements before planting.',
     tags: ['green'],
   },
   {
@@ -30,12 +30,12 @@ const tips = [
   },
   {
     title: 'Farms Tier 3 Doubles Surface Area',
-    content: 'When your farms reach Tier 3, the available farming surface doubles. This is a critical upgrade point — plan for it by leaving room around your farm plots. The extra space can accommodate the higher crop volumes needed for City-rank buildings like the Apothecary (80 Medicinal Herbs) and Pub (75 Hops).',
+    content: 'When your farms reach Tier 3, the available farming surface doubles. This is a critical upgrade point, so plan for it by leaving room around your farm plots. The extra space can accommodate the higher crop volumes needed for City-rank buildings like the Apothecary (80 Medicinal Herbs) and Pub (75 Hops).',
     tags: ['green'],
   },
   {
     title: 'Monitor Labor Priorities',
-    content: 'Town to City uses a class-based labor system. Workers, Artisans, and Bourgeoisie fill different job slots. When you upgrade citizens, ensure you do not leave critical Worker positions unfilled. A Bourgeoisie citizen cannot work a farm — maintain a balanced tier distribution for stable production.',
+    content: 'Town to City uses a class-based labor system. Workers, Artisans, and Bourgeoisie fill different job slots. When you upgrade citizens, ensure you do not leave critical Worker positions unfilled. A Bourgeoisie citizen cannot work a farm, so maintain a balanced tier distribution for stable production.',
     tags: ['blue'],
   },
   {

@@ -2,7 +2,7 @@ export const metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/population-guide",
   },
-  title: "Town to City Population Guide — Grow Your City Fast (2026)",
+  title: "Town to City Population Guide | Grow Your City Fast (2026)",
   description: "Complete population guide for Town to City. How to grow population quickly, happiness management, and avoiding population decline.",
 };
 
@@ -13,11 +13,11 @@ export default function PopulationGuidePage() {
       <div className="space-y-8">
           <section>
             <h2 className="text-xl font-bold text-blue-300 mb-3">Population Growth Mechanics</h2>
-            <p className="text-gray-300 leading-relaxed">Population grows when: housing happiness is above 60%, jobs are available for new residents, and essential services (water, power, education) are within reach. The growth rate accelerates exponentially — going from 500 to 1,000 residents takes as long as going from 1,000 to 5,000. The key is maintaining all growth conditions simultaneously.</p>
+            <p className="text-gray-300 leading-relaxed">Population grows when: housing happiness is above 60%, jobs are available for new residents, and essential services (water, power, education) are within reach. The growth rate accelerates exponentially: going from 500 to 1,000 residents takes as long as going from 1,000 to 5,000. The key is maintaining all growth conditions simultaneously.</p>
           </section>
           <section>
             <h2 className="text-xl font-bold text-blue-300 mb-3">Happiness Management</h2>
-            <p className="text-gray-300 leading-relaxed">Track four happiness pillars: Basic Needs (food, water, power — must be 80%+), Services (schools, hospitals, fire/police — 60%+ for growth), Environment (parks, cleanliness, noise — each park adjacent to residential adds 5% happiness), and Economy (employment rate and wages — above 95% employment triggers a happiness bonus).</p>
+            <p className="text-gray-300 leading-relaxed">Track four happiness pillars: Basic Needs (food, water, power: must be 80%+), Services (schools, hospitals, fire/police: 60%+ for growth), Environment (parks, cleanliness, noise: each park adjacent to residential adds 5% happiness), and Economy (employment rate and wages: above 95% employment triggers a happiness bonus).</p>
           </section>
           <section>
             <h2 className="text-xl font-bold text-blue-300 mb-3">Education & Skills</h2>
@@ -25,7 +25,7 @@ export default function PopulationGuidePage() {
           </section>
           <section>
             <h2 className="text-xl font-bold text-blue-300 mb-3">Avoiding Population Decline</h2>
-            <p className="text-gray-300 leading-relaxed">Population decline triggers when happiness drops below 40% for 3+ consecutive months. The most common triggers: water/power outages (fix immediately — 2-hour outages start permanent resident emigration), high unemployment (zone more commercial or light industrial), and low service coverage (build hospitals/schools before expanding residential zones).</p>
+            <p className="text-gray-300 leading-relaxed">Population decline triggers when happiness drops below 40% for 3+ consecutive months. The most common triggers: water/power outages (fix immediately; 2-hour outages start permanent resident emigration), high unemployment (zone more commercial or light industrial), and low service coverage (build hospitals/schools before expanding residential zones).</p>
           </section>
         <section>
           <h2 className="text-xl font-bold text-blue-300 mb-3">FAQ</h2>
@@ -36,7 +36,7 @@ export default function PopulationGuidePage() {
               </div>
               <div>
                 <h3 className="font-semibold text-white">What should I know about happiness management in Town To City?</h3>
-                <p className="text-gray-300 leading-relaxed">Track four happiness pillars: Basic Needs (food, water, power — must be 80%+), Services (schools, hospitals, fire/police — 60%+ for growth), Environment (parks, cleanliness, noise — each park adjacent...</p>
+                <p className="text-gray-300 leading-relaxed">Track four happiness pillars: Basic Needs (food, water, power: must be 80%+), Services (schools, hospitals, fire/police: 60%+ for growth), Environment (parks, cleanliness, noise: each park adjacent...</p>
               </div>
               <div>
                 <h3 className="font-semibold text-white">What should I know about education & skills in Town To City?</h3>

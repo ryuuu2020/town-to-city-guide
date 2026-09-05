@@ -4,7 +4,7 @@ export const metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/villager-happiness",
   },
-  title: "Town to City Villager Happiness Guide — Needs, Mood & Productivity Optimization",
+  title: "Town to City Villager Happiness Guide | Needs, Mood & Productivity Optimization",
   description: "Keep villagers happy and productive with complete happiness guide. Covers needs, mood modifiers, recreation, and productivity bonuses.",
 };
 
@@ -38,7 +38,7 @@ export default function VillagerHappinessPage() {
           <p className="text-lg text-ink-light">
             Keep villagers happy and productive with this complete happiness guide.
             Covers all six happiness factors, mood thresholds, recreation strategy,
-            and productivity optimization — everything you need to build a thriving settlement.
+            and productivity optimization: everything you need to build a thriving settlement.
           </p>
           <p className="text-sm text-ink-light mt-2">
             Last updated: July 2, 2026
@@ -49,7 +49,7 @@ export default function VillagerHappinessPage() {
         <section className="mb-10">
           <h2 className="text-2xl font-semibold text-ink mb-4">Understanding Villager Happiness</h2>
           <p className="text-ink-light leading-relaxed mb-4">
-            Villager happiness in Town to City is not just a cosmetic stat — it directly governs
+            Villager happiness in Town to City is much more than a cosmetic stat. It directly governs
             your settlement's productivity, population growth, and ability to withstand crises.
             The happiness system tracks six core factors: Food, Housing, Recreation, Safety, Health,
             and Jobs. Each factor contributes a weighted score to the overall Mood meter, which
@@ -61,7 +61,7 @@ export default function VillagerHappinessPage() {
             your baseline goal; pushing past 80 unlocks significant bonuses including increased birth
             rates, immigration of skilled specialists, and free Festival events that boost morale
             across the entire settlement. The key insight is that happiness is a system of
-            interconnected dependencies — neglecting one area (like Recreation) can cascade into
+            interconnected dependencies. Neglecting one area (like Recreation) can cascade into
             failures in others (like Jobs, as unhappy workers produce less food).
           </p>
           <p className="text-ink-light leading-relaxed">
@@ -167,7 +167,7 @@ export default function VillagerHappinessPage() {
                 Add a Tavern and Theater, upgrade all housing to Stone Houses, and ensure at
                 least 95% employment. Watchtowers become essential as raid frequency increases.
                 Target Content (60+) Mood to unlock the specialist productivity bonus, which
-                creates a positive feedback loop — faster workers produce more resources,
+                creates a positive feedback loop: faster workers produce more resources,
                 which funds more happiness buildings.
               </p>
             </div>
@@ -178,7 +178,7 @@ export default function VillagerHappinessPage() {
                 villager job assignments to match their preferences (visible in the villager
                 inspect panel). A Hospital upgrade for the Healer's Hut provides passive
                 health regeneration that prevents disease cascades. At this stage, sustaining
-                Ecstatic (95+) Mood rewards you with Legendary Artisans — unique villagers
+                Ecstatic (95+) Mood rewards you with Legendary Artisans, unique villagers
                 with doubled output that can single-handedly carry your economy.
               </p>
             </div>
@@ -194,7 +194,7 @@ export default function VillagerHappinessPage() {
               <p className="text-ink-light text-sm leading-relaxed">
                 Plan for one recreation building per 25 villagers. This scales from 1 Tavern at Population 25
                 to roughly 4 total buildings (mix of Taverns, Theaters, and a Festival Square) at Population 100.
-                The key metric is coverage radius, not raw count — ensure no villager walks more than 8 tiles
+                The key metric is coverage radius rather than raw count. Ensure no villager walks more than 8 tiles
                 to reach a recreation building. Use the Happiness overlay (press H) to check for red zones
                 indicating no coverage.
               </p>
@@ -206,7 +206,7 @@ export default function VillagerHappinessPage() {
                 per season. At Happy (80-94), birth rate increases by 25%. At Ecstatic (95+), the rate doubles
                 to 2 births per 50 population per season. Conversely, at Unhappy (20-39), birth rates drop by 50%,
                 and at Furious (0-19), births stop entirely and villagers begin emigrating. Housing capacity must
-                also be available for new births to occur — an overcrowded settlement will not produce children
+                also be available for new births to occur. An overcrowded settlement will not produce children
                 regardless of Mood.
               </p>
             </div>
@@ -216,7 +216,7 @@ export default function VillagerHappinessPage() {
                 The most efficient early game strategy is the "Food-First Triangle": build a Granary (Food),
                 upgrade your starting Huts to Cottages (Housing), and immediately assign a Guard (Safety).
                 These three actions together provide a baseline +25 to +40 Mood, pushing you well into
-                Neutral territory. Avoid building a Healer's Hut too early — it is expensive and only
+                Neutral territory. Avoid building a Healer's Hut too early. It is expensive and only
                 becomes necessary around Population 15 when disease risk activates. Rush the Tavern at
                 Population 18-20 as your first Recreation building to prevent the recreation penalty from
                 kicking in. Do not overbuild housing early; empty houses drain maintenance resources
@@ -232,17 +232,17 @@ export default function VillagerHappinessPage() {
           <ul className="space-y-2">
             <li>
               <Link href="/production-chain-guide" className="text-accent hover:underline text-sm">
-                Production Chain Guide — Maximize resource efficiency
+                Production Chain Guide: Maximize resource efficiency
               </Link>
             </li>
             <li>
               <Link href="/defense-layout" className="text-accent hover:underline text-sm">
-                Defense Layout Guide — Protect your settlement from raids
+                Defense Layout Guide: Protect your settlement from raids
               </Link>
             </li>
             <li>
               <Link href="/beginner-colony-guide" className="text-accent hover:underline text-sm">
-                Beginner Colony Guide — First 30 days survival walkthrough
+                Beginner Colony Guide: First 30 days survival walkthrough
               </Link>
             </li>
           </ul>

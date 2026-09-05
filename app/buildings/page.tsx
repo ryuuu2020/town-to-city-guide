@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/buildings",
   },
-  title: 'Buildings Guide — Town to City Guide',
+  title: 'Buildings Guide | Town to City Guide',
   description: 'Complete Town to City buildings reference covering crop-powered production, city buildings, tourism structures, and placement tips.',
 };
 
@@ -25,7 +25,7 @@ const buildings = [
   { name: 'Candle Maker', desc: 'A housewares building consuming Beeswax (75). Produces candles for home decoration. Unlocked at City rank.', category: 'Decoration' },
   { name: 'Cathedral', desc: 'A public service building requiring Lavender (40) and Beeswax (40). Unlocked at Large City rank.', category: 'Civic' },
   { name: 'Restaurant', desc: 'A food building consuming Tomatoes, Potatoes, Pumpkin (10 each) and Beeswax (10). Serves fine dining at Large City rank.', category: 'Food' },
-  { name: 'Warehouse', desc: 'General-purpose storage building. Warehouses have a transport range — production buildings and shops within range automatically access stored goods. Warehouse workers handle logistics.', category: 'Economy' },
+  { name: 'Warehouse', desc: 'General-purpose storage building. Warehouses have a transport range. Production buildings and shops within range automatically access stored goods. Warehouse workers handle logistics.', category: 'Economy' },
   { name: 'Granary', desc: 'Dedicated crop storage. Place granaries near your farming regions to reduce transport time from fields to processing buildings.', category: 'Food' },
   { name: 'Research Center', desc: 'Unlocks new buildings, decorations, and technologies through a research tree. Assign Research Workers to progress through tiers.', category: 'Civic' },
   { name: 'Hotel', desc: 'Tourism building where visiting travelers stay. Contributes to tourism income. Works alongside scenic routes and tourist attractions like the Lighthouse and Art Atelier.', category: 'Economy' },
@@ -46,7 +46,7 @@ export default function BuildingsPage() {
 
         <h1 className="font-display text-4xl font-bold text-blueprint-text mb-4">Buildings Guide</h1>
         <p className="text-lg text-blueprint-muted mb-8">
-          Every building type in Town to City — from crop-powered production chains to city services and tourism structures. Building names and crop requirements verified against game data.
+          Every building type in Town to City, from crop-powered production chains to city services and tourism structures. Building names and crop requirements verified against game data.
         </p>
 
         {/* Category overview */}
@@ -153,7 +153,7 @@ export default function BuildingsPage() {
               <strong>Use warehouses for supply chains.</strong> Buildings within warehouse range automatically access stored goods. Place warehouses between producers and consumers to minimize transport times.
             </div>
             <div className="tip-box">
-              <strong>Manage labor carefully.</strong> Each citizen tier has a labor priority system. Workers, Artisans, and Bourgeoisie are needed for different buildings — balance housing upgrades with available jobs.
+              <strong>Manage labor carefully.</strong> Each citizen tier has a labor priority system. Workers, Artisans, and Bourgeoisie are needed for different buildings, so balance housing upgrades with available jobs.
             </div>
             <div className="tip-box">
               <strong>Tourism requires infrastructure.</strong> Tourism revenue scales with Hotels, scenic routes, and attractions (Lighthouse, Art Atelier, Monumental Ruins, Obelisk). Develop dedicated tourist towns (e.g., Rocemarée) for maximum returns.

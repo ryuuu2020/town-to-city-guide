@@ -2,7 +2,7 @@ export const metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/city-layout",
   },
-  title: "Town to City Best Layout Guide — Optimal City Design (2026)",
+  title: "Town to City Best Layout Guide | Optimal City Design (2026)",
   description: "Complete city layout guide for Town to City. Best district organization, road networks, and efficient city design for maximum growth.",
 };
 
@@ -17,15 +17,15 @@ export default function CityLayoutPage() {
           </section>
           <section>
             <h2 className="text-xl font-bold text-blue-300 mb-3">Road Network Design</h2>
-            <p className="text-gray-300 leading-relaxed">Main roads should be 4-lane boulevards connecting district centers. Branch into 2-lane roads for neighborhood access and 1-lane alleys for individual buildings. Avoid dead-end roads — they create traffic backups. Build ring roads around your city center to allow bypass traffic, reducing main-road congestion by 30-40%.</p>
+            <p className="text-gray-300 leading-relaxed">Main roads should be 4-lane boulevards connecting district centers. Branch into 2-lane roads for neighborhood access and 1-lane alleys for individual buildings. Avoid dead-end roads, since they create traffic backups. Build ring roads around your city center to allow bypass traffic, reducing main-road congestion by 30-40%.</p>
           </section>
           <section>
             <h2 className="text-xl font-bold text-blue-300 mb-3">Industrial Zone Placement</h2>
-            <p className="text-gray-300 leading-relaxed">Always place industrial zones downwind (east side in most maps) and away from residential areas. Buffer industrial zones with green parks or walls to reduce pollution drift. Connect industrial zones directly to the main highway — industrial truck traffic should never pass through residential areas.</p>
+            <p className="text-gray-300 leading-relaxed">Always place industrial zones downwind (east side in most maps) and away from residential areas. Buffer industrial zones with green parks or walls to reduce pollution drift. Connect industrial zones directly to the main highway, because industrial truck traffic should never pass through residential areas.</p>
           </section>
           <section>
             <h2 className="text-xl font-bold text-blue-300 mb-3">Growth Strategy</h2>
-            <p className="text-gray-300 leading-relaxed">Start small: 200-population residential zone + small commercial district + 1 industrial block. Expand when happiness reaches 75% (indicating current infrastructure meets demand). Never expand beyond your service coverage — a hospital or school that's too far reduces happiness faster than building new districts improves it.</p>
+            <p className="text-gray-300 leading-relaxed">Start small: 200-population residential zone + small commercial district + 1 industrial block. Expand when happiness reaches 75% (indicating current infrastructure meets demand). Never expand beyond your service coverage; a hospital or school that's too far reduces happiness faster than building new districts improves it.</p>
           </section>
         <section>
           <h2 className="text-xl font-bold text-blue-300 mb-3">FAQ</h2>
@@ -36,7 +36,7 @@ export default function CityLayoutPage() {
               </div>
               <div>
                 <h3 className="font-semibold text-white">What should I know about road network design in Town To City?</h3>
-                <p className="text-gray-300 leading-relaxed">Main roads should be 4-lane boulevards connecting district centers. Branch into 2-lane roads for neighborhood access and 1-lane alleys for individual buildings. Avoid dead-end roads — they create traf...</p>
+                <p className="text-gray-300 leading-relaxed">Main roads should be 4-lane boulevards connecting district centers. Branch into 2-lane roads for neighborhood access and 1-lane alleys for individual buildings. Avoid dead-end roads, since they create traf...</p>
               </div>
               <div>
                 <h3 className="font-semibold text-white">What should I know about industrial zone placement in Town To City?</h3>

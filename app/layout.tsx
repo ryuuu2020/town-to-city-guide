@@ -7,8 +7,8 @@ import SchemaMarkup from '@/shared/SchemaMarkup';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Town to City Guide — Complete City Builder Guide',
-    template: '%s — Town to City Guide',
+    default: 'Town to City Guide | Complete City Builder Guide',
+    template: '%s | Town to City Guide',
   },
   description: 'Complete Town to City guide covering city building, resource management, supply chains, layouts, research tree, citizen happiness tips, and Mediterranean town planning. Free 2026 city builder guide.',
   // 带尾斜杠的 metadataBase：所有相对 URL（og:image 等）都在它之下解析，

@@ -4,18 +4,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/resources",
   },
-  title: 'Crops & Farming — Town to City Guide',
+  title: 'Crops & Farming | Town to City Guide',
   description: 'Complete crop reference for Town to City: all 13 crop types, farm tier progression, crop-powered building inputs, and farming strategy.',
 };
 
 const crops = [
-  { name: 'Wheat', tier: 1, uses: 'Bakery (15 per cycle) — converted to Bread alongside Corn' },
-  { name: 'Corn', tier: 1, uses: 'Bakery (15 per cycle) — converted to Bread alongside Wheat' },
-  { name: 'Grapes', tier: 1, uses: 'Winery (50 per cycle) — fermented into Wine' },
-  { name: 'Cotton', tier: 2, uses: 'Hattery (20 per cycle) — textile production' },
+  { name: 'Wheat', tier: 1, uses: 'Bakery (15 per cycle), converted to Bread alongside Corn' },
+  { name: 'Corn', tier: 1, uses: 'Bakery (15 per cycle), converted to Bread alongside Wheat' },
+  { name: 'Grapes', tier: 1, uses: 'Winery (50 per cycle), fermented into Wine' },
+  { name: 'Cotton', tier: 2, uses: 'Hattery (20 per cycle), textile production' },
   { name: 'Beeswax', tier: 2, uses: 'Hattery (20), Candle Maker (75), Cathedral (40), Restaurant (10)' },
   { name: 'Rose', tier: 2, uses: 'Hattery (20), Perfumer (30), Social Club (40)' },
-  { name: 'Hops', tier: 3, uses: 'Pub (75), Apothecary (40) — highest volume crop demand' },
+  { name: 'Hops', tier: 3, uses: 'Pub (75), Apothecary (40): highest volume crop demand' },
   { name: 'Potatoes', tier: 3, uses: 'Pub (25), Restaurant (10)' },
   { name: 'Tomatoes', tier: 3, uses: 'Pub (25), Restaurant (10)' },
   { name: 'Lettuce', tier: 3, uses: 'Pub (25)' },
@@ -30,7 +30,7 @@ const supplyChains = [
     inputs: 'Corn (15) + Wheat (15) → Bread',
     tier: 'Farms Tier 1',
     type: 'Food',
-    notes: 'The staple food processing chain. Both Corn and Wheat are needed in equal amounts. Plan farm ratios to match — 1:1 Corn to Wheat.',
+    notes: 'The staple food processing chain. Both Corn and Wheat are needed in equal amounts. Plan farm ratios to match at 1:1 Corn to Wheat.',
   },
   {
     name: 'Winery (Wine)',
@@ -65,7 +65,7 @@ const supplyChains = [
     inputs: 'Lavender (30) + Rose (30)',
     tier: 'City rank',
     type: 'Apparel',
-    notes: 'Equal demand for both inputs. Rose is shared with Hattery and Social Club — plan total Rose production carefully.',
+    notes: 'Equal demand for both inputs. Rose is shared with Hattery and Social Club, so plan total Rose production carefully.',
   },
   {
     name: 'Social Club',
@@ -79,14 +79,14 @@ const supplyChains = [
     inputs: 'Beeswax (75)',
     tier: 'City rank',
     type: 'Housewares',
-    notes: 'Single-input building. Beeswax demand is high — this building alone needs as much as the Cathedral and Hattery combined.',
+    notes: 'Single-input building. Beeswax demand is high. This building alone needs as much as the Cathedral and Hattery combined.',
   },
   {
     name: 'Cathedral',
     inputs: 'Lavender (40) + Beeswax (40)',
     tier: 'Large City',
     type: 'Public Service',
-    notes: 'End-game public service building. Both inputs are shared with other buildings — scale production accordingly.',
+    notes: 'End-game public service building. Both inputs are shared with other buildings, so scale production accordingly.',
   },
   {
     name: 'Restaurant',
@@ -176,7 +176,7 @@ export default function ResourcesPage() {
         <section className="mb-16">
           <h2 className="font-display text-2xl font-bold text-blueprint-text mb-2">Farm Tier Progression</h2>
           <p className="text-blueprint-muted leading-relaxed mb-6">
-            Your Farms advance through four tiers as your settlement grows. Each tier unlocks new crops and the buildings that consume them. At Farms Tier 3, farm surface area doubles — a critical upgrade for meeting the increasing crop demands of City-rank buildings.
+            Your Farms advance through four tiers as your settlement grows. Each tier unlocks new crops and the buildings that consume them. At Farms Tier 3, farm surface area doubles, a critical upgrade for meeting the increasing crop demands of City-rank buildings.
           </p>
 
           <div className="bluepr-card overflow-x-auto">
@@ -194,25 +194,25 @@ export default function ResourcesPage() {
                   <td className="py-3 px-2 text-blueprint-text font-medium">Tier 1</td>
                   <td className="py-3 px-2 text-blueprint-text">Grapes, Corn, Wheat</td>
                   <td className="py-3 px-2 text-blueprint-text">Winery, Bakery</td>
-                  <td className="py-3 px-2 text-blueprint-muted text-xs">Foundation tier — establish food basics</td>
+                  <td className="py-3 px-2 text-blueprint-muted text-xs">Foundation tier: establish food basics</td>
                 </tr>
                 <tr className="border-b border-blueprint-border/50">
                   <td className="py-3 px-2 text-blueprint-text font-medium">Tier 2</td>
                   <td className="py-3 px-2 text-blueprint-text">Beeswax, Cotton, Rose</td>
                   <td className="py-3 px-2 text-blueprint-text">Hattery</td>
-                  <td className="py-3 px-2 text-blueprint-muted text-xs">First apparel building — diversify crops</td>
+                  <td className="py-3 px-2 text-blueprint-muted text-xs">First apparel building: diversify crops</td>
                 </tr>
                 <tr className="border-b border-blueprint-border/50">
                   <td className="py-3 px-2 text-blueprint-text font-medium">Tier 3</td>
                   <td className="py-3 px-2 text-blueprint-text">Hops, Potatoes, Tomatoes, Lettuce</td>
                   <td className="py-3 px-2 text-blueprint-text">Pub</td>
-                  <td className="py-3 px-2 text-blueprint-muted text-xs">Farm surface DOUBLES — major expansion point</td>
+                  <td className="py-3 px-2 text-blueprint-muted text-xs">Farm surface DOUBLES: major expansion point</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-2 text-blueprint-text font-medium">Tier 4</td>
                   <td className="py-3 px-2 text-blueprint-text">Pumpkin, Lavender, Medicinal Herbs</td>
-                  <td className="py-3 px-2 text-blueprint-text">— (City buildings use these)</td>
-                  <td className="py-3 px-2 text-blueprint-muted text-xs">No new farm buildings — crops feed City structures</td>
+                  <td className="py-3 px-2 text-blueprint-text">None (City buildings use these)</td>
+                  <td className="py-3 px-2 text-blueprint-muted text-xs">No new farm buildings: crops feed City structures</td>
                 </tr>
               </tbody>
             </table>
@@ -235,7 +235,7 @@ export default function ResourcesPage() {
                 <strong>Warehouse ranges matter:</strong> Production buildings only access crops stored in warehouses within transport range. Place warehouses strategically to bridge the gap between farming districts and processing buildings.
               </div>
               <div className="tip-box">
-                <strong>Plan for upgrades:</strong> When planning crop ratios, remember that Farms Tier 3 doubles surface area. A farm that barely meets demand at Tier 2 will have surplus at Tier 3 — or you can use the extra space for new crop types.
+                <strong>Plan for upgrades:</strong> When planning crop ratios, remember that Farms Tier 3 doubles surface area. A farm that barely meets demand at Tier 2 will have surplus at Tier 3, or you can use the extra space for new crop types.
               </div>
             </div>
           </div>

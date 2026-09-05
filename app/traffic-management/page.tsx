@@ -4,8 +4,8 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/traffic-management",
   },
-  title: "Town to City — Traffic Management Guide (2026)",
-  description: "Town to City traffic management guide — road planning strategies, congestion avoidance, logistics optimization, and traffic flow design for efficient city layouts.",
+  title: "Town to City: Traffic Management Guide (2026)",
+  description: "Town to City traffic management guide: road planning strategies, congestion avoidance, logistics optimization, and traffic flow design for efficient city layouts.",
 };
 
 export default function TrafficManagementPage() {
@@ -14,7 +14,7 @@ export default function TrafficManagementPage() {
       <div className="flex flex-col lg:flex-row gap-12 lg:gap-16">
         <div className="flex-1 lg:max-w-[65%] space-y-10">
           <section>
-            <h1 className="text-3xl font-bold text-gray-100 mb-4">Town to City Traffic Management Guide — Road Planning &amp; Congestion Avoidance (2026)</h1>
+            <h1 className="text-3xl font-bold text-gray-100 mb-4">Town to City Traffic Management Guide | Road Planning &amp; Congestion Avoidance (2026)</h1>
             <p className="text-gray-300 leading-relaxed text-lg">
               Traffic management is the most critical factor in maintaining a functioning city in Town to City. Poor road planning leads to congestion, which causes delays in goods delivery, reduces citizen happiness, and can completely stall your production chains. As your city grows from a small settlement of "50" citizens to a major city of "2,000" or more, traffic volume increases exponentially. Without proper road planning, your city will grind to a halt before you reach the late game. This guide covers road network design principles, congestion avoidance strategies, logistics optimization techniques, and traffic flow patterns that scale to cities of any size. All strategies are validated against the latest patch and tested in cities with populations exceeding "3,000" citizens.
             </p>
@@ -128,7 +128,7 @@ export default function TrafficManagementPage() {
           <section>
             <h2 className="text-2xl font-bold text-gray-100 mb-4">Congestion Avoidance Strategies</h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Congestion occurs when the volume of traffic on a road exceeds its capacity. In Town to City, congestion manifests as carts and travelers forming long queues, taking detours, or becoming completely stuck. The most common cause of congestion is a bottleneck — a single narrow road segment that carries traffic for a large area. The solution is to identify bottlenecks early and widen or bypass them before your city outgrows them.
+              Congestion occurs when the volume of traffic on a road exceeds its capacity. In Town to City, congestion manifests as carts and travelers forming long queues, taking detours, or becoming completely stuck. The most common cause of congestion is a bottleneck: a single narrow road segment that carries traffic for a large area. The solution is to identify bottlenecks early and widen or bypass them before your city outgrows them.
             </p>
             <p className="text-gray-300 leading-relaxed mb-4">
               One effective congestion avoidance strategy is load balancing across multiple routes. Instead of routing all carts through a single central warehouse, distribute warehouses across your city and assign each production area to its nearest warehouse. This reduces the distance carts travel and spreads traffic across more roads. Aim for no more than "20" production buildings per warehouse. If a production area has more than "20" buildings, add a second warehouse and split the area in half.
@@ -137,7 +137,7 @@ export default function TrafficManagementPage() {
               Another strategy is time-based traffic management. In Town to City, different building types operate on different schedules. Production buildings typically operate during the day, while markets operate from early morning to evening. By staggering production start times across different areas of your city, you can spread traffic more evenly throughout the day. This does not eliminate congestion, but it reduces peak-hour traffic spikes that cause the worst bottlenecks.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              Road maintenance is also a factor in congestion. Dirt roads have a speed penalty when it rains, which slows all traffic and increases the effective load on the road. Upgrading dirt roads to cobblestone or brick reduces this penalty and increases effective road capacity. The break-even point for road upgrades is typically around "150" citizens per road segment — below that population, dirt roads are sufficient; above it, upgrade to cobblestone to prevent congestion from weather penalties.
+              Road maintenance is also a factor in congestion. Dirt roads have a speed penalty when it rains, which slows all traffic and increases the effective load on the road. Upgrading dirt roads to cobblestone or brick reduces this penalty and increases effective road capacity. The break-even point for road upgrades is typically around "150" citizens per road segment. Below that population, dirt roads are sufficient; above it, upgrade to cobblestone to prevent congestion from weather penalties.
             </p>
           </section>
 
@@ -150,7 +150,7 @@ export default function TrafficManagementPage() {
               The cluster strategy takes this principle further by grouping related production buildings together in dedicated production zones. A metalworking zone might contain an iron mine, a coal mine, a smelter, and a forge all within a "50"-tile radius. A food production zone might contain farms, a windmill, and a bakery in the same area. Clustering reduces average travel distance and allows you to use a single warehouse for the entire zone, which reduces the number of carts on your roads.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              The hub-and-spoke logistics model is the most scalable approach for large cities. In this model, you have one central hub warehouse and multiple satellite warehouses in each production zone. The hub warehouse handles long-distance trade and bulk storage. Satellite warehouses handle local distribution within their zone. Goods flow from satellite warehouses to the hub when needed for trade, and from the hub to satellite warehouses when local supply is insufficient. This model minimizes cross-city traffic because most goods move only within their zone, not across the entire city.
+              The hub-and-spoke logistics model is the most scalable approach for large cities. In this model, you have one central hub warehouse and multiple satellite warehouses in each production zone. The hub warehouse handles long-distance trade and bulk storage. Satellite warehouses handle local distribution within their zone. Goods flow from satellite warehouses to the hub when needed for trade, and from the hub to satellite warehouses when local supply is insufficient. This model minimizes cross-city traffic because most goods move only within their zone rather than across the entire city.
             </p>
           </section>
 
@@ -188,7 +188,7 @@ export default function TrafficManagementPage() {
             </div>
           </section>
 
-          <p className="text-sm text-gray-500 mt-8 italic">Last updated: June 2026. Based on Town to City latest patch. Traffic strategies tested in cities with "3,000"+ citizens. Fan guide — not affiliated with the developer.</p>
+          <p className="text-sm text-gray-500 mt-8 italic">Last updated: June 2026. Based on Town to City latest patch. Traffic strategies tested in cities with "3,000"+ citizens. Independent fan guide, not affiliated with the developer.</p>
         </div>
 
         <aside className="lg:w-[30%] space-y-6">

@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/tier-list",
   },
-  title: "Town to City Building Tier List — Best Buildings Ranked (2026)",
+  title: "Town to City Building Tier List | Best Buildings Ranked (2026)",
   description:
     "Complete Town to City building tier list ranking every structure from S to C tier. Find the best production buildings, logistics hubs, housing, and late-game structures with detailed explanations and unlock conditions.",
   keywords: [
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "Town to City building guide",
   ],
   openGraph: {
-    title: "Town to City Building Tier List — Best Buildings Ranked (2026)",
+    title: "Town to City Building Tier List | Best Buildings Ranked (2026)",
     description:
       "Rank every building in Town to City from S to C tier. Covers production buildings, logistics, housing, luxury structures, and tourism.",
   },
@@ -106,7 +106,7 @@ const allBuildings: BuildingEntry[] = [
     tier: "S",
     name: "Town Hall",
     category: "Civic",
-    benefit: "Administrative heart of your settlement. Manages citizen registration, worker assignments, and town statistics. Every new town begins with one — it's the control center for all management decisions.",
+    benefit: "Administrative heart of your settlement. Manages citizen registration, worker assignments, and town statistics. Every new town begins with one. It's the control center for all management decisions.",
     unlock: "Dwelling (start)",
   },
   {
@@ -134,7 +134,7 @@ const allBuildings: BuildingEntry[] = [
     tier: "A",
     name: "Bakery",
     category: "Food",
-    benefit: "Converts Corn (15) + Wheat (15) into bread — the most efficient early food processing chain. Satisfies higher-tier citizen food needs and provides consistent output from basic farm inputs.",
+    benefit: "Converts Corn (15) + Wheat (15) into bread, the most efficient early food processing chain. Satisfies higher-tier citizen food needs and provides consistent output from basic farm inputs.",
     unlock: "Farms Tier 1",
   },
   {
@@ -155,7 +155,7 @@ const allBuildings: BuildingEntry[] = [
     tier: "B",
     name: "Winery",
     category: "Food",
-    benefit: "Processes Grapes (50) into Wine — a luxury beverage satisfying Bourgeoisie needs and serving as a valuable trade good. High investment in grape farming but excellent late-game returns.",
+    benefit: "Processes Grapes (50) into Wine, a luxury beverage satisfying Bourgeoisie needs and serving as a valuable trade good. High investment in grape farming but excellent late-game returns.",
     unlock: "Farms Tier 1",
   },
   {
@@ -254,7 +254,7 @@ export default function TierListPage() {
             Town to City Building Tier List
           </h1>
           <p className="text-lg text-blueprint-muted leading-relaxed max-w-3xl">
-            Every building in Town to City costs time, resources, and citizen labor. Build the wrong structure at the wrong time and your settlement stalls — citizens go unhappy, production chains break, and your carefully planned city grinds to a halt. This tier list ranks every major building from S-tier (build immediately) to C-tier (late-game optimization), so you know exactly where to invest your resources at every stage of development. Rankings are based on community testing, crop-to-output efficiency, and overall impact on city growth across all town ranks from Dwelling to Large City.
+            Every building in Town to City costs time, resources, and citizen labor. Build the wrong structure at the wrong time and your settlement stalls: citizens go unhappy, production chains break, and your carefully planned city grinds to a halt. This tier list ranks every major building from S-tier (build immediately) to C-tier (late-game optimization), so you know exactly where to invest your resources at every stage of development. Rankings are based on community testing, crop-to-output efficiency, and overall impact on city growth across all town ranks from Dwelling to Large City.
           </p>
         </section>
 
@@ -267,7 +267,7 @@ export default function TierListPage() {
             <section>
               <div className="bluepr-card">
                 <h2 className="font-display text-xl font-semibold text-blueprint-text mb-4">
-                  Meta Overview — Key Stats
+                  Meta Overview: Key Stats
                 </h2>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   <div className="stat-card">
@@ -306,7 +306,7 @@ export default function TierListPage() {
                   </div>
                 </div>
                 <p className="font-body text-sm text-blueprint-muted leading-relaxed mt-4 pt-4 border-t border-blueprint-border/50">
-                  Rankings reflect overall contribution to city growth, production chain efficiency, and how each building scales from early game through Large City. S-tier buildings form the backbone of every successful settlement; C-tier buildings are powerful but arrive too late to shape your city&apos;s trajectory. Crop-powered buildings are weighted by input-to-output ratio — a building requiring 75 Hops like the Pub faces tougher competition than the bakery&apos;s modest 15 Corn + 15 Wheat requirement.
+                  Rankings reflect overall contribution to city growth, production chain efficiency, and how each building scales from early game through Large City. S-tier buildings form the backbone of every successful settlement; C-tier buildings are powerful but arrive too late to shape your city&apos;s trajectory. Crop-powered buildings are weighted by input-to-output ratio: a building requiring 75 Hops like the Pub faces tougher competition than the bakery&apos;s modest 15 Corn + 15 Wheat requirement.
                 </p>
               </div>
             </section>
@@ -317,10 +317,10 @@ export default function TierListPage() {
                 1. Infrastructure &amp; Logistics Tier List
               </h2>
               <p className="text-blueprint-muted leading-relaxed mb-4">
-                Your town lives and dies by logistics. The Warehouse is the circulatory system of your settlement — every imported good, harvested crop, and crafted product passes through warehouse workers before reaching shops, production buildings, or citizens. Without a well-placed warehouse network, your bakeries starve for Corn and Wheat, your markets sit empty, and your happiness tanks. Distributed warehouse placement (one per district or production zone) is the single most impactful infrastructure decision you can make.
+                Your town lives and dies by logistics. The Warehouse is the circulatory system of your settlement: every imported good, harvested crop, and crafted product passes through warehouse workers before reaching shops, production buildings, or citizens. Without a well-placed warehouse network, your bakeries starve for Corn and Wheat, your markets sit empty, and your happiness tanks. Distributed warehouse placement (one per district or production zone) is the single most impactful infrastructure decision you can make.
               </p>
               <p className="text-blueprint-muted leading-relaxed mb-4">
-                The Research Center earns its S-tier crown because it gates literally everything else — every building tier, every decoration, every city rank upgrade. Assign multiple research workers early to accelerate your progression through the technology tree. Granary sits at A-tier not because it&apos;s flashy, but because it solves the most common new-player problem: crops rotting in fields before warehouse workers can collect them. Place a Granary near your farming district and watch your food chain efficiency double.
+                The Research Center earns its S-tier crown because it gates everything else: every building tier, every decoration, every city rank upgrade. Assign multiple research workers early to accelerate your progression through the technology tree. Granary sits at A-tier not because it&apos;s flashy, but because it solves the most common new-player problem: crops rotting in fields before warehouse workers can collect them. Place a Granary near your farming district and watch your food chain efficiency double.
               </p>
               <div className="bluepr-card overflow-x-auto">
                 <table className="w-full text-sm">
@@ -351,10 +351,10 @@ export default function TierListPage() {
                 2. Production &amp; Food Tier List
               </h2>
               <p className="text-blueprint-muted leading-relaxed mb-4">
-                Food is the first need every citizen demands — and the one that kills your happiness fastest when unmet. The Farm is the foundational production building: it feeds into the Bakery (Corn + Wheat → Bread), the Winery (Grapes → Wine), the Pub (Hops + vegetables → drinks), and the Restaurant (mixed crops → fine dining). Without Farms, you have no crop-powered production at all, making this an unambiguous S-tier investment.
+                Food is the first need every citizen demands, and the one that kills your happiness fastest when unmet. The Farm is the foundational production building: it feeds into the Bakery (Corn + Wheat → Bread), the Winery (Grapes → Wine), the Pub (Hops + vegetables → drinks), and the Restaurant (mixed crops → fine dining). Without Farms, you have no crop-powered production at all, making this an unambiguous S-tier investment.
               </p>
               <p className="text-blueprint-muted leading-relaxed mb-4">
-                The Bakery stands head and shoulders above other food buildings because of its modest input requirements (15 Corn + 15 Wheat) and consistent output — bread satisfies all classes through mid-game, and Corn and Wheat are your first two crops, so you can get the Bakery online within the first few seasons. The Winery is a strong B-tier: Wine satisfies Bourgeoisie needs and trades well, but 50 Grapes per cycle is a heavy farm commitment when you could be growing Corn and Wheat for bread. The Restaurant earns B-tier for its +5 Luxury Value, but arrives at Large City when your food chain should already be stable.
+                The Bakery stands head and shoulders above other food buildings because of its modest input requirements (15 Corn + 15 Wheat) and consistent output. Bread satisfies all classes through mid-game, and Corn and Wheat are your first two crops, so you can get the Bakery online within the first few seasons. The Winery is a strong B-tier: Wine satisfies Bourgeoisie needs and trades well, but 50 Grapes per cycle is a heavy farm commitment when you could be growing Corn and Wheat for bread. The Restaurant earns B-tier for its +5 Luxury Value, but arrives at Large City when your food chain should already be stable.
               </p>
               <div className="bluepr-card overflow-x-auto">
                 <table className="w-full text-sm">
@@ -385,10 +385,10 @@ export default function TierListPage() {
                 3. Luxury, Leisure &amp; Late-Game Tier List
               </h2>
               <p className="text-blueprint-muted leading-relaxed mb-4">
-                Once your basic food and shelter chains are running smoothly, luxury and leisure buildings become necessary to climb the city ranks. The Pub is your first major leisure investment at Farms Tier 3, requiring a substantial 75 Hops plus three additional vegetables. It earns B-tier because citizen happiness directly affects productivity — happier workers generate more gold and research points — but the crop requirements mean you need a well-established farm network first.
+                Once your basic food and shelter chains are running smoothly, luxury and leisure buildings become necessary to climb the city ranks. The Pub is your first major leisure investment at Farms Tier 3, requiring a substantial 75 Hops plus three additional vegetables. It earns B-tier because citizen happiness directly affects productivity (happier workers generate more gold and research points), but the crop requirements mean you need a well-established farm network first.
               </p>
               <p className="text-blueprint-muted leading-relaxed mb-4">
-                The late-game C-tier buildings — the Perfumer, Social Club, Candle Maker, Apothecary, and Cathedral — all serve important functions for Bourgeoisie satisfaction, but they arrive at City rank or higher, by which point your city should already be stable. These buildings optimize an already-functioning city rather than enabling growth. The Cathedral&apos;s +5 Luxury Value is the highest of any public service, but requiring both Lavender (40) and Beeswax (40) from limited farm slots makes it a stretch goal, not a priority.
+                The late-game C-tier buildings (the Perfumer, Social Club, Candle Maker, Apothecary, and Cathedral) all serve important functions for Bourgeoisie satisfaction, but they arrive at City rank or higher, by which point your city should already be stable. These buildings optimize an already-functioning city rather than enabling growth. The Cathedral&apos;s +5 Luxury Value is the highest of any public service, but requiring both Lavender (40) and Beeswax (40) from limited farm slots makes it a stretch goal rather than a priority.
               </p>
               <div className="bluepr-card overflow-x-auto">
                 <table className="w-full text-sm">
@@ -419,7 +419,7 @@ export default function TierListPage() {
                 4. Housing &amp; Economy Tier List
               </h2>
               <p className="text-blueprint-muted leading-relaxed mb-4">
-                Housing determines your workforce composition. Worker Houses are A-tier because they unlock your entire labor pool — every farm worker, warehouse hauler, and market vendor starts here. Artisan Houses ascend to A-tier because they gate access to advanced production buildings; without Artisans, you cannot staff bakeries, wineries, or pubs. The Market Stall ties the housing system together by providing the commerce outlet where citizens satisfy their needs and generate income.
+                Housing determines your workforce composition. Worker Houses are A-tier because they unlock your entire labor pool. Every farm worker, warehouse hauler, and market vendor starts here. Artisan Houses ascend to A-tier because they gate access to advanced production buildings; without Artisans, you cannot staff bakeries, wineries, or pubs. The Market Stall ties the housing system together by providing the commerce outlet where citizens satisfy their needs and generate income.
               </p>
               <p className="text-blueprint-muted leading-relaxed mb-4">
                 Bourgeoisie Houses and the Hotel sit in C-tier because they represent late-game optimization rather than growth drivers. Bourgeoisie generate the highest tax income per household, but they require a fully built-out luxury chain (Perfumer, Social Club, high-X value buildings) to stay happy. The Hotel provides a niche tourism income stream that supplements your economy but never replaces it. Build these once your production and logistics chains are fully mature.
@@ -450,7 +450,7 @@ export default function TierListPage() {
             {/* Full Master Table */}
             <section>
               <h2 className="font-display text-2xl font-semibold text-blueprint-text mb-4">
-                5. Complete Building Tier List — All Rankings
+                5. Complete Building Tier List: All Rankings
               </h2>
               <p className="text-blueprint-muted leading-relaxed mb-4">
                 The complete master table below includes all 21 buildings ranked in this tier list, organized by tier then alphabetically. Use this as your quick reference when planning your next build order.
@@ -485,7 +485,7 @@ export default function TierListPage() {
               <div className="bluepr-card">
                 <h2 className="font-display text-xl font-semibold text-blueprint-text mb-3">How We Rank</h2>
                 <p className="text-blueprint-muted leading-relaxed text-sm">
-                  Tiers reflect overall contribution to city growth, production chain efficiency, and how a building shapes your settlement across all city ranks. An S-tier building is one you feel the absence of immediately — without a Warehouse or Research Center, your town cannot function. A C-tier building is valuable but arrives so late (City rank or higher) that it optimizes an already-functioning settlement rather than enabling growth. Crop-powered buildings are weighted by input-to-output efficiency: a Bakery requiring only 15 Corn + 15 Wheat for daily bread production is more efficient than a Perfumer needing 30 Lavender + 30 Rose from limited farm tiles. Rankings are based on community testing, game data, and established meta strategies as of June 2026.
+                  Tiers reflect overall contribution to city growth, production chain efficiency, and how a building shapes your settlement across all city ranks. An S-tier building is one you feel the absence of immediately. Without a Warehouse or Research Center, your town cannot function. A C-tier building is valuable but arrives so late (City rank or higher) that it optimizes an already-functioning settlement rather than enabling growth. Crop-powered buildings are weighted by input-to-output efficiency: a Bakery requiring only 15 Corn + 15 Wheat for daily bread production is more efficient than a Perfumer needing 30 Lavender + 30 Rose from limited farm tiles. Rankings are based on community testing, game data, and established meta strategies as of June 2026.
                 </p>
               </div>
             </section>
@@ -580,7 +580,7 @@ export default function TierListPage() {
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="step-num w-6 h-6 text-xs">3</span>
-                  <span>Worker Houses → 3–4 near jobs</span>
+                  <span>Worker Houses → 3-4 near jobs</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="step-num w-6 h-6 text-xs">4</span>
@@ -631,7 +631,7 @@ export default function TierListPage() {
             {/* Key Insight */}
             <div className="tip-box">
               <p className="font-body text-xs text-blueprint-text leading-relaxed">
-                <strong className="text-blueprint-accent">Key Insight:</strong> The game fundamentally rewards infrastructure before production, and production before luxury. New players often rush to build the Pub or Winery before establishing a solid warehouse network — then wonder why their bakeries have no Corn. Invest in logistics first, food second, and luxury last. Your city will grow faster and more sustainably.
+                <strong className="text-blueprint-accent">Key Insight:</strong> The game fundamentally rewards infrastructure before production, and production before luxury. A common mistake is rushing to build the Pub or Winery before establishing a solid warehouse network, then wondering why the bakeries have no Corn. Invest in logistics first, food second, and luxury last. Your city will grow faster and more sustainably.
               </p>
             </div>
           </aside>

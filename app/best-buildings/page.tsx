@@ -6,44 +6,44 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/best-buildings",
   },
-  title: 'Town to City Best Buildings Guide — Priority & Build Order (2026)',
+  title: 'Town to City Best Buildings Guide | Priority & Build Order (2026)',
   description:
     "Town to City best buildings: which buildings to prioritize, the ideal build order from housing and food chains to tourism, and when each structure pays off.",
 };
 
 const buildingTiers = [
   {
-    priority: '1 — Foundations',
+    priority: '1: Foundations',
     buildings: 'Town Hall, Farm, Worker House, Market Stall',
     role: 'Starts the core loop: farms feed workers, workers staff buildings, and market stalls turn goods into early income.',
     whenToBuild: 'Immediately. These are the first structures every new town needs before anything else matters.',
   },
   {
-    priority: '2 — Food processing',
+    priority: '2: Food processing',
     buildings: 'Bakery, Winery, Granary',
     role: 'Converts raw crops into goods that satisfy higher food needs and give you something valuable to sell.',
     whenToBuild: 'Once farms are producing a surplus. Place granaries near fields so crops move quickly into processing.',
   },
   {
-    priority: '3 — Logistics and research',
+    priority: '3: Logistics and research',
     buildings: 'Warehouse, Research Center',
     role: 'Warehouses share stored goods across their transport range; the Research Center unlocks new buildings and farm tiers.',
     whenToBuild: 'As soon as your town has more than one production district. Research should run continuously between expansions.',
   },
   {
-    priority: '4 — Housing ladder',
+    priority: '4: Housing ladder',
     buildings: 'Artisan House, Bourgeoisie House',
     role: 'Upgraded housing creates the higher citizen tiers who staff advanced buildings and pay more tax.',
     whenToBuild: 'Upgrade workers only after food and market needs are already met, or the new tier will move in unhappy.',
   },
   {
-    priority: '5 — Services and happiness',
+    priority: '5: Services and happiness',
     buildings: 'Hattery, Pub, Apothecary, Perfumer, Social Club',
     role: 'Apparel, leisure, and public services keep citizens satisfied as their demands grow with each tier.',
     whenToBuild: "Alongside each housing upgrade. Add the matching service before the new tier's happiness drops.",
   },
   {
-    priority: '6 — Late-game and tourism',
+    priority: '6: Late-game and tourism',
     buildings: 'Cathedral, Restaurant, Hotel, Art Atelier, Lighthouse',
     role: 'High-end services and attractions that unlock later ranks and turn beauty into tourism income.',
     whenToBuild: 'In the City and Large City ranks, ideally concentrated in a high-beauty tourist district.',
@@ -193,7 +193,7 @@ export default function BestBuildingsPage() {
               <strong>Warehouse range decides your layout.</strong> Buildings inside a warehouse&apos;s transport range can share stored goods, so place warehouses between producers and the shops that consume their output.
             </div>
             <div className="tip-box">
-              <strong>Upgrade housing only with services ready.</strong> Each citizen tier adds demands. Build the matching apparel, leisure, or public service before or alongside the housing upgrade, not after unhappiness sets in.
+              <strong>Upgrade housing only with services ready.</strong> Each citizen tier adds demands. Build the matching apparel, leisure, or public service before or alongside the housing upgrade rather than after unhappiness sets in.
             </div>
             <div className="tip-box">
               <strong>Keep tourism for the late game.</strong> A high-beauty district with hotels, a lighthouse, and an art atelier earns far more than scattering one attraction early.
@@ -214,7 +214,7 @@ export default function BestBuildingsPage() {
           </div>
         </div>
 
-        {/* Related Guides — only real pages */}
+        {/* Related Guides (only real pages) */}
         <div className="mt-12">
           <h2 className="font-display text-2xl font-bold text-blueprint-text mb-4">Related Guides</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">

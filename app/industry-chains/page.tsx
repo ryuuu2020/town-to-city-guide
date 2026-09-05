@@ -4,23 +4,23 @@ export const metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/industry-chains",
   },
-  title: "Town to City Industry Chains Guide — Production Lines, Supply Routes & Economic Optimization | Town to City Guide",
+  title: "Town to City Industry Chains Guide: Production Lines, Supply Routes & Economic Optimization | Town to City Guide",
   description: "Complete Town to City industry chains guide. Every production line mapped from raw material to finished goods, supply chain optimization, and economic scaling strategies.",
 };
 
 const industryChains = [
-  { chain: "Textile Industry", rawMaterial: "Cotton Fields, Sheep Pastures", processed: "Cotton → Thread → Fabric; Wool → Yarn → Cloth", finishedGoods: "Clothing, Uniforms, Luxury Garments", keyBuilding: "Weaver Workshop, Tailor Shop", profitPerDay: "Medium — steady demand, low margin unless luxury tier" },
-  { chain: "Food Processing", rawMaterial: "Wheat Farms, Cattle Ranches, Fishing Docks", processed: "Wheat → Flour → Bread; Milk → Cheese; Fish → Smoked Fish", finishedGoods: "Bread, Cheese, Preserved Meat, Canned Goods", keyBuilding: "Mill, Bakery, Smokehouse", profitPerDay: "High — food is always in demand; preserved goods sell to traders at premium" },
-  { chain: "Metalworking", rawMaterial: "Iron Mine, Coal Mine", processed: "Iron Ore → Iron Ingots → Steel Ingots", finishedGoods: "Tools, Weapons, Construction Materials, Machinery", keyBuilding: "Smelter, Forge, Machine Shop", profitPerDay: "Very High — late-game economic engine; steel sells for premium to all trade partners" },
-  { chain: "Timber Industry", rawMaterial: "Forestry Camps", processed: "Logs → Planks → Furniture; Logs → Pulp → Paper", finishedGoods: "Furniture, Construction Materials, Books", keyBuilding: "Sawmill, Carpenter Workshop, Paper Mill", profitPerDay: "Low-Medium — good early game, scales poorly late game; furniture niche is profitable" },
-  { chain: "Luxury Goods", rawMaterial: "Gold Mine, Gem Quarry, Silk Farm (imported)", processed: "Gold Ore → Gold Ingots → Jewelry; Gems → Cut Gems", finishedGoods: "Jewelry, Decorations, Noble Gifts, Trade Goods", keyBuilding: "Jeweler Workshop, Goldsmith", profitPerDay: "Maximum — highest profit margin but requires multiple supply chains and skilled workers" },
+  { chain: "Textile Industry", rawMaterial: "Cotton Fields, Sheep Pastures", processed: "Cotton → Thread → Fabric; Wool → Yarn → Cloth", finishedGoods: "Clothing, Uniforms, Luxury Garments", keyBuilding: "Weaver Workshop, Tailor Shop", profitPerDay: "Medium: steady demand, low margin unless luxury tier" },
+  { chain: "Food Processing", rawMaterial: "Wheat Farms, Cattle Ranches, Fishing Docks", processed: "Wheat → Flour → Bread; Milk → Cheese; Fish → Smoked Fish", finishedGoods: "Bread, Cheese, Preserved Meat, Canned Goods", keyBuilding: "Mill, Bakery, Smokehouse", profitPerDay: "High: food is always in demand; preserved goods sell to traders at premium" },
+  { chain: "Metalworking", rawMaterial: "Iron Mine, Coal Mine", processed: "Iron Ore → Iron Ingots → Steel Ingots", finishedGoods: "Tools, Weapons, Construction Materials, Machinery", keyBuilding: "Smelter, Forge, Machine Shop", profitPerDay: "Very High: late-game economic engine; steel sells for premium to all trade partners" },
+  { chain: "Timber Industry", rawMaterial: "Forestry Camps", processed: "Logs → Planks → Furniture; Logs → Pulp → Paper", finishedGoods: "Furniture, Construction Materials, Books", keyBuilding: "Sawmill, Carpenter Workshop, Paper Mill", profitPerDay: "Low-Medium: good early game, scales poorly late game; furniture niche is profitable" },
+  { chain: "Luxury Goods", rawMaterial: "Gold Mine, Gem Quarry, Silk Farm (imported)", processed: "Gold Ore → Gold Ingots → Jewelry; Gems → Cut Gems", finishedGoods: "Jewelry, Decorations, Noble Gifts, Trade Goods", keyBuilding: "Jeweler Workshop, Goldsmith", profitPerDay: "Maximum: highest profit margin but requires multiple supply chains and skilled workers" },
 ];
 
 const tradeRoutes = [
-  { route: "Neighboring Town (Daily)", transportCost: "Low — 1 cart, 2 workers", bestGoods: "Bread, Basic Tools, Lumber", profitMargin: "10-15 percent", risk: "Minimal — safe route, small profits" },
-  { route: "Regional City (Weekly)", transportCost: "Medium — 2 carts, 4 workers, 1 guard", bestGoods: "Steel Tools, Furniture, Preserved Food", profitMargin: "20-30 percent", risk: "Low — occasional bandit encounters" },
-  { route: "Capital City (Biweekly)", transportCost: "High — 3 carts, 6 workers, 2 guards", bestGoods: "Luxury Garments, Jewelry, Machinery", profitMargin: "35-50 percent", risk: "Medium — bandits and broken cart risk; bring spare parts" },
-  { route: "Foreign Port (Monthly)", transportCost: "Very High — ship charter, 8 workers, 4 guards", bestGoods: "Jewelry, Noble Gifts, Exotic Goods", profitMargin: "50-80 percent", risk: "High — pirates, storms, market fluctuation; insurance recommended" },
+  { route: "Neighboring Town (Daily)", transportCost: "Low: 1 cart, 2 workers", bestGoods: "Bread, Basic Tools, Lumber", profitMargin: "10-15 percent", risk: "Minimal: safe route, small profits" },
+  { route: "Regional City (Weekly)", transportCost: "Medium: 2 carts, 4 workers, 1 guard", bestGoods: "Steel Tools, Furniture, Preserved Food", profitMargin: "20-30 percent", risk: "Low: occasional bandit encounters" },
+  { route: "Capital City (Biweekly)", transportCost: "High: 3 carts, 6 workers, 2 guards", bestGoods: "Luxury Garments, Jewelry, Machinery", profitMargin: "35-50 percent", risk: "Medium: bandits and broken cart risk; bring spare parts" },
+  { route: "Foreign Port (Monthly)", transportCost: "Very High: ship charter, 8 workers, 4 guards", bestGoods: "Jewelry, Noble Gifts, Exotic Goods", profitMargin: "50-80 percent", risk: "High: pirates, storms, market fluctuation; insurance recommended" },
 ];
 
 export default function IndustryChainsPage() {
@@ -28,10 +28,10 @@ export default function IndustryChainsPage() {
     <div className="max-w-4xl mx-auto px-4 py-8">
       <h1 className="chapter-heading font-display text-4xl mb-2">Industry Chains Guide</h1>
       <p className="text-ink-faded text-lg mb-8 drop-cap">
-        A thriving town economy in Town to City is not built on raw materials — it is built on chains. Raw cotton sells for pennies; finished luxury garments sell for gold. Understanding how to transform basic resources into high-value goods through multi-step production chains is the difference between a struggling village and an economic powerhouse. This guide maps every industry chain, the buildings required at each step, and the trade routes that turn goods into gold.
+        A thriving town economy in Town to City is built on chains rather than on raw materials. Raw cotton sells for pennies; finished luxury garments sell for gold. Understanding how to transform basic resources into high-value goods through multi-step production chains is the difference between a struggling village and an economic powerhouse. This guide maps every industry chain, the buildings required at each step, and the trade routes that turn goods into gold.
       </p>
 
-      <h2 className="chapter-heading font-display text-2xl mt-10 mb-4">Core Industry Chains — From Raw to Riches</h2>
+      <h2 className="chapter-heading font-display text-2xl mt-10 mb-4">Core Industry Chains: From Raw to Riches</h2>
       <div className="overflow-x-auto mb-8">
         <table className="parchment-table w-full text-left text-sm">
           <thead><tr className="border-b border-ink-faded/20"><th className="py-2 px-3 font-display text-accent">Industry</th><th className="py-2 px-3 font-display text-accent">Raw</th><th className="py-2 px-3 font-display text-accent">Processed</th><th className="py-2 px-3 font-display text-accent">Finished</th><th className="py-2 px-3 font-display text-accent">Key Building</th><th className="py-2 px-3 font-display text-accent">Profit</th></tr></thead>
@@ -39,7 +39,7 @@ export default function IndustryChainsPage() {
         </table>
       </div>
 
-      <h2 className="chapter-heading font-display text-2xl mt-10 mb-4">Trade Routes — Get Your Goods to Market</h2>
+      <h2 className="chapter-heading font-display text-2xl mt-10 mb-4">Trade Routes: Get Your Goods to Market</h2>
       <div className="overflow-x-auto mb-8">
         <table className="parchment-table w-full text-left text-sm">
           <thead><tr className="border-b border-ink-faded/20"><th className="py-2 px-3 font-display text-accent">Route</th><th className="py-2 px-3 font-display text-accent">Cost</th><th className="py-2 px-3 font-display text-accent">Best Goods</th><th className="py-2 px-3 font-display text-accent">Margin</th><th className="py-2 px-3 font-display text-accent">Risk</th></tr></thead>
@@ -50,7 +50,7 @@ export default function IndustryChainsPage() {
       <h2 className="chapter-heading font-display text-2xl mt-10 mb-4">FAQ</h2>
       <div className="bg-parchment-light rounded-lg p-5 mb-4">
         <h3 className="font-display text-accent text-lg mb-2">Which industry chain should I build first?</h3>
-        <p className="text-ink-light">Food Processing is the safest first chain. It requires the lowest upfront investment (Mill and Bakery are cheap), has constant demand from your own town and trade partners, and cannot fail — people always need bread. Build the Timber Industry in parallel for construction materials. Once both are stable, invest in Metalworking for the late-game economic jump. Do not start with Luxury Goods — the supply chain requirements are too expensive for an early economy to support.</p>
+        <p className="text-ink-light">Food Processing is the safest first chain. It requires the lowest upfront investment (Mill and Bakery are cheap), has constant demand from your own town and trade partners, and cannot fail, because people always need bread. Build the Timber Industry in parallel for construction materials. Once both are stable, invest in Metalworking for the late-game economic jump. Do not start with Luxury Goods. The supply chain requirements are too expensive for an early economy to support.</p>
       </div>
       <div className="bg-parchment-light rounded-lg p-5 mb-4">
         <h3 className="font-display text-accent text-lg mb-2">How do I prevent production bottlenecks?</h3>

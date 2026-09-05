@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/achievement-guide",
   },
-  title: 'Town to City Achievement Guide — All Achievements & How to Unlock (2026) | Town to City Guide',
+  title: 'Town to City Achievement Guide: All Achievements & How to Unlock (2026) | Town to City Guide',
   description: 'Complete Town to City achievement guide with all achievements, unlock conditions, tips, and strategies. 100% your medieval city builder experience.',
 };
 
@@ -20,7 +20,7 @@ const achievements = [
   { name: 'Cultural Hub', condition: 'Build Cathedral, Theater, and University', difficulty: 'Medium', reward: '250 Gold, Cultural Influence', tip: 'These are late-game prestige buildings' },
   { name: 'Millionaire Mayor', condition: 'Accumulate 10,000 gold in treasury', difficulty: 'Very Hard', reward: '2000 Gold, Golden Crown', tip: 'Tax at 15% once city is self-sufficient' },
   { name: 'Green Thumb', condition: 'Plant 100 trees in your city', difficulty: 'Easy', reward: '50 Gold, Nature\'s Blessing', tip: 'Trees also boost citizen happiness' },
-  { name: 'Grand Cathedral', condition: 'Complete a Cathedral to level 3', difficulty: 'Very Hard', reward: '1500 Gold, Divine Blessing', tip: 'Requires rare marble — set up trade routes early' },
+  { name: 'Grand Cathedral', condition: 'Complete a Cathedral to level 3', difficulty: 'Very Hard', reward: '1500 Gold, Divine Blessing', tip: 'Requires rare marble, so set up trade routes early' },
 ];
 
 const hiddenAchievements = [
@@ -34,7 +34,7 @@ const achievementFaqs = [
   { q: '哪些成就最简单，新手应该优先做？', a: 'First Settlement（自动解锁）、Population Boom（达到100人口）、Green Thumb（种100棵树）是最容易的三个。建议先专注于这三个，它们不需要特别的策略，只要正常发展城市就能自然解锁，同时还能获得启动资金奖励。' },
   { q: 'Master Architect成就需要建造哪些建筑？', a: '总共需要建造47种建筑类型，包括：8种住宅、12种生产建筑、6种农业建筑、5种商业建筑、4种军事建筑、3种教育建筑、3种文化建筑、3种行政建筑、3种装饰建筑。建议打印一份清单逐项完成，最容易漏掉的是小装饰建筑（Fountain、Bench、Flower Bed）。' },
   { q: 'Winter Survivor（5个冬天零死亡）有什么诀窍？', a: '关键准备：1) 每个冬天前囤积至少500食物（每个公民约5单位）；2) 建造足够的房屋（每人1单位居住空间）；3) 确保所有房屋在供暖范围内（篝火或壁炉3格半径）；4) 设置冬季配给制（Rationing Policy）减少消耗。第五个冬天是最难的，因为人口可能已经很大了。' },
-  { q: '隐藏成就怎么解锁？', a: '游戏中有4个隐藏成就（如上表），它们不会在成就列表中显示条件。Secret Garden最简单——找到城市地图最中心的格子建花园即可。Perfect Grid需要精确规划，建议在新游戏中专门做。Lonely Mountain需要找到最高的地形格子，通常在山区地图中。' },
+  { q: '隐藏成就怎么解锁？', a: '游戏中有4个隐藏成就（如上表），它们不会在成就列表中显示条件。Secret Garden最简单：找到城市地图最中心的格子建花园即可。Perfect Grid需要精确规划，建议在新游戏中专门做。Lonely Mountain需要找到最高的地形格子，通常在山区地图中。' },
 ];
 
 export default function AchievementGuidePage() {
@@ -47,8 +47,8 @@ export default function AchievementGuidePage() {
           </h1>
           <p className="drop-cap font-serif text-base text-ink-light leading-relaxed">
             Complete achievement guide for Town to City, covering every achievement with exact unlock conditions,
-            difficulty ratings, rewards, and pro tips. Whether you are a completionist aiming for 100% or a new
-            mayor looking for easy early-game achievements, this guide has everything you need.
+            difficulty ratings, rewards, and pro tips. It serves completionists aiming for 100% as well as new
+            mayors looking for easy early-game achievements.
           </p>
 
           <section>
@@ -59,7 +59,7 @@ export default function AchievementGuidePage() {
               Town to City features <strong className="text-ink">12 standard achievements</strong> and 4 hidden
               achievements. Achievements are a great source of early-game gold and unique rewards that cannot be
               obtained any other way. The Golden Crown from Millionaire Mayor provides a permanent +10% tax
-              income bonus — making it one of the most impactful rewards to chase.
+              income bonus, making it one of the most impactful rewards to chase.
             </p>
             <p className="text-ink-light leading-relaxed mb-4">
               Achievements are divided into four difficulty tiers: Easy (can be unlocked naturally through
@@ -166,7 +166,7 @@ export default function AchievementGuidePage() {
           <div className="bg-parchment-light border border-ink-faded/20 rounded-sm p-5">
             <h3 className="font-display font-semibold text-ink text-sm mb-3">Achievement Tips</h3>
             <ul className="list-disc list-inside space-y-2 text-xs text-ink-light">
-              <li>Prioritize Green Thumb early — it takes no effort and gives free gold</li>
+              <li>Prioritize Green Thumb early, since it takes no effort and gives free gold</li>
               <li>Plan Master Architect with a spreadsheet or checklist</li>
               <li>Winter Survivor is easiest on Easy difficulty maps</li>
               <li>Millionaire Mayor requires tax optimization and trade</li>

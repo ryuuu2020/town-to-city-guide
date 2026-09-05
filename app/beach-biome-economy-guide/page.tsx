@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/beach-biome-economy-guide",
   },
-  title: 'Town to City Beach Biome Economy Guide 2026 — Pizza Baker & Trattoria Income Loop',
+  title: 'Town to City Beach Biome Economy Guide 2026 | Pizza Baker & Trattoria Income Loop',
   description:
     'How to run a profitable Beach biome economy in Town to City: Pizza Baker production, Trattoria service chain, coastal tourism routing, and trade exports. Practical 2026 playbook.',
   keywords: [
@@ -22,23 +22,23 @@ export const metadata: Metadata = {
 };
 
 // Qualitative importance ranking for each income source inside a Beach-biome
-// city. Values are player-reported ranks on a 1–5 ordinal scale, not
+// city. Values are player-reported ranks on a 1-5 ordinal scale, not
 // fabricated currency amounts.
 const BEACH_INCOME_TABLE = [
   {
     source: 'Coastal tourism (passive, scales with shoreline length)',
     rank: 5,
     role: 'Core Beach loop',
-    note: 'The Mediterranean coastline is what makes the Beach biome materially different from the inland biomes — tourism converts shoreline proximity into recurring income without consuming a production slot.',
+    note: 'The Mediterranean coastline is what makes the Beach biome materially different from the inland biomes: tourism converts shoreline proximity into recurring income without consuming a production slot.',
   },
   {
-    source: 'Trattoria — final step of the Italian food chain',
+    source: 'Trattoria: final step of the Italian food chain',
     rank: 4,
     role: 'Core Beach loop',
     note: 'Sits at the end of the Pizza Baker → Trattoria chain. A Trattoria that is supplied by an adjacent or trade-fed Pizza Baker turns the food chain into actual city income rather than wasted output.',
   },
   {
-    source: 'Pizza Baker — Italian-inspired production building',
+    source: 'Pizza Baker: Italian-inspired production building',
     rank: 4,
     role: 'Production chain',
     note: 'Added in the content + perf patch alongside the Beach biome. Pizza Baker consumes flour and tomatoes and outputs pizza, which the Trattoria sells for tier income.',
@@ -67,7 +67,7 @@ const SUPPLY_CHAIN = [
   {
     step: '1',
     title: 'Source the raw inputs',
-    body: 'Wheat fields and tomato plots sit closest to the Bakery and Pizza Baker. Farms on inland biomes feed the Beach via trade routes — never scatter both across one tiny district.',
+    body: 'Wheat fields and tomato plots sit closest to the Bakery and Pizza Baker. Farms on inland biomes feed the Beach via trade routes, so never scatter both across one tiny district.',
   },
   {
     step: '2',
@@ -94,14 +94,14 @@ const SUPPLY_CHAIN = [
 const ITALIAN_BUILDING_COMPARISON = [
   {
     building: 'Pizza Baker',
-    role: 'Production step — converts raw crops into pizza',
+    role: 'Production step: converts raw crops into pizza',
     inputs: 'Wheat (flour), tomatoes',
     outputs: 'Pizza (consumed downstream by the Trattoria)',
     unlock: 'Available once the Beach biome is reachable in the save',
   },
   {
     building: 'Trattoria',
-    role: 'Service step — sells pizza to citizens for tier income',
+    role: 'Service step: sells pizza to citizens for tier income',
     inputs: 'Pizza from an adjacent or trade-fed Pizza Baker',
     outputs: 'Tier income, citizen demand coverage',
     unlock: 'Available once the Beach biome is reachable in the save',
@@ -110,19 +110,19 @@ const ITALIAN_BUILDING_COMPARISON = [
 
 const COASTAL_LAYOUT_TIPS = [
   {
-    title: 'Keep one long shoreline, not several small ones',
+    title: 'Keep one long shoreline instead of several small ones',
     body: 'Tourism scales with continuous shoreline. A single 80-tile coast out-earns four separate 20-tile coves because each disconnected coast pays a coverage penalty.',
   },
   {
     title: 'Put food buildings on the inland side',
-    body: 'Wheat, tomatoes, Bakery, Pizza Baker and Trattoria generate constant citizen traffic. Buffer them inland by 4–6 tiles so the simulation pathfinding of hungry citizens does not crowd the coast.',
+    body: 'Wheat, tomatoes, Bakery, Pizza Baker and Trattoria generate constant citizen traffic. Buffer them inland by 4-6 tiles so the simulation pathfinding of hungry citizens does not crowd the coast.',
   },
   {
     title: 'Reserve the sea-facing row for amenities',
     body: 'Parks, promenades, plazas, and Trattorias sit on the coast. Decorative flowers and fountains here double as tourist draws rather than just generic decoration.',
   },
   {
-    title: 'Connect the trade post to the coast road, not the inland ring road',
+    title: 'Connect the trade post to the coast road rather than the inland ring road',
     body: 'Coastal trade posts load faster because traders do not have to detour through the dense inland district. This is the smallest layout change with the largest trade-income gain.',
   },
   {
@@ -159,7 +159,7 @@ const FAQ_ITEMS = [
   {
     question: 'How do I unlock the Pizza Baker and Trattoria?',
     answer:
-      'Both buildings arrive with the Beach biome update and do not need a separate citizen tier to unlock — they enter the build menu once the Beach biome is reachable in your save. The Pizza Baker is a production building; the Trattoria is the consumer-facing counterpart and is where pizza becomes city income.',
+      'Both buildings arrive with the Beach biome update and do not need a separate citizen tier to unlock: they enter the build menu once the Beach biome is reachable in your save. The Pizza Baker is a production building; the Trattoria is the consumer-facing counterpart and is where pizza becomes city income.',
   },
   {
     question: 'What raw inputs does the Pizza Baker need?',
@@ -169,12 +169,12 @@ const FAQ_ITEMS = [
   {
     question: 'Where should the Trattoria sit for max income?',
     answer:
-      'Sea-facing edge of the district. A Trattoria on the coast serves two roles: it consumes pizza from the Pizza Baker and it gets hit by the coastal tourism bonus that raises the per-sale value. Two Trattorias covering the same 20 citizens do not double the income — drop one and feed the remainder more demand instead.',
+      'Sea-facing edge of the district. A Trattoria on the coast serves two roles: it consumes pizza from the Pizza Baker and it gets hit by the coastal tourism bonus that raises the per-sale value. Two Trattorias covering the same 20 citizens do not double the income. Drop one and feed the remainder more demand instead.',
   },
   {
     question: 'Is the Beach biome laggier than Forest or Mountain?',
     answer:
-      'No biome is inherently heavier. Performance is tied to total citizen count, decoration density, and view distance, not biomes. A dense Beach city at 500 citizens performs the same as a dense Forest city at 500 citizens on the same hardware. The Beach is fine on mid-tier GPUs provided you keep decoration counts and citizen cap under control.',
+      'No biome is inherently heavier. Performance is tied to total citizen count, decoration density, and view distance rather than biomes. A dense Beach city at 500 citizens performs the same as a dense Forest city at 500 citizens on the same hardware. The Beach is fine on mid-tier GPUs provided you keep decoration counts and citizen cap under control.',
   },
 ];
 
@@ -225,9 +225,9 @@ export default function Page() {
             Beach biome income sources at a glance
           </h2>
           <p className="text-blueprint-muted leading-relaxed mb-6">
-            Six income sources are realistic in a Beach-biome city. They are ranked below on a 1–5 qualitative
+            Six income sources are realistic in a Beach-biome city. They are ranked below on a 1-5 qualitative
             importance scale, based on what is verifiable from public patch notes and the developer roadmap. The
-            scale is ordinal — it is a rank, not a currency value — and it tells you where to spend your first
+            scale is ordinal (a rank rather than a currency value), and it tells you where to spend your first
             build slots when the biome opens.
           </p>
 
@@ -236,7 +236,7 @@ export default function Page() {
               <thead className="bg-blueprint-alt">
                 <tr>
                   <th className="p-3 border border-blueprint-border text-blueprint-text">Income source</th>
-                  <th className="p-3 border border-blueprint-border text-blueprint-text">Rank (1–5)</th>
+                  <th className="p-3 border border-blueprint-border text-blueprint-text">Rank (1-5)</th>
                   <th className="p-3 border border-blueprint-border text-blueprint-text">Role</th>
                   <th className="p-3 border border-blueprint-border text-blueprint-text">Notes</th>
                 </tr>
@@ -256,7 +256,7 @@ export default function Page() {
 
           <div className="tip-box">
             <strong>Read the table as a build order.</strong> Anything ranked 4 or 5 is a core Beach loop and
-            deserves dedicated tiles. Ranks 2 and 3 are filler income — they should be filled only after the
+            deserves dedicated tiles. Ranks 2 and 3 are filler income. They should be filled only after the
             Pizza Baker → Trattoria → tourism stack is up.
           </div>
         </section>
@@ -270,7 +270,7 @@ export default function Page() {
             className="w-full rounded-card border border-blueprint-border"
           />
           <figcaption className="text-sm text-blueprint-muted mt-3 text-center">
-            Beach-biome income sources ranked by player-reported importance (1–5 ordinal scale). Coastal tourism
+            Beach-biome income sources ranked by player-reported importance (1-5 ordinal scale). Coastal tourism
             and the Pizza Baker → Trattoria food chain anchor the economy; trade and tier housing ride on top.
           </figcaption>
         </figure>
@@ -281,7 +281,7 @@ export default function Page() {
             The Pizza Baker → Trattoria supply chain, in order
           </h2>
           <p className="text-blueprint-muted leading-relaxed mb-6">
-            Beach-biome income has a clear dependency order. Skipping a step breaks the chain silently — a Pizza
+            Beach-biome income has a clear dependency order. Skipping a step breaks the chain silently. A Pizza
             Baker that runs without a downstream Trattoria just stockpiles pizza and produces no cash. Building
             the chain in this order avoids the dead-stack failure mode.
           </p>
@@ -307,7 +307,7 @@ export default function Page() {
             The two Italian-themed Beach-biome buildings are easy to mix up. The Pizza Baker is the
             production step that turns raw crops into pizza; the Trattoria is the service step that
             sells that pizza to citizens and converts it into tier income. Both enter the build menu
-            together once the Beach biome is reachable in a save — neither one requires a separate
+            together once the Beach biome is reachable in a save; neither one requires a separate
             citizen-tier unlock.
           </p>
 
@@ -399,7 +399,7 @@ export default function Page() {
             </svg>
             <p className="text-sm text-blueprint-muted mt-3 text-center">
               Beach-biome cross-section: keep the sea-facing row light, place the Pizza Baker one tile inland,
-              push farms further in, and attach the trade post to the coast road — not the inland ring.
+              push farms further in, and attach the trade post to the coast road rather than the inland ring.
             </p>
           </div>
         </section>
@@ -410,7 +410,7 @@ export default function Page() {
             Patch timeline: what shipped with the Beach biome
           </h2>
           <p className="text-blueprint-muted leading-relaxed mb-6">
-            Town to City is in Early Access and the developer ships patches roughly every 1–2 weeks. Four
+            Town to City is in Early Access and the developer ships patches roughly every 1-2 weeks. Four
             patches are directly relevant to a Beach-biome economy.
           </p>
           <div className="space-y-3">
@@ -436,7 +436,7 @@ export default function Page() {
           </div>
         </section>
 
-        {/* Section 6: Related Guides — only real pages */}
+        {/* Section 6: Related Guides (only real pages) */}
         <section className="mb-12">
           <h2 className="font-display text-2xl font-bold text-blueprint-text mb-4">Related Guides</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">

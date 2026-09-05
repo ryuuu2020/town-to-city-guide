@@ -4,12 +4,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/citizens",
   },
-  title: 'Citizens Guide: Tiers & Needs — Town to City Guide',
+  title: 'Citizens Guide: Tiers & Needs | Town to City Guide',
   description: 'Master citizen management in Town to City. Learn Worker, Artisan, and Bourgeoisie tiers, job assignments, and needs.',
 };
 
 const citizenTiers = [
-  { tier: 'Worker', icon: 'W', color: 'blue', desc: 'The foundation workforce. Workers staff farms, warehouses, and basic production buildings. Staff workers based on labor priority — different citizen tiers fill different job slots.', upgradeTo: 'Artisan: requires meeting basic needs (food access, market access) and town progress.' },
+  { tier: 'Worker', icon: 'W', color: 'blue', desc: 'The foundation workforce. Workers staff farms, warehouses, and basic production buildings. Staff workers based on labor priority. Different citizen tiers fill different job slots.', upgradeTo: 'Artisan: requires meeting basic needs (food access, market access) and town progress.' },
   { tier: 'Artisan', icon: 'A', color: 'orange', desc: 'Skilled craftspeople. Artisans run advanced production buildings like Bakeries, Wineries, Hatteries, and Pubs. They demand better food, access to apparel and leisure goods.', upgradeTo: 'Bourgeoisie: requires meeting higher-tier needs (luxury goods, public services, high beauty).' },
   { tier: 'Bourgeoisie', icon: 'B', color: 'green', desc: 'The elite class. Bourgeoisie generate the most tax income and staff advanced buildings. They require luxury goods, public services like the Apothecary, and high beauty scores. The Cathedral (Large City) serves their spiritual needs.' },
 ];
@@ -29,7 +29,7 @@ export default function CitizensPage() {
         {/* Page Header */}
         <h1 className="font-display text-4xl font-bold text-blueprint-text mb-4">Citizens Guide</h1>
         <p className="text-lg text-blueprint-muted mb-8 max-w-3xl">
-          Citizens are the heart of your town. Each family progresses through three social tiers — Worker, Artisan, and Bourgeoisie — unlocking new jobs and demanding increasingly complex services. Managing this progression is central to growing your town.
+          Citizens are the heart of your town. Each family progresses through three social tiers (Worker, Artisan, and Bourgeoisie), unlocking new jobs and demanding increasingly complex services. Managing this progression is central to growing your town.
         </p>
 
         <div className="flex flex-wrap gap-2 mb-10">
@@ -76,7 +76,7 @@ export default function CitizensPage() {
                     <td className="p-3 font-medium whitespace-nowrap">Bourgeoisie</td>
                     <td className="p-3 text-blueprint-muted">Advanced buildings, highest tax income</td>
                     <td className="p-3 text-blueprint-muted">Luxury goods, the Apothecary, high beauty, the Cathedral (Large City)</td>
-                    <td className="p-3 text-blueprint-muted">End tier — the goal is keeping these citizens happy and paying</td>
+                    <td className="p-3 text-blueprint-muted">End tier: the goal is keeping these citizens happy and paying</td>
                   </tr>
                 </tbody>
               </table>
@@ -159,7 +159,7 @@ export default function CitizensPage() {
 
             <h3 className="font-display text-lg font-semibold text-blueprint-text mt-6 mb-4">Town Management for Citizens</h3>
             <p className="text-blueprint-muted leading-relaxed">
-              Town to City provides population density and tax pressure feedback. Monitor these indicators to balance growth with citizen satisfaction. Avoid over-taxing lower-tier citizens — Worker happiness is critical for maintaining your labor pool. Use the Research Center to unlock improvements that benefit all citizen tiers.
+              Town to City provides population density and tax pressure feedback. Monitor these indicators to balance growth with citizen satisfaction. Avoid over-taxing lower-tier citizens, because Worker happiness is critical for maintaining your labor pool. Use the Research Center to unlock improvements that benefit all citizen tiers.
             </p>
           </div>
         </section>

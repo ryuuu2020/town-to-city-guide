@@ -2,7 +2,7 @@ export const metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/production-chain",
   },
-  title: "Town to City Production Chain Guide — Resource Processing & Industry Optimization (2026)",
+  title: "Town to City Production Chain Guide | Resource Processing & Industry Optimization (2026)",
   description: "Complete Town to City production chain guide. Raw material to finished goods, supply chain optimization, factory placement, and industry efficiency for maximum city output.",
 };
 
@@ -13,7 +13,7 @@ const PRODUCTION_CHAINS = [
     processing: "Wheat → Flour (Mill) → Bread (Bakery). Vegetables → Canned Goods (Cannery). Livestock → Meat (Slaughterhouse) → Processed Meat (Butcher)",
     finalProducts: "Bread, Canned Vegetables, Processed Meat",
     storageNeeds: "Refrigerated Warehouse (prevents spoilage). Silo (grain storage)",
-    transportPriority: "High — food spoils. Dedicated delivery trucks recommended.",
+    transportPriority: "High: food spoils. Dedicated delivery trucks recommended.",
     efficiencyTip: "Place Mill and Bakery adjacent to Wheat farms. Every tile of transport distance adds processing delay. A farm-mill-bakery triangle reduces production time by 30 percent versus a spread-out layout.",
   },
   {
@@ -22,7 +22,7 @@ const PRODUCTION_CHAINS = [
     processing: "Timber → Planks (Sawmill). Stone → Cut Stone (Stonemason). Iron Ore → Iron Ingots (Smelter) → Steel (Steel Mill). Sand → Glass (Glassworks)",
     finalProducts: "Planks, Cut Stone, Steel Beams, Glass Panes",
     storageNeeds: "Open-air Yard (planks/stone). Covered Warehouse (steel/glass)",
-    transportPriority: "Medium — does not spoil. Can use slower, higher-capacity transport.",
+    transportPriority: "Medium: does not spoil. Can use slower, higher-capacity transport.",
     efficiencyTip: "Cluster all heavy industry (Smelter, Steel Mill, Stonemason) in one industrial zone. Shared power, shared worker pool, and reduced transport between processing steps.",
   },
   {
@@ -31,7 +31,7 @@ const PRODUCTION_CHAINS = [
     processing: "Cotton → Cloth (Textile Mill) → Clothing (Garment Factory). Wool → Yarn (Spinner) → Textiles (Weaver). Leather → Finished Leather (Tannery) → Shoes/Bags (Leatherworks). Wood → Furniture (Carpenter)",
     finalProducts: "Clothing, Textiles, Leather Goods, Furniture",
     storageNeeds: "Warehouse (all weather-protected)",
-    transportPriority: "Low — non-perishable. Ship in bulk when warehouse fills.",
+    transportPriority: "Low: non-perishable. Ship in bulk when warehouse fills.",
     efficiencyTip: "Consumer goods are low-margin, high-volume. Efficiency comes from scale: run factories at 80 percent capacity or higher to amortize building maintenance costs across more units.",
   },
   {
@@ -40,7 +40,7 @@ const PRODUCTION_CHAINS = [
     processing: "Rare Metals → Refined Metals (Refinery). Crystals → Polished Crystals (Crystal Cutter). Components + Refined Metals → Electronics (Electronics Factory)",
     finalProducts: "Computers, Research Equipment, Advanced Components",
     storageNeeds: "Climate-controlled Vault (high-value, sensitive to moisture)",
-    transportPriority: "Highest security — high-value theft target. Use guarded convoys.",
+    transportPriority: "Highest security: high-value theft target. Use guarded convoys.",
     efficiencyTip: "This is your highest-value chain. A single truck of electronics is worth more than ten trucks of consumer goods. Invest in the fastest transport and most secure storage first for this chain.",
   },
 ];
@@ -61,7 +61,7 @@ export default function ProductionChainPage() {
         <section>
           <h2 className="text-xl font-bold text-blue-300 mb-3">What Is a Production Chain?</h2>
           <p className="text-gray-300 leading-relaxed">
-            A production chain is the sequence of buildings that transforms raw materials into finished goods. In Town to City, inefficient production chains are the single largest source of wasted resources. A farm producing wheat that rots because the mill is too far away — that is a broken chain. A steel mill waiting for iron ore because the mine is understaffed — broken chain. This guide shows you how to build chains that never break.
+            A production chain is the sequence of buildings that transforms raw materials into finished goods. In Town to City, inefficient production chains are the single largest source of wasted resources. A farm producing wheat that rots because the mill is too far away is a broken chain. A steel mill waiting for iron ore because the mine is understaffed is a broken chain too. This guide shows you how to build chains that never break.
           </p>
         </section>
 
@@ -112,15 +112,15 @@ export default function ProductionChainPage() {
           <div className="space-y-4 mt-4">
             <div>
               <h3 className="font-semibold text-blue-300">How do I know if my production chain is bottlenecked?</h3>
-              <p className="text-gray-300 mt-1">Click any factory and check its efficiency percentage. Below 80 percent indicates a bottleneck. Trace backwards: is the factory waiting for input materials (upstream bottleneck — increase raw material production)? Or is its output storage full (downstream bottleneck — build more storage or add the next processing step)? Most bottlenecks are upstream — players underestimate how much raw material they need. A single Bakery running at full capacity consumes the output of 2-3 Wheat farms.</p>
+              <p className="text-gray-300 mt-1">Click any factory and check its efficiency percentage. Below 80 percent indicates a bottleneck. Trace backwards: is the factory waiting for input materials (upstream bottleneck: increase raw material production)? Or is its output storage full (downstream bottleneck: build more storage or add the next processing step)? Most bottlenecks are upstream, because raw material needs are easy to underestimate. A single Bakery running at full capacity consumes the output of 2-3 Wheat farms.</p>
             </div>
             <div>
               <h3 className="font-semibold text-blue-300">Should I build multiple small factories or one large one?</h3>
-              <p className="text-gray-300 mt-1">One large factory is almost always more efficient. Large factories benefit from economies of scale — fixed costs (building maintenance, worker base salary) are spread across more units of output. A single Large Bakery producing 500 bread per day costs less per loaf than five Small Bakeries producing 100 each. The only reason to build multiple small factories is geographic necessity — if your farms are spread across the map and transport costs exceed the scale efficiency gain.</p>
+              <p className="text-gray-300 mt-1">One large factory is almost always more efficient. Large factories benefit from economies of scale: fixed costs (building maintenance, worker base salary) are spread across more units of output. A single Large Bakery producing 500 bread per day costs less per loaf than five Small Bakeries producing 100 each. The only reason to build multiple small factories is geographic necessity: when your farms are spread across the map and transport costs exceed the scale efficiency gain.</p>
             </div>
             <div>
               <h3 className="font-semibold text-blue-300">When should I upgrade to automated production lines?</h3>
-              <p className="text-gray-300 mt-1">Automation upgrades are expensive but transformative. The break-even point is roughly when your factory employs 20+ workers — the automation upgrade cost equals about 15 worker salaries over one year. If your factory consistently runs above 80 percent capacity and employs 20+ workers, automate it. The freed workers can staff a new factory, expanding your production without increasing your population. Automate your highest-volume chains (Food, Construction) first.</p>
+              <p className="text-gray-300 mt-1">Automation upgrades are expensive but transformative. The break-even point is roughly when your factory employs 20+ workers. The automation upgrade cost equals about 15 worker salaries over one year. If your factory consistently runs above 80 percent capacity and employs 20+ workers, automate it. The freed workers can staff a new factory, expanding your production without increasing your population. Automate your highest-volume chains (Food, Construction) first.</p>
             </div>
           </div>
         </section>

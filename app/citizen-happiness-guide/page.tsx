@@ -4,12 +4,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/citizen-happiness-guide",
   },
-  title: "Town to City Citizen Happiness Guide — 5-Star Formula | Town to City Guide",
+  title: "Town to City Citizen Happiness Guide: 5-Star Formula | Town to City Guide",
   description: "Complete Town to City citizen happiness guide. The 5-star formula, mood sources, building priorities, and fastest path to max happiness.",
 };
 
 const HAPPINESS_SOURCES = [
-  { source: "Food Variety", baseValue: "+8", maxValue: "+25", decay: "Per unique food type served", priority: "High", notes: "Bread, cheese, fruit, meat, fish — 5 types = max bonus" },
+  { source: "Food Variety", baseValue: "+8", maxValue: "+25", decay: "Per unique food type served", priority: "High", notes: "Bread, cheese, fruit, meat, fish: 5 types = max bonus" },
   { source: "Housing Quality", baseValue: "+10", maxValue: "+30", decay: "Per house tier", priority: "High", notes: "Wood House to Manor is the biggest single jump" },
   { source: "Recreation", baseValue: "+5", maxValue: "+20", decay: "Per park or plaza within 8 tiles", priority: "Medium", notes: "Two parks per district is the sweet spot" },
   { source: "Religion", baseValue: "+4", maxValue: "+15", decay: "Per temple and faith level", priority: "Medium", notes: "One temple covers 30 citizens at max faith" },
@@ -141,7 +141,7 @@ export default function Page() {
         </p>
         <ol className="list-decimal pl-6 mt-3 space-y-2 text-ink-light">
           <li><strong className="text-accent">Ignoring food variety.</strong> Many players build 1 farm and call it done. The Food Variety bonus requires 5 different food types. Build a wheat farm, an orchard, a fishing dock, a cattle ranch, and a vegetable garden. The variety bonus alone is worth +25 happiness.</li>
-          <li><strong className="text-accent">Letting crime grow.</strong> Crime above 20 percent eliminates the Safety bonus entirely. Build guard posts in every district. Crime is a slow-burn problem — by the time you notice it, you have already lost 20 happiness points.</li>
+          <li><strong className="text-accent">Letting crime grow.</strong> Crime above 20 percent eliminates the Safety bonus entirely. Build guard posts in every district. Crime is a slow-burn problem. By the time you notice it, you have already lost 20 happiness points.</li>
           <li><strong className="text-accent">Skipping temples.</strong> Religion is the most underrated happiness source. One temple at max faith gives +15 happiness, more than a park. Temples are cheap to build and run. Skip them at your peril.</li>
           <li><strong className="text-accent">Waiting too long to upgrade housing.</strong> Tents and Wood Cabins cap your citizen growth. Once you have the resources for Stone Houses, upgrade immediately. Holding off on housing upgrades for &quot;one more season&quot; is how settlements stagnate at 30 citizens for years.</li>
         </ol>
@@ -154,7 +154,7 @@ export default function Page() {
           </div>
           <div className="border border-gray-700 p-4 bg-gray-800/30">
             <h3 className="font-semibold text-accent">Does raising wages always increase happiness?</h3>
-            <p className="text-ink-light mt-2">Up to a point. The Wage Level bonus caps at 1.5x minimum wage. Paying 2x or 3x minimum wage does not give additional happiness — it just bleeds your treasury. The optimal wage is exactly 1.5x minimum for all worker tiers. Higher wages only matter for attracting immigrants in the late-game, not for happiness.</p>
+            <p className="text-ink-light mt-2">Up to a point. The Wage Level bonus caps at 1.5x minimum wage. Paying 2x or 3x minimum wage does not give additional happiness and only bleeds your treasury. The optimal wage is exactly 1.5x minimum for all worker tiers. Higher wages only matter for attracting immigrants in the late-game, not for happiness.</p>
           </div>
           <div className="border border-gray-700 p-4 bg-gray-800/30">
             <h3 className="font-semibold text-accent">What unlocks at 5-star happiness?</h3>

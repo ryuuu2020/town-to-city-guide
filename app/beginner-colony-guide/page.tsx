@@ -2,13 +2,13 @@ export const metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/beginner-colony-guide",
   },
-  title: "Town to City Beginner Guide — First Colony Setup & Early Game Walkthrough (2026)",
+  title: "Town to City Beginner Guide | First Colony Setup & Early Game Walkthrough (2026)",
   description: "Step-by-step Town to City beginner guide covering first buildings order, resource priorities, settler assignment, food supply management, and early trade routes for a thriving colony.",
 };
 
 export default function BeginnerColonyGuidePage() {
   const firstBuildings = [
-    { priority: 1, building: "Lumber Camp", purpose: "Timber production — essential for every structure", settlersNeeded: 2, prerequisite: "None", tip: "Place near dense forest; clear trees in build radius first" },
+    { priority: 1, building: "Lumber Camp", purpose: "Timber production: essential for every structure", settlersNeeded: 2, prerequisite: "None", tip: "Place near dense forest; clear trees in build radius first" },
     { priority: 2, building: "Stone Quarry", purpose: "Stone for walls, advanced buildings", settlersNeeded: 2, prerequisite: "Lumber Camp", tip: "Scout for rocky outcroppings; mountainside quarries yield 25% more" },
     { priority: 3, building: "Farm Plot (3x)", purpose: "Wheat/vegetable production for food", settlersNeeded: 3, prerequisite: "Lumber Camp", tip: "Build on fertile soil (dark earth); avoid clay patches" },
     { priority: 4, building: "Housing (Basic)", purpose: "Shelter for up to 6 settlers each", settlersNeeded: 1, prerequisite: "Lumber Camp", tip: "Build near workplaces to reduce travel time; each unit needs a bed assigned" },
@@ -38,27 +38,27 @@ export default function BeginnerColonyGuidePage() {
       <div className="flex flex-col lg:flex-row gap-12 lg:gap-16">
         <div className="flex-1 lg:max-w-[65%] space-y-10">
           <section>
-            <h1 className="chapter-heading">Town to City Beginner Guide — First Colony Setup & Early Game Walkthrough</h1>
+            <h1 className="chapter-heading">Town to City Beginner Guide | First Colony Setup & Early Game Walkthrough</h1>
             <p className="drop-cap font-serif text-base text-ink-light leading-relaxed">
               Starting your first colony in Town to City can feel overwhelming with dozens of building options, resource chains, and settler needs competing for your attention. This guide distills the first 30 in-game days into a clear, repeatable build order that guarantees a stable foundation. Follow these steps, and your colony will survive the critical early phase with surplus food, a growing population, and walls ready before the first raid.
             </p>
           </section>
 
           <section>
-            <h2 className="font-display text-2xl font-semibold text-ink mb-4">Day 1 — First Buildings and Settler Assignment</h2>
+            <h2 className="font-display text-2xl font-semibold text-ink mb-4">Day 1: First Buildings and Settler Assignment</h2>
             <p className="text-ink-light leading-relaxed mb-3">
               Map choice comes before the first building. For your first settlement pick a
               <strong className="text-ink"> Plains</strong> map with <strong className="text-ink">river</strong>
               access: flat terrain and abundant fertile soil make the early build order forgiving, while Mountain
               and Desert maps demand resource-management skill you have not needed yet. Look for a start position
-              with forest tiles and stone deposits close to each other — short hauls in the first days are worth
+              with forest tiles and stone deposits close to each other. Short hauls in the first days are worth
               more than a slightly prettier location.
             </p>
             <p className="text-ink-light leading-relaxed mb-3">
-              You start with 5 settlers, a cart of basic supplies (200 timber, 50 food), and a procedurally generated map tile. Pause the game immediately and survey the area. Look for dense forest (dark green on the terrain overlay), rocky outcroppings for stone, and fertile soil (dark brown tiles with grass). Water proximity is valuable but not essential — you can dig wells anywhere, but a natural river gives free fishing and water access.
+              You start with 5 settlers, a cart of basic supplies (200 timber, 50 food), and a procedurally generated map tile. Pause the game immediately and survey the area. Look for dense forest (dark green on the terrain overlay), rocky outcroppings for stone, and fertile soil (dark brown tiles with grass). Water proximity is valuable but not essential. You can dig wells anywhere, but a natural river gives free fishing and water access.
             </p>
             <p className="text-ink-light leading-relaxed mb-3">
-              Assign 2 settlers to build a Lumber Camp within 6 tiles of the densest tree cluster. Assign 1 settler to clear trees in the camp&apos;s radius — this speeds initial construction. The remaining 2 settlers should begin scouting the immediate vicinity for iron deposits and berry bushes.
+              Assign 2 settlers to build a Lumber Camp within 6 tiles of the densest tree cluster. Assign 1 settler to clear trees in the camp&apos;s radius. This speeds initial construction. The remaining 2 settlers should begin scouting the immediate vicinity for iron deposits and berry bushes.
             </p>
             <p className="text-ink-light leading-relaxed">
               Your second action should be plotting 3 Farm Plots on fertile soil. Even before planting, having the plots marked lets your farmers begin soil preparation, which takes 2 days. Plant wheat (faster growth, lower nutrition) for the first harvest; switch to vegetables (slower, higher nutrition) once you have a food buffer.
@@ -66,9 +66,9 @@ export default function BeginnerColonyGuidePage() {
           </section>
 
           <section>
-            <h2 className="font-display text-2xl font-semibold text-ink mb-4">First 10 Buildings — Priority Order</h2>
+            <h2 className="font-display text-2xl font-semibold text-ink mb-4">First 10 Buildings: Priority Order</h2>
             <p className="text-ink-light leading-relaxed mb-4">
-              Building order is not subjective — it is determined by resource dependencies and settler survival timelines. The table below represents the mathematically optimal order for the standard difficulty setting.
+              Building order follows resource dependencies and settler survival timelines. The table below represents the mathematically optimal order for the standard difficulty setting.
             </p>
             <div className="overflow-x-auto">
               <table className="parchment-table">
@@ -101,7 +101,7 @@ export default function BeginnerColonyGuidePage() {
           <section>
             <h2 className="font-display text-2xl font-semibold text-ink mb-4">Plot Roads Before You Place Buildings</h2>
             <p className="text-ink-light leading-relaxed mb-3">
-              Roads are not an afterthought in Town to City — they are the constraint every other system runs on.
+              Roads in Town to City are the constraint every other system runs on.
               Workers move along your road network, and caravan trade only reaches buildings that touch a road, so a
               Market Stall placed off the main road simply will not trade. Lay the spine of your road grid first, then
               place buildings against it, rather than dropping buildings and back-filling paths.
@@ -110,7 +110,7 @@ export default function BeginnerColonyGuidePage() {
               Upgrading the roads on your busiest links pays for itself: a stone road between your storage buildings
               and your processing district cuts worker travel time (roughly 40% versus a dirt path), the same lever
               described in the <a href="/production-chain-guide" className="text-accent hover:underline">Production Chain Guide</a>.
-              The rule that keeps a colony fed keeps a city rich — shorten the walk, not the building count.
+              The rule that keeps a colony fed keeps a city rich. Shorten the walk before adding more buildings.
             </p>
           </section>
 
@@ -120,7 +120,7 @@ export default function BeginnerColonyGuidePage() {
               Food is the silent colony killer. Every settler consumes 1 food unit per day. A population of 10 burns through 10 food daily. A single farm plot produces roughly 8-12 food per harvest cycle (6 days for wheat). This means 3 farm plots feed about 5-6 settlers sustainably at the start. Build additional food sources before accepting new migrants.
             </p>
             <p className="text-ink-light leading-relaxed mb-3">
-              Diversify food sources as early as possible. A Fishing Hut on a riverbank adds 4-6 food per day with zero soil requirement. Berry Bushes found during scouting can be harvested manually for emergency rations. A Hunting Lodge on animal trails provides both food and hides, solving two resource chains with one building. Once you reach 20 settlers, invest in a Bakery (requires wheat, transforms 1 wheat into 2 bread — effectively doubling food output).
+              Diversify food sources as early as possible. A Fishing Hut on a riverbank adds 4-6 food per day with zero soil requirement. Berry Bushes found during scouting can be harvested manually for emergency rations. A Hunting Lodge on animal trails provides both food and hides, solving two resource chains with one building. Once you reach 20 settlers, invest in a Bakery (requires wheat, transforms 1 wheat into 2 bread, effectively doubling food output).
             </p>
             <p className="text-ink-light leading-relaxed">
               Food storage matters. Food left in farm plots decays at a rate of 5% per day after harvest. A Storehouse reduces decay to 1%. Upgrade to a Granary (specialized food storage) to reduce decay to 0.5% and unlock the &ldquo;Preserve&rdquo; action, which converts perishable food into long-lasting rations for winter or siege stockpiles.
@@ -161,7 +161,7 @@ export default function BeginnerColonyGuidePage() {
           <section>
             <h2 className="font-display text-2xl font-semibold text-ink mb-4">Settler Assignment and Migration</h2>
             <p className="text-ink-light leading-relaxed mb-3">
-              You control settler assignment through the population management panel. Each building has a worker slot count. A Lumber Camp needs 2 workers to operate at full efficiency; assigning 1 worker runs it at 40% output, and 0 workers produces nothing. Idle settlers consume food without contributing — always keep idle count at zero.
+              You control settler assignment through the population management panel. Each building has a worker slot count. A Lumber Camp needs 2 workers to operate at full efficiency; assigning 1 worker runs it at 40% output, and 0 workers produces nothing. Idle settlers consume food without contributing, so always keep the idle count at zero.
             </p>
             <p className="text-ink-light leading-relaxed mb-3">
               Migration is triggered by three factors: available housing (empty beds), colony happiness (tavern, food variety, low sickness), and economic opportunity (open jobs). Migrants arrive in groups of 2-4 every 5-7 days once conditions are met. Do not accept migrants if your food stockpile is below a 3-day buffer. You can reject migrants from the arrival notification with no penalty.
@@ -174,7 +174,7 @@ export default function BeginnerColonyGuidePage() {
           <section>
             <h2 className="font-display text-2xl font-semibold text-ink mb-4">Early Trade and Economy</h2>
             <p className="text-ink-light leading-relaxed mb-3">
-              Trade caravans appear once you build a Market Stall and have at least 200 units of surplus goods in your storehouse. Caravans arrive every 3-4 days and travel along roads you have built. They offer resources not available on your map tile — exotic seeds, rare metals, advanced blueprints — in exchange for coins or bartered goods.
+              Trade caravans appear once you build a Market Stall and have at least 200 units of surplus goods in your storehouse. Caravans arrive every 3-4 days and travel along roads you have built. They offer resources not available on your map tile (exotic seeds, rare metals, advanced blueprints) in exchange for coins or bartered goods.
             </p>
             <p className="text-ink-light leading-relaxed mb-3">
               The most profitable early trade good is surplus stone. Once your quarry is running at full capacity, you will accumulate stone faster than you can spend it on buildings. Stone trades at 2 coins per unit on standard difficulty. A full quarry produces 40-60 stone per day, translating to 80-120 coins of daily trade income. Use this to buy iron (if no local deposit), coal, and herb stockpiles before winter.
@@ -224,7 +224,7 @@ export default function BeginnerColonyGuidePage() {
           </div>
 
           <div className="bg-parchment-light border border-ink-faded/20 rounded-sm p-5">
-            <h3 className="font-display text-lg font-semibold text-ink mb-3">Quick Checklist — Days 1-10</h3>
+            <h3 className="font-display text-lg font-semibold text-ink mb-3">Quick Checklist: Days 1-10</h3>
             <ul className="space-y-2 text-sm text-ink-light list-disc list-inside">
               <li>Scout map for forest, stone, iron, water</li>
               <li>Build Lumber Camp (2 workers)</li>

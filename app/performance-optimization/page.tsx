@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/performance-optimization",
   },
-  title: 'Town to City Performance Optimization Guide 2026 — Fix FPS Drops & Lag | Town to City Guide',
+  title: 'Town to City Performance Optimization Guide 2026: Fix FPS Drops & Lag | Town to City Guide',
   description: 'Fix Town to City FPS drops, lag, and crashes. Real player-reported benchmarks, in-game settings tuning, citizen count thresholds, and the July 2026 performance patch roadmap.',
   keywords: [
     'Town to City performance',
@@ -20,14 +20,14 @@ export const metadata: Metadata = {
   ],
 };
 
-// Real, dated player reports pulled from public Steam reviews (May–July 2026).
+// Real, dated player reports pulled from public Steam reviews (May-July 2026).
 // Numbers and quotes are reproduced verbatim; no extrapolation is performed.
 const PLAYER_REPORTS = [
   {
     date: '2026-07-18',
     hardware: 'RTX 4070-class laptop, 16 GB RAM',
-    symptom: '5–10 FPS at lowest settings after 500–600 citizens',
-    citizenCount: '500–600',
+    symptom: '5-10 FPS at lowest settings after 500-600 citizens',
+    citizenCount: '500-600',
     severity: 'Critical',
     note: 'Late-game city effectively unplayable on capable hardware.',
   },
@@ -35,7 +35,7 @@ const PLAYER_REPORTS = [
     date: '2026-07-07',
     hardware: 'RTX 4060, Ryzen 7 5800X, 32 GB RAM',
     symptom: 'Considerable frame drops once town is past mid-size',
-    citizenCount: '~150–250 (mid-size)',
+    citizenCount: '~150-250 (mid-size)',
     severity: 'High',
     note: 'Frame drops appear before the late game, around mid-size towns.',
   },
@@ -61,13 +61,13 @@ const PLAYER_REPORTS = [
     symptom: 'Lagging persists even after lowering every graphics setting',
     citizenCount: 'Not specified',
     severity: 'High',
-    note: 'Lowering settings does not eliminate the bottleneck — confirms CPU-bound load.',
+    note: 'Lowering settings does not eliminate the bottleneck, which confirms the CPU-bound load.',
   },
   {
     date: '2026-06-21',
     hardware: 'Mid-range laptop GPU',
     symptom: 'Lags at 1080p well before any completion milestone',
-    citizenCount: '~100–150 (early-mid)',
+    citizenCount: '~100-150 (early-mid)',
     severity: 'High',
     note: 'Performance complaints begin before the late game on weaker GPUs.',
   },
@@ -102,7 +102,7 @@ const SETTINGS_TUNING = [
     setting: 'Object Decoration Limit',
     recommended: 'Cap decorative density per district',
     impact: 'High',
-    why: 'Flowers, fences, and street props are instanced — every placement adds a draw call.',
+    why: 'Flowers, fences, and street props are instanced: every placement adds a draw call.',
   },
   {
     setting: 'Window Mode → Borderless / Fixed FPS Cap 30',
@@ -128,22 +128,22 @@ const FAQ_ITEMS = [
   {
     question: 'Why does Town to City lag even on a powerful PC?',
     answer:
-      'Town to City is CPU-bound, not GPU-bound, in dense cities. Voxel chunk streaming, citizen pathfinding, and floating-point grid calculations all run on a single core. A RTX 5090 still reports 40 FPS in dense cities, while a mid-range GPU reports 5–10 FPS at 500–600 citizens on lowest settings. The bottleneck is the simulation thread, not the rasterizer.',
+      'Town to City is CPU-bound rather than GPU-bound in dense cities. Voxel chunk streaming, citizen pathfinding, and floating-point grid calculations all run on a single core. A RTX 5090 still reports 40 FPS in dense cities, while a mid-range GPU reports 5-10 FPS at 500-600 citizens on lowest settings. The bottleneck is the simulation thread rather than the rasterizer.',
   },
   {
     question: 'How many citizens can I have before FPS drops start?',
     answer:
-      'Player reports from June–July 2026 cluster the first noticeable drops around 150–250 citizens (mid-size town). Severe drops to 5–10 FPS typically appear at 500–600 citizens, especially on hardware below RTX 4070-class. Exact thresholds vary by GPU, CPU single-thread speed, and how dense your decoration is.',
+      'Player reports from June-July 2026 cluster the first noticeable drops around 150-250 citizens (mid-size town). Severe drops to 5-10 FPS typically appear at 500-600 citizens, especially on hardware below RTX 4070-class. Exact thresholds vary by GPU, CPU single-thread speed, and how dense your decoration is.',
   },
   {
     question: 'Do lower graphics settings actually fix the lag?',
     answer:
-      'Partially. Shadow, post-processing, and view-distance cuts recover 20–40 % of lost FPS in dense scenes, but reports from late June 2026 confirm that lowering every setting still leaves mid-size towns choppy. The remaining load is the simulation itself, which is set by citizen count and entity density, not graphics quality.',
+      'Partially. Shadow, post-processing, and view-distance cuts recover 20-40 % of lost FPS in dense scenes, but reports from late June 2026 confirm that lowering every setting still leaves mid-size towns choppy. The remaining load is the simulation itself, which is set by citizen count and entity density rather than graphics quality.',
   },
   {
     question: 'Is there an official performance patch coming?',
     answer:
-      'Yes. Galaxy Grove published a public roadmap that lists a dedicated performance update as a current priority. Recent Early Access patches already reduced floating-point precision bugs in very large cities and added smoother late-game performance. Players should expect incremental improvements roughly every 1–2 weeks, with the dedicated performance build shipping on top of that cadence.',
+      'Yes. Galaxy Grove published a public roadmap that lists a dedicated performance update as a current priority. Recent Early Access patches already reduced floating-point precision bugs in very large cities and added smoother late-game performance. Players should expect incremental improvements roughly every 1-2 weeks, with the dedicated performance build shipping on top of that cadence.',
   },
   {
     question: 'Does running the game on an SSD help?',
@@ -188,9 +188,9 @@ export default function Page() {
             Town to City Performance Optimization Guide (July 2026)
           </h1>
           <p className="text-lg text-blueprint-muted mb-6 max-w-3xl">
-            Town to City is one of the most-loved Early Access city builders on Steam right now — and performance
+            Town to City is one of the most-loved Early Access city builders on Steam right now, and performance
             is its loudest player complaint. This guide walks through what players are reporting in
-            May–July 2026, the in-game settings that actually recover frames, the citizen-count thresholds
+            May-July 2026, the in-game settings that actually recover frames, the citizen-count thresholds
             where lag begins, and what Galaxy Grove has on its roadmap to fix it.
           </p>
           <div className="flex flex-wrap gap-2">
@@ -239,8 +239,8 @@ export default function Page() {
           </div>
 
           <div className="tip-box">
-            <strong>The pattern:</strong> Reports cluster around mid-size towns (150–250 citizens) for the first
-            visible drops and around 500–600 citizens for severe drops to single-digit FPS. Two distinct
+            <strong>The pattern:</strong> Reports cluster around mid-size towns (150-250 citizens) for the first
+            visible drops and around 500-600 citizens for severe drops to single-digit FPS. Two distinct
             reports on flagship hardware (RTX 5090, RTX 4070-class) confirm the ceiling is not raw GPU power.
           </div>
         </section>
@@ -255,7 +255,7 @@ export default function Page() {
           />
           <figcaption className="text-sm text-blueprint-muted mt-3 text-center">
             Recurring complaint topics across the 20 most-recent negative Town to City reviews on Steam
-            (May–July 2026). Performance / FPS / Lag accounts for the largest single share.
+            (May-July 2026). Performance / FPS / Lag accounts for the largest single share.
           </figcaption>
         </figure>
 
@@ -376,7 +376,7 @@ export default function Page() {
           </h2>
           <p className="text-blueprint-muted leading-relaxed mb-6">
             Town to City launched into Early Access in late 2025. The developers have been issuing patches
-            roughly every 1–2 weeks, with the most recent ones explicitly targeting performance and stability.
+            roughly every 1-2 weeks, with the most recent ones explicitly targeting performance and stability.
           </p>
           <div className="bluepr-card">
             <ul className="list-disc pl-6 space-y-3 text-blueprint-muted">
@@ -418,7 +418,7 @@ export default function Page() {
           </div>
         </section>
 
-        {/* Section 7: Related Guides — only real pages */}
+        {/* Section 7: Related Guides (only real pages) */}
         <section className="mb-12">
           <h2 className="font-display text-2xl font-bold text-blueprint-text mb-4">Related Guides</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
