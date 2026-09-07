@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Terms of Service',
   description: 'Terms of Service for the Town to City Guide: informational use, accuracy disclaimers, affiliate disclosure, copyright, and intellectual property notices.',
   robots: {
-    index: false,
+    index: true,
     follow: true,
   },
 };

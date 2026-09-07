@@ -14,7 +14,8 @@ const BASE = 'https://towntocityguide.wiki';
  * 收录规则：
  * 1. 只列最终存活的页面。已合并的页面（/production-chain、/beginner-walkthrough、/city-layout）
  *    改由 vercel.json 里的 301 指向厚页，不进 sitemap。
- * 2. metadata.robots.index === false 的页面（/terms、/news、/tips）不进 sitemap，
+ * 2. metadata.robots.index === false 的页面（/news、/tips）不进 sitemap，
+ *    （/terms 原先 noindex，2026-09-07 起改为可索引并收录进 sitemap）
  *    否则 sitemap 与 noindex 互相打脸，Google 会整体下调对 sitemap 的信任。
  * 3. lastmod 用页面文件的真实最后修改日期（git log），不写构建时间。
  */
@@ -46,6 +47,7 @@ const ROUTES: { path: string; lastmod: string }[] = [
   { path: '/resources', lastmod: '2026-08-25' },
   { path: '/seasonal-challenges', lastmod: '2026-08-25' },
   { path: '/siege-survival', lastmod: '2026-08-25' },
+  { path: '/terms', lastmod: '2026-09-05' },
   { path: '/tier-list', lastmod: '2026-08-25' },
   { path: '/trade', lastmod: '2026-08-25' },
   { path: '/traffic-management', lastmod: '2026-08-25' },
@@ -53,7 +55,7 @@ const ROUTES: { path: string; lastmod: string }[] = [
   { path: '/villager-happiness', lastmod: '2026-08-25' },
 ];
 
-const LOW_PRIORITY = ['about', 'privacy', 'contact'];
+const LOW_PRIORITY = ['about', 'privacy', 'terms', 'contact'];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return ROUTES.map(({ path, lastmod }) => ({

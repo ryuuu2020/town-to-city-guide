@@ -98,7 +98,7 @@ export default function UpdatesPage() {
             headline: 'Town to City Guide Updates | Changelog of Every Revision',
             description: 'Every revision to Town to City Guide, dated: new guides, corrected facts, merged pages, and site changes.',
             datePublished: '2026-09-04',
-            dateModified: '2026-09-04',
+            dateModified: '2026-09-07',
             author: { '@type': 'Organization', name: 'Town to City Guide' },
             publisher: { '@type': 'Organization', name: 'Town to City Guide', url: 'https://towntocityguide.wiki' },
             url: 'https://towntocityguide.wiki/updates',
@@ -136,6 +136,31 @@ export default function UpdatesPage() {
             </div>
           ))}
         </div>
+
+        {/* History in movements */}
+        <section className="mb-12 space-y-4">
+          <h2 className="font-display text-2xl font-semibold text-blueprint-text">The History in Three Movements</h2>
+          <p className="text-blueprint-muted leading-relaxed">
+            Read as one list, the entries above trace how the site grew. It opened in the last week of June 2026 with fifteen guide pages covering buildings, resources, citizens, economy, research, trade, and layouts, and the dark blueprint theme, sitemap, and structured-data markup shipped in that same first week. An early content audit removed inaccurate claims and reworked the site architecture before anything else was layered on. The first five days of July added the deep-dive library in one push: industry chains, the production chain reference, a building tier list, an expanded FAQ, and the citizen happiness guide. Mid-July followed with the achievements page and a step-by-step first-days walkthrough (July 6), then the seasonal challenges guide covering all four seasons (July 9).
+          </p>
+          <p className="text-blueprint-muted leading-relaxed">
+            August was an infrastructure month. On August 25 the site moved to its final domain, towntocityguide.wiki, with every title, canonical address, and sitemap entry re-pointed and old addresses redirecting. Four guides arrived with the move: the beach biome income loop, a building tier ranking, settlement upgrade milestones, and a performance optimization page. On August 26, an advertising and analytics readiness sweep published and verified ads.txt, added the AdSense meta tag, passed a full readiness audit, and moved analytics to a dedicated measurement property. September 1 added the contact page for corrections and questions.
+          </p>
+          <p className="text-blueprint-muted leading-relaxed">
+            September tightened the architecture rather than expanding it. On September 4 the homepage cards and cross-links were rebuilt around the pages readers actually reach, every canonical URL and sitemap entry was unified to a single address form to stop mirror-domain confusion, and three overlapping pages were merged: the production chain, beginner walkthrough, and city layout references now each live on one authoritative page, with the old addresses redirecting. On September 5 the platform facts were corrected: the Steam store API lists Windows, macOS, and Linux builds, so platform answers now reflect all three, and the console answer is unchanged, with no Xbox, PlayStation, or Switch version listed anywhere.
+          </p>
+        </section>
+
+        {/* What this log records */}
+        <section className="mb-12">
+          <h2 className="font-display text-2xl font-semibold text-blueprint-text mb-4">What This Log Records, and What It Does Not</h2>
+          <p className="text-blueprint-muted leading-relaxed mb-4">
+            Entries here record revisions to this guide, not game patch notes. When the game itself changes, a page changes only after the affected fact has been checked against the shipped game or the official Steam store listing, and the entry then describes what was re-verified. Where something cannot be confirmed at all, the affected page says so instead of printing a guess, and this log simply does not grow an entry for it until a verified answer exists.
+          </p>
+          <p className="text-blueprint-muted leading-relaxed">
+            The merged September 4 pages are the easiest place to see the principle in practice. The production chain reference now lives at <Link href="/production-chain-guide" className="text-blueprint-accent hover:underline">/production-chain-guide</Link> and the single layout reference at <Link href="/layouts" className="text-blueprint-accent hover:underline">/layouts</Link>; their old URLs redirect instead of leaving two versions of the same answer online, because a site that logs its own revisions should not keep outdated copies reachable.
+          </p>
+        </section>
 
         {/* Editorial standards */}
         <section className="tip-box mb-12">

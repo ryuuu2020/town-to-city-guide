@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   alternates: {
@@ -159,8 +160,31 @@ export default function LayoutsPage() {
           </div>
         </section>
 
+        {/* Siting logic */}
+        <section className="bluepr-card mb-8">
+          <h2 className="font-display text-2xl font-bold text-blueprint-text mb-4">Siting Logic: Where a Building Actually Goes</h2>
+          <p className="text-blueprint-text leading-relaxed mb-4">
+            The placement rules on this page all follow from one fact: in Town to City, distance is paid for in worker travel time, and buildings that look placed can still be functionally misplaced. Logistics buildings belong between production and consumption, not beside one end of the route. The <Link href="/production-chain-guide" className="text-blueprint-accent hover:underline">production chain guide</Link> puts numbers on this: a Granary should sit within 3-4 tiles of its farm cluster because collection trips repeat all day, and warehouses work best as a distributed network, each serving a logistics cell of roughly 6-10 buildings rather than one giant depot near the train station. Stone roads on the highest-traffic logistics route are worth about 40% movement speed on that link, so upgrade the Granary-to-Warehouse path before decorating anything.
+          </p>
+          <p className="text-blueprint-text leading-relaxed">
+            Service buildings follow the same logic from the other direction. Town Hall, the Research Center, and market stalls pay off inside their walking range, which makes the center of a residential district worth more than a pretty corner, because coverage reaches more citizens from the middle. The coastline is the exception: tourism buildings gain value from scenery rather than centrality, so Hotels and the Lighthouse belong on the waterfront of Rocemarée, after the water and elevation there have been terraformed to multiply the scenic payoff.
+          </p>
+        </section>
+
+        {/* Common mistakes */}
+        <section className="bluepr-card mb-8">
+          <h2 className="font-display text-2xl font-bold text-blueprint-text mb-4">Common Layout Mistakes</h2>
+          <ul className="list-disc list-inside space-y-2 text-sm text-blueprint-muted leading-relaxed">
+            <li><strong className="text-blueprint-text">Covering ground before covering services.</strong> New districts that sit outside walking/transport range of shops, Town Hall, and the Research Center cost more happiness than the plots add. Extend coverage first, then density.</li>
+            <li><strong className="text-blueprint-text">Terraforming after placement.</strong> Moving expensive buildings later is a real cost. Reshape elevation and water before the structures that depend on the view or the terrain go down.</li>
+            <li><strong className="text-blueprint-text">Planning farms at their starting footprint.</strong> Farms double their surface area at Tier 3. A farm district sized for Tier 1 has no room left to grow, so leave margins from the start.</li>
+            <li><strong className="text-blueprint-text">One warehouse for the whole town.</strong> Warehouse workers stretched across too many destinations leave stalls empty while storage overflows. Distribute warehouses per district instead.</li>
+            <li><strong className="text-blueprint-text">Treating beauty as a separate park district.</strong> Beauty adjacency rewards decoration placed between houses, not concentrated far from where citizens live. Weave it into the streets you already build.</li>
+          </ul>
+        </section>
+
         <p className="text-xs text-blueprint-muted italic">
-          Last updated: 4 September 2026. This page is now the single layout reference for the site, and the separate
+          Last updated: 7 September 2026. This page is now the single layout reference for the site, and the separate
           &ldquo;best city layout&rdquo; page (4-lane boulevards, industrial downwind zoning) described a snap-to-grid
           city builder, not Town to City&apos;s grid-less model, so its URL redirects here without its claims being
           carried over.
