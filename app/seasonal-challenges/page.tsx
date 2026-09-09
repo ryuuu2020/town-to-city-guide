@@ -189,7 +189,7 @@ export default function SeasonalChallengesPage() {
           <a href="/citizens" className="text-accent hover:underline">Citizens Guide</a>
           <a href="/economy" className="text-accent hover:underline">Economy Guide</a>
           <a href="/beginners" className="text-accent hover:underline">Beginner Guide</a>
-          <a href="/food-production" className="text-accent hover:underline">Food Production</a>
+          <a href="/production-chain-guide" className="text-accent hover:underline">Food &amp; Production Chains</a>
         </div>
       </section>
 

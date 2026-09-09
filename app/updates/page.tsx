@@ -11,11 +11,20 @@ export const metadata: Metadata = {
 
 const ENTRIES: { date: string; title: string; items: string[] }[] = [
   {
-    date: 'September 5, 2026',
-    title: 'Platform facts corrected',
+    date: 'September 9, 2026',
+    title: 'Platform answer restored to Windows only, citizen tiers fixed',
     items: [
-      'An earlier version of this guide described Town to City as a Windows-only release. The Steam store API lists Windows, macOS, and Linux builds, so the platform answers now reflect all three.',
-      'Console availability is unchanged: no Xbox, PlayStation, or Switch version is listed anywhere.',
+      'A September 5 edit had changed the platform answer to Windows, macOS, and Linux. That change was based on a bad store lookup and has been reversed. Re-checked against the Steam listing, which carries a single Windows entry with no macOS or Linux build.',
+      'The homepage statistic read four citizen tiers. The game runs three: Worker, Artisan, and Bourgeoisie, matching the citizens guide and the store description. The figure now says three.',
+      'Two honesty problems in the production chain reference were removed: it called the current game an Early Access build even though Town to City left Early Access on May 26, 2026, and it described its numbers as verified against community testing. The wording now states what was checked and when.',
+      'A dead link on the seasonal challenges page pointed at a removed /food-production address; it now points to the production chain guide that absorbed it.',
+    ],
+  },
+  {
+    date: 'September 5, 2026',
+    title: 'Platform wording changed, then reversed',
+    items: [
+      'An earlier version of this guide described Town to City as a Windows-only release. A store lookup during that edit appeared to show Windows, macOS, and Linux builds, and the platform answers were changed to all three. The lookup was wrong; the original Windows-only wording was correct. Reverted on September 9.',
     ],
   },
   {
@@ -98,7 +107,7 @@ export default function UpdatesPage() {
             headline: 'Town to City Guide Updates | Changelog of Every Revision',
             description: 'Every revision to Town to City Guide, dated: new guides, corrected facts, merged pages, and site changes.',
             datePublished: '2026-09-04',
-            dateModified: '2026-09-07',
+            dateModified: '2026-09-09',
             author: { '@type': 'Organization', name: 'Town to City Guide' },
             publisher: { '@type': 'Organization', name: 'Town to City Guide', url: 'https://towntocityguide.wiki' },
             url: 'https://towntocityguide.wiki/updates',
@@ -147,7 +156,7 @@ export default function UpdatesPage() {
             August was an infrastructure month. On August 25 the site moved to its final domain, towntocityguide.wiki, with every title, canonical address, and sitemap entry re-pointed and old addresses redirecting. Four guides arrived with the move: the beach biome income loop, a building tier ranking, settlement upgrade milestones, and a performance optimization page. On August 26, an advertising and analytics readiness sweep published and verified ads.txt, added the AdSense meta tag, passed a full readiness audit, and moved analytics to a dedicated measurement property. September 1 added the contact page for corrections and questions.
           </p>
           <p className="text-blueprint-muted leading-relaxed">
-            September tightened the architecture rather than expanding it. On September 4 the homepage cards and cross-links were rebuilt around the pages readers actually reach, every canonical URL and sitemap entry was unified to a single address form to stop mirror-domain confusion, and three overlapping pages were merged: the production chain, beginner walkthrough, and city layout references now each live on one authoritative page, with the old addresses redirecting. On September 5 the platform facts were corrected: the Steam store API lists Windows, macOS, and Linux builds, so platform answers now reflect all three, and the console answer is unchanged, with no Xbox, PlayStation, or Switch version listed anywhere.
+            September tightened the architecture rather than expanding it. On September 4 the homepage cards and cross-links were rebuilt around the pages readers actually reach, every canonical URL and sitemap entry was unified to a single address form to stop mirror-domain confusion, and three overlapping pages were merged: the production chain, beginner walkthrough, and city layout references now each live on one authoritative page, with the old addresses redirecting. On September 5 a store lookup was misread and the platform answers were widened to Windows, macOS, and Linux. That change was reversed on September 9: the listing shows a single Windows entry, with no macOS or Linux build and no console release mentioned.
           </p>
         </section>
 

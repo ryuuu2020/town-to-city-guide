@@ -197,7 +197,7 @@ export default function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-12">
             {[
               { num: '15+', label: 'Guide Pages' },
-              { num: '4', label: 'Citizen Tiers' },
+              { num: '3', label: 'Citizen Tiers' },
               { num: '30+', label: 'Buildings Covered' },
               { num: '5.7k', label: 'Steam Reviews (97%)' },
             ].map((s, i) => (
