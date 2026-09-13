@@ -228,9 +228,41 @@ const bottlenecks = [
   },
 ];
 
+const chainFaqs = [
+  {
+    q: 'What is a production chain in Town to City?',
+    a: 'A production chain is the full route one good travels from raw material to a consumed product. Farm fields grow crops, a Granary collects them, Warehouse workers move them to a processing building such as a Bakery, Winery or Hattery, and Market Stalls then distribute the finished goods to citizens. A chain is only as fast as its slowest logistics link.',
+  },
+  {
+    q: 'How many production chains does Town to City have?',
+    a: 'This guide maps twelve major production chains across four categories. Bread, Wine, Pub Supplies and Restaurant cover food. Hattery and Perfumer cover apparel. Candle Making, Apothecary and Cathedral are the late-game luxury chains. Import Trade, Research Progression and Tax Revenue are the logistics chains that enable the rest. The underlying resource pool is thirteen crop types spread across four Farm Tiers and seven city ranks.',
+  },
+  {
+    q: 'What is the chain of production from farm to customer?',
+    a: 'The chain of production runs through three stages. Production happens at the Farm, where crops are planted and harvested. Logistics runs through the Granary and Warehouse, which collect and transport those crops. Processing and consumption happen at buildings like the Bakery, Winery or Hattery and then at Market Stalls. Crops only move when a Granary worker collects them and a Warehouse worker carries them, so a Granary within three or four tiles of the farm cluster keeps the chain moving.',
+  },
+  {
+    q: 'Which production chain should I build first?',
+    a: 'The Bread Chain. It feeds Workers and Artisans, the two most populous citizen classes, and converts only 15 Corn and 15 Wheat into a high-efficiency food output at the Bakery. Build it first after the Fontebrac unlock: two farms on Corn and Wheat, a Granary beside them, and a route through a Warehouse to the Bakery. Add the Winery only once food production is stable.',
+  },
+  {
+    q: 'Why does my production chain keep stalling?',
+    a: 'Most stalls are logistics, not production. When a building sits idle waiting on inputs, the shortfall is upstream: add farm plots, move the Granary closer, or assign more collection workers. When output does not move, the blockage is downstream, so add storage or the next processing step rather than a second producer. Upgrading the Granary to Warehouse road to stone raises worker movement speed by roughly 40%, which lifts delivery capacity without adding a worker.',
+  },
+];
+
 export default function ProductionChainGuidePage() {
   return (
     <div className="min-h-screen bg-blueprint-bg">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: chainFaqs.map(({ q, a }) => ({
+          '@type': 'Question',
+          name: q,
+          acceptedAnswer: { '@type': 'Answer', text: a },
+        })),
+      }) }} />
       <div className="max-w-6xl mx-auto px-6 py-12">
         {/* Breadcrumb */}
         <div className="text-sm text-blueprint-muted mb-8">
@@ -510,6 +542,28 @@ export default function ProductionChainGuidePage() {
                     Food chains need the shortest, fastest routes. A crop that rots before reaching the Granary funds nothing. Goods that do not spoil can use slower, higher-capacity routing, so spend road upgrades on food links first.
                   </span>
                 </div>
+              </div>
+            </section>
+
+            {/* Production Chain FAQ */}
+            <section>
+              <h2 className="font-display text-2xl font-semibold text-blueprint-text mb-4">
+                Production Chain FAQ
+              </h2>
+              <p className="text-blueprint-muted leading-relaxed mb-6">
+                These are the questions players ask most about the production chain in Town to City. If you want the
+                chain of production from farm field to citizen, the three-stage pipeline above is the summary; the
+                answers below cover the individual production chains and where they usually stall.
+              </p>
+              <div className="space-y-4">
+                {chainFaqs.map((item) => (
+                  <div key={item.q} className="bluepr-card">
+                    <h3 className="font-display text-base font-semibold text-blueprint-text mb-2">
+                      Q: {item.q}
+                    </h3>
+                    <p className="text-blueprint-muted leading-relaxed text-sm">{item.a}</p>
+                  </div>
+                ))}
               </div>
             </section>
 
