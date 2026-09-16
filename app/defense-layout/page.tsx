@@ -2,7 +2,7 @@ export const metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/defense-layout",
   },
-  title: "Town to City Defense Layout | Best Wall Designs & Fortification Guide (2026)",
+  title: { absolute: 'Town to City Defense Layouts: Walls and Fortifications' },
   description: "Complete Town to City defense layout guide covering wall types, gate placement, tower positioning, moat design, and layered defense strategies for optimal colony protection.",
 };
 

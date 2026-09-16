@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://towntocityguide.wiki/updates',
   },
-  title: 'Guide Updates | Changelog of Every Revision',
+  title: { absolute: 'Guide Updates | Changelog of Every Revision' },
   description: 'Every revision to Town to City Guide, dated: new guides, corrected facts, merged pages, and site changes. See at a glance how current the guide is.',
 };
 

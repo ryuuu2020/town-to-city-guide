@@ -4,7 +4,7 @@ export const metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/industry-chains",
   },
-  title: "Town to City Industry Chains Guide: Production Lines, Supply Routes & Economic Optimization | Town to City Guide",
+  title: { absolute: 'Town to City Industry Chains: Production and Routes' },
   description: "Complete Town to City industry chains guide. Every production line mapped from raw material to finished goods, supply chain optimization, and economic scaling strategies.",
 };
 

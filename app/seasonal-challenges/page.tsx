@@ -2,7 +2,7 @@ export const metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/seasonal-challenges",
   },
-  title: "Town to City Seasonal Challenges Guide | Spring, Summer, Autumn & Winter Strategy (2026)",
+  title: { absolute: 'Town to City Seasonal Challenges: All Four Seasons' },
   description: "Complete Town to City seasonal challenges guide. Master every season's unique demands: crop cycles, citizen needs, weather disasters, seasonal events, and rewards for optimal city growth.",
 };
 

@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/production-chain-guide",
   },
-  title: "Town to City Production Chain Guide | Complete Resource Flow (2026)",
+  title: { absolute: 'Town to City Production Chain: Complete Resource Flow' },
   description:
     "Master every production chain in Town to City. Complete resource flow guide covering food, construction, trade goods, and luxury chains with input/output data, worker requirements, bottleneck fixes, and efficiency optimization strategies.",
   keywords: [
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "Town to City resource management",
   ],
   openGraph: {
-    title: "Town to City Production Chain Guide | Complete Resource Flow (2026)",
+    title: "Town to City Production Chain: Complete Resource Flow",
     description:
       "Master every production chain in Town to City. Complete resource flow guide covering food, construction, trade goods, and luxury chains with input/output data, worker requirements, and bottleneck fixes.",
   },

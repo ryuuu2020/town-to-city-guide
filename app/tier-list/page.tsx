@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/tier-list",
   },
-  title: "Town to City Building Tier List | Best Buildings Ranked (2026)",
+  title: { absolute: 'Town to City Building Tier List: Best Buildings' },
   description:
     "Complete Town to City building tier list ranking every structure from S to C tier. Find the best production buildings, logistics hubs, housing, and late-game structures with detailed explanations and unlock conditions.",
   keywords: [
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "Town to City building guide",
   ],
   openGraph: {
-    title: "Town to City Building Tier List | Best Buildings Ranked (2026)",
+    title: "Town to City Building Tier List: Best Buildings",
     description:
       "Rank every building in Town to City from S to C tier. Covers production buildings, logistics, housing, luxury structures, and tourism.",
   },

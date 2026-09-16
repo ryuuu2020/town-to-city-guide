@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/beginners",
   },
-  title: "Beginner's Guide: Getting Started | Town to City Guide",
+  title: { absolute: "Beginner's Guide: Getting Started | Town to City Guide" },
   description: 'Getting started with Town to City: basic town setup, crop farming, citizen tiers, and essential tips for new players.',
 };
 

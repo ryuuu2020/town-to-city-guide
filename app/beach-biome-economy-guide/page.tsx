@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/beach-biome-economy-guide",
   },
-  title: 'Town to City Beach Biome Economy Guide 2026 | Pizza Baker & Trattoria Income Loop',
+  title: { absolute: 'Town to City Beach Biome Economy: Pizza & Trattoria' },
   description:
     'How to run a profitable Beach biome economy in Town to City: Pizza Baker production, Trattoria service chain, coastal tourism routing, and trade exports. Practical 2026 playbook.',
   keywords: [

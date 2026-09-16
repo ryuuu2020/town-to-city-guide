@@ -2,7 +2,7 @@ export const metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/resource-management",
   },
-  title: "Resource Management Guide | Town To City",
+  title: { absolute: 'Resource Management Guide | Town To City' },
   description:
     "Town to City resource guide covering food, wood, stone, taxes, storage pressure, and when to pivot from survival stockpiles into growth spending.",
 };

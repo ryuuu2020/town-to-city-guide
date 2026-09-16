@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/resources",
   },
-  title: 'Crops & Farming',
+  title: { absolute: 'Crops & Farming' },
   description: 'Complete crop reference for Town to City: all 13 crop types, farm tier progression, crop-powered building inputs, and farming strategy.',
 };
 

@@ -2,7 +2,7 @@ export const metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/siege-survival",
   },
-  title: "Siege Survival Guide | Town To City",
+  title: { absolute: 'Siege Survival Guide | Town To City' },
   description:
     "Town to City siege survival guide covering outer-wall planning, emergency stockpiles, choke streets, and how to absorb attacks without wrecking your economy.",
 };

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/performance-optimization",
   },
-  title: 'Town to City Performance Optimization Guide 2026: Fix FPS Drops & Lag',
+  title: { absolute: 'Town to City Performance: Fixing FPS Drops and Lag' },
   description: 'Fix Town to City FPS drops, lag, and crashes. Real player-reported benchmarks, in-game settings tuning, citizen count thresholds, and the July 2026 performance patch roadmap.',
   keywords: [
     'Town to City performance',

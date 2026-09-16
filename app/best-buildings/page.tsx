@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/best-buildings",
   },
-  title: 'Town to City Best Buildings Guide | Priority & Build Order (2026)',
+  title: { absolute: 'Town to City Best Buildings: Priority & Build Order' },
   description:
     "Town to City best buildings: which buildings to prioritize, the ideal build order from housing and food chains to tourism, and when each structure pays off.",
 };

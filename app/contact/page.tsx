@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/contact",
   },
-  title: 'Contact',
+  title: { absolute: 'Contact' },
   description:
     'Contact the Town to City Guide to report a wrong building stat, a stale production-chain note, a broken page, or an advertising and privacy question.',
   robots: {

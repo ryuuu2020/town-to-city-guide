@@ -2,7 +2,7 @@ export const metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/beginner-colony-guide",
   },
-  title: "Town to City Beginner Guide | First Colony Setup & Early Game Walkthrough (2026)",
+  title: { absolute: 'Town to City Beginner Guide: First Colony Setup' },
   description: "Step-by-step Town to City beginner guide covering first buildings order, resource priorities, settler assignment, food supply management, and early trade routes for a thriving colony.",
 };
 

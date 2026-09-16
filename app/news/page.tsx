@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/news",
   },
-  title: 'News & Updates',
+  title: { absolute: 'News & Updates' },
   description: 'Town to City launch information and game updates. Released by Galaxy Grove on Steam.',
   robots: {
     index: false,

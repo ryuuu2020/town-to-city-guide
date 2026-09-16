@@ -4,7 +4,7 @@ export const metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/villager-happiness",
   },
-  title: "Town to City Villager Happiness Guide | Needs, Mood & Productivity Optimization",
+  title: { absolute: 'Town to City Villager Happiness: Needs and Mood' },
   description: "Keep villagers happy and productive with complete happiness guide. Covers needs, mood modifiers, recreation, and productivity bonuses.",
 };
 

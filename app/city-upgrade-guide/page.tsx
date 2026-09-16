@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://towntocityguide.wiki/city-upgrade-guide",
   },
-  title: "Town to City: Settlement Upgrade Guide (2026)",
+  title: { absolute: 'Town to City: Settlement Upgrade Guide (2026)' },
   description: "Town to City upgrade guide: every settlement tier from Dwelling to Grandiose City, unlock requirements, population milestones, and how to grow without collapsing.",
 };
 
