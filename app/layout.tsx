@@ -116,28 +116,9 @@ gtag('config', 'G-5QV5VL08HX');`}
             
           </div>
 
-          {/* Cross-site links */}
-          <div className="border-t border-blueprint-border/50 pt-4 mb-3">
-            <p className="text-xs text-blueprint-muted font-semibold uppercase tracking-wider mb-2">More Game Guides</p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <a href="https://menace.gguidehub.com" target="_blank" rel="noopener noreferrer" className="text-xs text-blueprint-muted hover:text-blueprint-accent transition-colors">
-                MENACE Guide
-              </a>
-              <a href="https://oldenera.gguidehub.com" target="_blank" rel="noopener noreferrer" className="text-xs text-blueprint-muted hover:text-blueprint-accent transition-colors">
-                Olden Era Guide
-              </a>
-              <a href="https://dispatch.gguidehub.com" target="_blank" rel="noopener noreferrer" className="text-xs text-blueprint-muted hover:text-blueprint-accent transition-colors">
-                Dispatch Guide
-              </a>
-            </div>
-          </div>
-
           <div className="flex flex-col items-center gap-2">
             <p>© {new Date().getFullYear()} · Town to City Guide. Not affiliated with Galaxy Grove or Kwalee.</p>
             <p><a href="mailto:sonic6640@gmail.com" className="text-blueprint-accent hover:underline">Contact: sonic6640@gmail.com</a></p>
-            <span className="font-body text-sm text-stone">
-              Part of the <a href="https://gguidehub.com" className="text-stone hover:text-bark underline underline-offset-2 transition-colors">GameGuideHub</a> network
-            </span>
           </div>
         
             </footer>
