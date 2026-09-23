@@ -163,7 +163,7 @@ export default function BeginnerWalkthroughPage() {
           </section>
 
           <p className="text-sm text-ink-faded mt-8 italic">
-            Last updated: July 5, 2026 · Town to City Beginner Walkthrough · Part of GameGuideHub Network
+            Last updated: July 5, 2026 · Town to City Beginner Walkthrough
           </p>
         </div>
 

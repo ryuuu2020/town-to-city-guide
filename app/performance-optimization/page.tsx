@@ -470,7 +470,7 @@ export default function Page() {
         headline="Town to City Performance Optimization Guide (July 2026)"
         datePublished="2026-07-20"
         dateModified="2026-07-20"
-        authorName="GameGuideHub"
+        authorName="Town to City Guide"
       />
     </div>
   );

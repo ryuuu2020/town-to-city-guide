@@ -148,7 +148,7 @@ export default function AchievementGuidePage() {
           </section>
 
           <p className="text-sm text-ink-faded mt-8 italic">
-            Last updated: July 5, 2026 · Town to City Achievement Guide · Part of GameGuideHub Network
+            Last updated: July 5, 2026 · Town to City Achievement Guide
           </p>
         </div>
 

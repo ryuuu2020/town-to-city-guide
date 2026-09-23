@@ -71,7 +71,8 @@ function buildSchema(props: SchemaProps): Record<string, unknown> {
         ...(props.dateModified && { dateModified: props.dateModified }),
         author: {
           "@type": "Organization",
-          name: props.authorName || "GameGuideHub",
+          name: props.authorName || "Town to City Guide",
+          url: "https://towntocityguide.wiki",
         },
         ...(props.imageUrl && { image: props.imageUrl }),
       };

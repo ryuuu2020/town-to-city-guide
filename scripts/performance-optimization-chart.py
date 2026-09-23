@@ -5,15 +5,17 @@ Recurring complaint topics across the most-recent negative Steam reviews
 
 Data is taken directly from the page table, sourced from public Steam reviews.
 """
-import sys
 from pathlib import Path
-
-sys.path.insert(0, str(Path(sys.executable).parent.parent.parent))
-from daimon_runtime import setup_plot  # noqa: E402
+import matplotlib
+matplotlib.use("Agg")
+matplotlib.rcParams.update({
+    "font.family": "sans-serif",
+    "font.sans-serif": ["Helvetica Neue", "Helvetica", "Arial", "DejaVu Sans"],
+    "axes.unicode_minus": False,
+})
 
 import matplotlib.pyplot as plt  # noqa: E402
 
-setup_plot()
 
 # Site palette, mirrored from town-to-city-guide tailwind.config.ts.
 BG = "#0b1120"
@@ -88,8 +90,6 @@ legend_handles = [
 ax.legend(handles=legend_handles, frameon=False, loc="upper right",
           fontsize=9, labelcolor=TEXT)
 
-fig.text(0.99, 0.01, "gguidehub.com", ha="right", va="bottom",
-         fontsize=9, color=MUTED)
 fig.tight_layout(rect=[0, 0.03, 1, 0.96])
 
 out = Path("/Users/wangxiaolong/program/游戏站/town-to-city-guide/public/images/performance-optimization.png")

@@ -488,7 +488,7 @@ export default function Page() {
         headline="Town to City Beach Biome Economy Guide (July 2026)"
         datePublished="2026-07-21"
         dateModified="2026-07-21"
-        authorName="GameGuideHub"
+        authorName="Town to City Guide"
       />
     </div>
   );

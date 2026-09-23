@@ -9,7 +9,7 @@ export const dynamic = 'force-static';
 const BASE = 'https://towntocityguide.wiki';
 
 /**
- * 该文件手工维护（scripts/sync-sitemaps.py 只处理 *.gguidehub.com 域名的站点，本站不在其列）。
+ * 该文件手工维护（scripts/sync-sitemaps.py 只处理另一批旧域名的站点，本站不在其列）。
  *
  * 收录规则：
  * 1. 只列最终存活的页面。已合并的页面（/production-chain、/beginner-walkthrough、/city-layout）
