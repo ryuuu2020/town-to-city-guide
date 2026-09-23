@@ -170,7 +170,7 @@ export default function Page() {
         </ul>
 
         <p className="text-ink-light mt-10 text-sm border-t border-gray-700 pt-4">
-          Last updated: July 2, 2026. Happiness values verified against Town to City main branch as of June 2026 patch cycle.
+          Last updated: July 2, 2026. Independent fan guide, not affiliated with the developer.
         </p>
       </div>
     </div>

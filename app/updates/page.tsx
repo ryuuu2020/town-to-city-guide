@@ -164,7 +164,7 @@ export default function UpdatesPage() {
         <section className="mb-12">
           <h2 className="font-display text-2xl font-semibold text-blueprint-text mb-4">What This Log Records, and What It Does Not</h2>
           <p className="text-blueprint-muted leading-relaxed mb-4">
-            Entries here record revisions to this guide, not game patch notes. When the game itself changes, a page changes only after the affected fact has been checked against the shipped game or the official Steam store listing, and the entry then describes what was re-verified. Where something cannot be confirmed at all, the affected page says so instead of printing a guess, and this log simply does not grow an entry for it until a verified answer exists.
+            Entries here record revisions to this guide, not game patch notes. When a page changes, the entry describes what changed and when. Where something cannot be confirmed at all, the affected page says so instead of printing a guess.
           </p>
           <p className="text-blueprint-muted leading-relaxed">
             The merged September 4 pages are the easiest place to see the principle in practice. The production chain reference now lives at <Link href="/production-chain-guide" className="text-blueprint-accent hover:underline">/production-chain-guide</Link> and the single layout reference at <Link href="/layouts" className="text-blueprint-accent hover:underline">/layouts</Link>; their old URLs redirect instead of leaving two versions of the same answer online, because a site that logs its own revisions should not keep outdated copies reachable.
@@ -175,7 +175,7 @@ export default function UpdatesPage() {
         <section className="tip-box mb-12">
           <h2 className="font-display text-xl font-semibold text-blueprint-text mb-3">How Pages Get Written &amp; Revised</h2>
           <ul className="list-disc list-inside space-y-2 text-sm text-blueprint-muted leading-relaxed">
-            <li><strong className="text-blueprint-text">The game itself comes first.</strong> Every factual claim traces back to gameplay in Town to City or the official Steam store listing: numbers like building costs, unlock requirements, and system specs are checked against the shipped game, not summarized from secondhand posts.</li>
+            <li><strong className="text-blueprint-text">What can be checked comes first.</strong> Numbers like building costs, unlock requirements, and system specs are carried over from the game and its Steam store listing wherever those exist. Where a page leans on numbers that come from player reports rather than the game itself, it says so instead of passing them off as first-hand.</li>
             <li><strong className="text-blueprint-text">Unverified claims stay out.</strong> When something cannot be confirmed (a mechanic nobody has tested, a number that differs between reports), the page says so instead of printing a guess.</li>
             <li><strong className="text-blueprint-text">Revisions are public.</strong> Every guide revision is dated and logged on this page, so you can check how current any page is before trusting it.</li>
             <li><strong className="text-blueprint-text">Readers keep us honest.</strong> Spotted something wrong or outdated? <Link href="/contact" className="text-blueprint-accent hover:underline">Tell us</Link>. Verified fixes land quickly and get logged here.</li>

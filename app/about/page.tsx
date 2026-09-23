@@ -102,14 +102,14 @@ export default function AboutPage() {
           <div className="bluepr-card">
             <h3 className="font-display text-lg font-semibold text-blueprint-text mb-4">Site Mission</h3>
             <p className="text-blueprint-muted leading-relaxed">
-              Our mission is simple: provide the most accurate Town to City guide available anywhere. Every guide page is checked against the current patch before it ships, so recommendations rest on the systems the game actually runs. When we say a tax rate of 15% is optimal, the page shows the in-game numbers behind that figure and names the patch version it was checked against. When we recommend a build order, it follows the sequence the current patch makes most reliable, and pages say so plainly when a figure comes from player reports rather than official sources. We believe community knowledge should be freely available and permanently accessible: no paywalls, no login requirements, no account needed.
+              Our aim is to give Town to City players the clearest, most current reference we can put together, free to read and easy to check. Pages are revised as the game changes, and where a figure or a strategy is genuinely uncertain, the page says so rather than presenting a guess as settled. We believe community knowledge should be freely available and permanently accessible: no paywalls, no login requirements, no account needed.
             </p>
           </div>
 
           <div className="bluepr-card">
             <h3 className="font-display text-lg font-semibold text-blueprint-text mb-4">What We Cover</h3>
             <p className="text-blueprint-muted leading-relaxed">
-              The guide currently spans eight major topic areas, each with dedicated pages that go deep on mechanics and strategy. The Beginner&apos;s Guide walks new players through the first hour with an exact build order and UI walkthrough. The Buildings page catalogs every structure in the game with resource costs, requirements, and placement tips. Citizens covers tier progression, happiness management, couples, pets, and hidden quests. Resources maps out production chains, raw material management, and supply chain optimization. The Economy page details taxation, gold management, marketplace dynamics, and trade profitability. Research breaks down all 22 tech tree nodes with priority rankings. Tips and Tricks collects 15 battle-tested strategies that experienced players use. And Layouts explains the three-zone planning system and beauty adjacency mechanics.
+              The guide currently spans eight major topic areas, each with dedicated pages that go deep on mechanics and strategy. The Beginner&apos;s Guide walks new players through the first hour with an exact build order and UI walkthrough. The Buildings page catalogs every structure in the game with resource costs, requirements, and placement tips. Citizens covers tier progression, happiness management, couples, pets, and hidden quests. Resources maps out production chains, raw material management, and supply chain optimization. The Economy page details taxation, gold management, marketplace dynamics, and trade profitability. Research breaks down all 22 tech tree nodes with priority rankings. Tips and Tricks collects 15 strategies that experienced players use. And Layouts explains the three-zone planning system and beauty adjacency mechanics.
             </p>
           </div>
         </section>
@@ -119,7 +119,7 @@ export default function AboutPage() {
           <div className="tip-box">
             <h2 className="font-display text-xl font-semibold text-blueprint-text mb-3">How This Guide Is Made</h2>
             <ul className="list-disc list-inside space-y-2 text-sm text-blueprint-muted leading-relaxed">
-              <li><strong className="text-blueprint-text">The game comes first.</strong> Every factual claim traces back to gameplay in Town to City or the official Steam store listing: building costs, unlock requirements, citizen needs, and system specs are checked against the shipped game, not summarized from secondhand posts.</li>
+              <li><strong className="text-blueprint-text">What can be checked comes first.</strong> Building costs, unlock requirements, citizen needs, and system specs are carried over from the game and its Steam store listing wherever those exist. Where a page leans on numbers that come from player reports rather than the game itself, it says so instead of passing them off as first-hand.</li>
               <li><strong className="text-blueprint-text">Uncertainty is labeled, not hidden.</strong> When something cannot be confirmed (a mechanic nobody has tested, a number that differs between reports), pages say so instead of printing a guess.</li>
               <li><strong className="text-blueprint-text">Revisions are public.</strong> Every guide revision is dated and logged on our <Link href="/updates" className="text-blueprint-accent hover:underline">guide updates page</Link>, so you can check how current any page is before trusting it.</li>
               <li><strong className="text-blueprint-text">Readers keep us honest.</strong> Spotted something wrong or outdated? <Link href="/contact" className="text-blueprint-accent hover:underline">Send a correction</Link>. Verified fixes land quickly and get logged.</li>
@@ -137,7 +137,7 @@ export default function AboutPage() {
           <div className="bluepr-card">
             <h3 className="font-display text-lg font-semibold text-blueprint-text mb-4">How to Contribute</h3>
             <p className="text-blueprint-muted leading-relaxed mb-4">
-              The best way to contribute is to share your tested strategies and discoveries. If you have found an optimal tax rate, a better build order, a hidden citizen interaction, or a research priority that outperforms what is currently documented, let us know. We verify all community submissions through testing before publishing, ensuring the guide maintains its standard of accuracy.
+              The best way to contribute is to share the strategies and discoveries that have worked for you. If you have found an optimal tax rate, a better build order, a hidden citizen interaction, or a research priority that outperforms what is currently documented, let us know. Submissions are read and folded into the guide where they improve it.
             </p>
             <p className="text-blueprint-muted leading-relaxed">
               Additionally, if you notice any information that has become outdated due to a game patch (building costs that changed, mechanics that were rebalanced, or new systems that are not yet covered), reporting it helps keep the guide current for everyone. The game is actively developed, and our guide evolves alongside it.
@@ -147,7 +147,7 @@ export default function AboutPage() {
           <div className="tip-box">
             <p className="font-semibold text-blueprint-text mb-1">Update Frequency</p>
             <p className="text-blueprint-muted leading-relaxed">
-              The guide is reviewed and updated within one week of major game patches. Minor corrections are applied as soon as they are verified. The last comprehensive review was completed in 2026, and all information reflects the latest publicly available build of Town to City.
+              The guide is revised as the game changes. Corrections are folded in as they come up and recorded in the changelog.
             </p>
           </div>
         </section>

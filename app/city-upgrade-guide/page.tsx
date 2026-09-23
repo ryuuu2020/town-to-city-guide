@@ -16,7 +16,7 @@ export default function CityUpgradeGuidePage() {
           <section>
             <h1 className="text-3xl font-bold text-gray-100 mb-4">Town to City Settlement Upgrade Guide | Every Tier from Dwelling to Grandiose City (2026)</h1>
             <p className="text-gray-300 leading-relaxed text-lg">
-              Town to City structures its entire campaign around settlement upgrades. Your humble starting Dwelling grows through Hamlet, Village, Small Town, Town, City, Large City, and finally Grandiose City. Each tier unlocks new buildings, new citizen needs, and new ways for your economy to collapse if you upgrade too fast. The most common way to lose a run is not starvation or bankruptcy but upgrading before your food, jobs, and happiness infrastructure can support the next population surge. This guide covers every settlement tier, what each upgrade unlocks, the population and infrastructure requirements, and the exact preparation checklist you should complete before pressing the upgrade button. All milestones are tested against the latest 2026 patch.
+              Town to City structures its entire campaign around settlement upgrades. Your humble starting Dwelling grows through Hamlet, Village, Small Town, Town, City, Large City, and finally Grandiose City. Each tier unlocks new buildings, new citizen needs, and new ways for your economy to collapse if you upgrade too fast. The most common way to lose a run is not starvation or bankruptcy but upgrading before your food, jobs, and happiness infrastructure can support the next population surge. This guide covers every settlement tier, what each upgrade unlocks, the population and infrastructure requirements, and the preparation checklist to run through before pressing the upgrade button.
             </p>
           </section>
 
@@ -202,7 +202,7 @@ export default function CityUpgradeGuidePage() {
             </div>
           </section>
 
-          <p className="text-sm text-gray-500 mt-8 italic">Last updated: July 18, 2026. Based on Town to City latest patch. Upgrade requirements checked against the current patch version. Independent fan guide, not affiliated with the developer.</p>
+          <p className="text-sm text-gray-500 mt-8 italic">Last updated: July 18, 2026. Independent fan guide, not affiliated with the developer.</p>
         </div>
 
         <aside className="lg:w-[30%] space-y-6">

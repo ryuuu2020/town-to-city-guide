@@ -95,14 +95,6 @@ function buildSchema(props: SchemaProps): Record<string, unknown> {
         name: props.siteName,
         url: props.siteUrl,
         description: props.description,
-        potentialAction: {
-          "@type": "SearchAction",
-          target: {
-            "@type": "EntryPoint",
-            urlTemplate: `${props.siteUrl}/search?q={search_term_string}`,
-          },
-          "query-input": "required name=search_term_string",
-        },
       };
 
     default:

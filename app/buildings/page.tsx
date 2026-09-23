@@ -46,7 +46,7 @@ export default function BuildingsPage() {
 
         <h1 className="font-display text-4xl font-bold text-blueprint-text mb-4">Buildings Guide</h1>
         <p className="text-lg text-blueprint-muted mb-8">
-          Every building type in Town to City, from crop-powered production chains to city services and tourism structures. Building names and crop requirements verified against game data.
+          Every building type in Town to City, from crop-powered production chains to city services and tourism structures, with the crop inputs each one takes.
         </p>
 
         {/* Category overview */}

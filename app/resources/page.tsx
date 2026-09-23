@@ -152,7 +152,7 @@ export default function ResourcesPage() {
         <section className="mb-16">
           <h2 className="font-display text-2xl font-bold text-blueprint-text mb-2">Crop-Powered Supply Chains</h2>
           <p className="text-blueprint-muted leading-relaxed mb-6">
-            Each production building consumes specific crops. Understanding these input requirements is critical to planning farm ratios and avoiding shortages. The data below is verified from in-game building requirements.
+            Each production building consumes specific crops. Understanding these input requirements is critical to planning farm ratios and avoiding shortages.
           </p>
 
           <div className="space-y-6">

@@ -177,7 +177,7 @@ export default function DefenseLayoutPage() {
             </div>
           </section>
 
-          <p className="text-sm text-ink-faded mt-8 italic">Last updated: June 2026. Based on Town to City version 2.4 gameplay data. Wall HP values verified against latest patch notes.</p>
+          <p className="text-sm text-ink-faded mt-8 italic">Last updated: June 2026. Independent fan guide, not affiliated with the developer.</p>
         </div>
 
         <aside className="lg:w-[30%] space-y-6">

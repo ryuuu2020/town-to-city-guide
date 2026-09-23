@@ -390,7 +390,7 @@ export default function ProductionChainGuidePage() {
                 </table>
               </div>
               <p className="font-body text-xs text-blueprint-muted italic mt-2 px-1">
-                Input quantities and processing steps below are checked against the June 2026 patch, with the store listing re-read on September 9, 2026. Worker counts vary based on building upgrades and road quality.
+                Worker counts vary based on building upgrades and road quality.
               </p>
             </section>
 
@@ -570,7 +570,7 @@ export default function ProductionChainGuidePage() {
             {/* Verification */}
             <section>
               <p className="font-body text-xs text-blueprint-muted italic">
-                Crop input quantities and building unlock conditions are checked against the June 2026 patch. Town to City left Early Access on May 26, 2026, so nothing here describes a preview build. The store listing was re-read on September 9, 2026. This page absorbed the former /production-chain guide on 2026-09-04; that URL now redirects here.
+                Town to City left Early Access on May 26, 2026, so nothing here describes a preview build. This page absorbed the former /production-chain guide on 2026-09-04; that URL now redirects here.
               </p>
             </section>
 

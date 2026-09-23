@@ -265,7 +265,7 @@ export default function Page() {
         <figure className="my-10">
           <img
             src="/images/beach-biome-economy-guide.png"
-            alt="Bar chart ranking the six income sources that matter in the Town to City Beach biome, on a qualitative 1-to-5 importance scale. Coastal tourism and the Italian food chain rank highest."
+            alt="Bar chart ranking six Beach biome income sources for Town to City on a 1-to-5 scale. Coastal tourism and Trattoria food service rank highest."
             loading="lazy"
             className="w-full rounded-card border border-blueprint-border"
           />

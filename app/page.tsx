@@ -171,7 +171,7 @@ export default function HomePage() {
           <div className="mb-8 overflow-hidden rounded-[28px] border border-blueprint-border bg-blueprint-surface shadow-[0_24px_60px_rgba(15,23,42,0.22)]">
             <img
               src="/hero.jpg"
-              alt="Town to City city-building guide hero artwork"
+              alt="Town to City town scene artwork with a fountain, a windmill, and a Ferris wheel."
               className="block h-48 w-full object-cover md:h-64"
             />
           </div>

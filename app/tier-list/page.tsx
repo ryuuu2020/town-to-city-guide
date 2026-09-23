@@ -493,7 +493,7 @@ export default function TierListPage() {
             {/* Verification */}
             <section>
               <p className="font-body text-xs text-blueprint-muted italic">
-                Building data verified against in-game requirements and community resources including Steam store page, game guide hubs, and farming tier progression charts. Rankings reflect current meta as of June 2026.
+                Building data reflects the current game, and the rankings reflect this guide's own judgment as of June 2026.
               </p>
             </section>
 
